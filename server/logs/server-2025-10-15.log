@@ -1,0 +1,1476 @@
+[2025-10-15T09:16:01.595Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log 
+[2025-10-15T09:16:01.597Z] [INFO] === Server starting === 
+[2025-10-15T09:16:01.597Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log
+[2025-10-15T09:16:01.600Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-15T09:16:01.600Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log 
+[2025-10-15T09:33:08.721Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log 
+[2025-10-15T09:33:08.724Z] [INFO] === Server starting === 
+[2025-10-15T09:33:08.724Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log
+[2025-10-15T09:33:08.727Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-15T09:33:08.727Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log 
+[2025-10-15T09:35:14.582Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:15.062Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:15.071Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:15.122Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:19.895Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:20.006Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:20.009Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:20.075Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:22.712Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:35:22.713Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:35:22.713Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:35:22.714Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:22.770Z] [INFO] Retrieved 0 user accounts with GA information 
+[2025-10-15T09:35:22.771Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:35:22.773Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:35:22.774Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:35:22.774Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:35:22.818Z] [INFO] Retrieved 0 user accounts with GA information 
+[2025-10-15T09:35:22.818Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:35:23.059Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:23.063Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:23.215Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:40.468Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-15T09:35:40.484Z] [INFO] [GET] /api/v1/calculations/status/49c8f584-3f4b-4701-a907-43b5cace1332 
+[2025-10-15T09:35:42.491Z] [INFO] [GET] /api/v1/calculations/status/49c8f584-3f4b-4701-a907-43b5cace1332 
+[2025-10-15T09:35:56.581Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:56.978Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:56.981Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:57.033Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:59.698Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:59.915Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:35:59.917Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:35:59.979Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:36:09.209Z] [INFO] [POST] /api/import-data/1 
+[2025-10-15T09:36:09.210Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-15T09:36:09.213Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-15T09:36:09.216Z] [INFO] === saveImportData called === 
+[2025-10-15T09:36:09.217Z] [INFO] Model ID: 1
+[2025-10-15T09:36:09.217Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        0,
+        600,
+        0,
+        0,
+        860,
+        0,
+        0,
+        146,
+        0,
+        0,
+        460,
+        600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        200,
+        0,
+        0,
+        420,
+        0,
+        0,
+        662,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品数量",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        400,
+        0,
+        240,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品単価",
+      "values": [
+        50,
+        55,
+        61,
+        67,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        0,
+        200,
+        0,
+        0,
+        260,
+        0,
+        0,
+        323,
+        0,
+        0,
+        389,
+        150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上高総利益",
+      "values": [
+        0,
+        400,
+        0,
+        0,
+        600,
+        0,
+        0,
+        823,
+        0,
+        0,
+        71,
+        450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        500,
+        0,
+        525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        0,
+        0,
+        0,
+        120,
+        0,
+        0,
+        310,
+        500,
+        0,
+        523,
+        725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引き前当期利益",
+      "values": [
+        0,
+        0,
+        0,
+        120,
+        0,
+        0,
+        310,
+        500,
+        0,
+        523,
+        725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払法人税",
+      "values": [
+        0,
+        500,
+        0,
+        0,
+        0,
+        675,
+        0,
+        304,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        0,
+        500,
+        0,
+        0,
+        0,
+        825,
+        0,
+        421,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-15T09:36:09.366Z] [INFO] Cleared existing import data for model 1 
+[2025-10-15T09:36:09.509Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-15T09:36:09.510Z] [INFO] Import data saved successfully 
+[2025-10-15T09:36:41.804Z] [INFO] [POST] /api/user-accounts 
+[2025-10-15T09:36:41.804Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-15T09:36:41.805Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上原価",
+      "ua_code": "imp-6",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "cogs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上高総利益",
+      "ua_code": "imp-7",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "gross_profit",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "販売費",
+      "ua_code": "imp-8",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "personnel_costs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "一般管理費",
+      "ua_code": "imp-9",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "personnel_costs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "減価償却費",
+      "ua_code": "imp-10",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "advertising_expenses",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業利益",
+      "ua_code": "imp-11",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "operating_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "商品売上",
+      "ua_code": "imp-2",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "その他売上",
+      "ua_code": "imp-5",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    }
+  ]
+}
+[2025-10-15T09:36:41.806Z] [INFO] === createUserAccounts called === 
+[2025-10-15T09:36:41.807Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上原価",
+    "ua_code": "imp-6",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "cogs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上高総利益",
+    "ua_code": "imp-7",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "gross_profit",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "販売費",
+    "ua_code": "imp-8",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "personnel_costs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "一般管理費",
+    "ua_code": "imp-9",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "personnel_costs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "減価償却費",
+    "ua_code": "imp-10",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "advertising_expenses",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業利益",
+    "ua_code": "imp-11",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "operating_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "商品売上",
+    "ua_code": "imp-2",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "その他売上",
+    "ua_code": "imp-5",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  }
+]
+[2025-10-15T09:36:42.088Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-15T09:36:42.089Z] [INFO] Accounts without parent UA (root accounts): 7 
+[2025-10-15T09:36:42.089Z] [INFO] Accounts with parent UA (child accounts): 2 
+[2025-10-15T09:36:42.090Z] [INFO]   Child account "商品売上" wants parent_ua_code: imp-1 
+[2025-10-15T09:36:42.090Z] [INFO]   Child account "その他売上" wants parent_ua_code: imp-1 
+[2025-10-15T09:36:42.090Z] [INFO] === INSERTION ORDER === 
+[2025-10-15T09:36:42.090Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-15T09:36:42.090Z] [INFO]   2. "売上原価" (parent_ua_code: null) 
+[2025-10-15T09:36:42.090Z] [INFO]   3. "売上高総利益" (parent_ua_code: null) 
+[2025-10-15T09:36:42.091Z] [INFO]   4. "販売費" (parent_ua_code: null) 
+[2025-10-15T09:36:42.091Z] [INFO]   5. "一般管理費" (parent_ua_code: null) 
+[2025-10-15T09:36:42.091Z] [INFO]   6. "減価償却費" (parent_ua_code: null) 
+[2025-10-15T09:36:42.091Z] [INFO]   7. "営業利益" (parent_ua_code: null) 
+[2025-10-15T09:36:42.091Z] [INFO]   8. "商品売上" (parent_ua_code: imp-1) 
+[2025-10-15T09:36:42.091Z] [INFO]   9. "その他売上" (parent_ua_code: imp-1) 
+[2025-10-15T09:36:42.092Z] [INFO] === PROCESSING ACCOUNT 1/9 === 
+[2025-10-15T09:36:42.092Z] [INFO] Account name: 売上高 
+[2025-10-15T09:36:42.092Z] [INFO] Account code: imp-1 
+[2025-10-15T09:36:42.092Z] [INFO] Parent UA code: null 
+[2025-10-15T09:36:42.239Z] [INFO] Created new user account: 売上高 (ID: 12) 
+[2025-10-15T09:36:42.240Z] [INFO] Updated mapping: imp-1 -> 12 
+[2025-10-15T09:36:42.240Z] [INFO] === PROCESSING ACCOUNT 2/9 === 
+[2025-10-15T09:36:42.240Z] [INFO] Account name: 売上原価 
+[2025-10-15T09:36:42.241Z] [INFO] Account code: imp-6 
+[2025-10-15T09:36:42.241Z] [INFO] Parent UA code: null 
+[2025-10-15T09:36:42.398Z] [INFO] Created new user account: 売上原価 (ID: 13) 
+[2025-10-15T09:36:42.398Z] [INFO] Updated mapping: imp-6 -> 13 
+[2025-10-15T09:36:42.399Z] [INFO] === PROCESSING ACCOUNT 3/9 === 
+[2025-10-15T09:36:42.399Z] [INFO] Account name: 売上高総利益 
+[2025-10-15T09:36:42.399Z] [INFO] Account code: imp-7 
+[2025-10-15T09:36:42.399Z] [INFO] Parent UA code: null 
+[2025-10-15T09:36:42.546Z] [INFO] Created new user account: 売上高総利益 (ID: 14) 
+[2025-10-15T09:36:42.547Z] [INFO] Updated mapping: imp-7 -> 14 
+[2025-10-15T09:36:42.547Z] [INFO] === PROCESSING ACCOUNT 4/9 === 
+[2025-10-15T09:36:42.547Z] [INFO] Account name: 販売費 
+[2025-10-15T09:36:42.547Z] [INFO] Account code: imp-8 
+[2025-10-15T09:36:42.548Z] [INFO] Parent UA code: null 
+[2025-10-15T09:36:42.706Z] [INFO] Created new user account: 販売費 (ID: 15) 
+[2025-10-15T09:36:42.706Z] [INFO] Updated mapping: imp-8 -> 15 
+[2025-10-15T09:36:42.707Z] [INFO] === PROCESSING ACCOUNT 5/9 === 
+[2025-10-15T09:36:42.707Z] [INFO] Account name: 一般管理費 
+[2025-10-15T09:36:42.707Z] [INFO] Account code: imp-9 
+[2025-10-15T09:36:42.707Z] [INFO] Parent UA code: null 
+[2025-10-15T09:36:42.879Z] [INFO] Created new user account: 一般管理費 (ID: 16) 
+[2025-10-15T09:36:42.879Z] [INFO] Updated mapping: imp-9 -> 16 
+[2025-10-15T09:36:42.879Z] [INFO] === PROCESSING ACCOUNT 6/9 === 
+[2025-10-15T09:36:42.880Z] [INFO] Account name: 減価償却費 
+[2025-10-15T09:36:42.880Z] [INFO] Account code: imp-10 
+[2025-10-15T09:36:42.880Z] [INFO] Parent UA code: null 
+[2025-10-15T09:36:43.039Z] [INFO] Created new user account: 減価償却費 (ID: 17) 
+[2025-10-15T09:36:43.040Z] [INFO] Updated mapping: imp-10 -> 17 
+[2025-10-15T09:36:43.040Z] [INFO] === PROCESSING ACCOUNT 7/9 === 
+[2025-10-15T09:36:43.040Z] [INFO] Account name: 営業利益 
+[2025-10-15T09:36:43.040Z] [INFO] Account code: imp-11 
+[2025-10-15T09:36:43.040Z] [INFO] Parent UA code: null 
+[2025-10-15T09:36:43.216Z] [INFO] Created new user account: 営業利益 (ID: 18) 
+[2025-10-15T09:36:43.217Z] [INFO] Updated mapping: imp-11 -> 18 
+[2025-10-15T09:36:43.217Z] [INFO] === PROCESSING ACCOUNT 8/9 === 
+[2025-10-15T09:36:43.217Z] [INFO] Account name: 商品売上 
+[2025-10-15T09:36:43.218Z] [INFO] Account code: imp-2 
+[2025-10-15T09:36:43.218Z] [INFO] Parent UA code: imp-1 
+[2025-10-15T09:36:43.257Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 12 
+[2025-10-15T09:36:43.358Z] [INFO] Created new user account: 商品売上 (ID: 19) 
+[2025-10-15T09:36:43.358Z] [INFO] Updated mapping: imp-2 -> 19 
+[2025-10-15T09:36:43.359Z] [INFO] === PROCESSING ACCOUNT 9/9 === 
+[2025-10-15T09:36:43.359Z] [INFO] Account name: その他売上 
+[2025-10-15T09:36:43.359Z] [INFO] Account code: imp-5 
+[2025-10-15T09:36:43.360Z] [INFO] Parent UA code: imp-1 
+[2025-10-15T09:36:43.407Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 12 
+[2025-10-15T09:36:43.510Z] [INFO] Created new user account: その他売上 (ID: 20) 
+[2025-10-15T09:36:43.511Z] [INFO] Updated mapping: imp-5 -> 20 
+[2025-10-15T09:36:43.560Z] [INFO] === TRANSACTION COMMITTED === 
+[2025-10-15T09:36:43.561Z] [INFO] Successfully created 9 user accounts 
+[2025-10-15T09:36:43.608Z] [INFO] === FINAL STATE VERIFICATION === 
+[2025-10-15T09:36:43.609Z] [INFO] Total accounts in database: 9
+[2025-10-15T09:36:43.609Z] [INFO] User accounts created successfully 
+[2025-10-15T09:36:46.983Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:36:46.983Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:36:46.984Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:36:46.984Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:36:47.036Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:36:47.039Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:36:47.089Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:36:47.225Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:36:47.225Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:36:47.228Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:36:47.228Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:36:47.228Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:36:47.268Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:36:47.269Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:36:51.537Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-15T09:36:51.538Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-15T09:36:51.592Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-15T09:36:51.594Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-15T09:36:51.595Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-15T09:36:51.638Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-15T09:36:56.875Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:36:56.875Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:36:56.876Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:36:56.981Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:37:13.495Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:37:13.495Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:37:13.496Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:37:13.790Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:37:33.272Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:37:33.272Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:37:33.273Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:37:33.621Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:37:54.936Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:37:54.937Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:37:54.938Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:37:55.240Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:40:09.532Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:40:09.533Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:40:09.533Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:40:09.863Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:40:21.311Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:40:21.312Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:40:21.314Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:40:21.704Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:40:45.795Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:40:45.795Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:40:45.796Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:40:46.190Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:41:04.667Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:41:04.667Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:41:04.668Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:41:04.937Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:41:16.914Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-15T09:41:16.914Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-15T09:41:16.915Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-15T09:41:17.252Z] [INFO] Calculation rule saved successfully 
+[2025-10-15T09:41:33.291Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:41:33.291Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:41:33.291Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:41:33.292Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:41:33.539Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:41:33.539Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:41:33.542Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:41:33.542Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:41:33.542Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:41:33.563Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:41:33.565Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:41:33.640Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:41:33.641Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:41:33.677Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:41:58.260Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-15T09:41:58.270Z] [INFO] [GET] /api/v1/calculations/status/3b87c2a4-6c0c-4c2c-a742-dc40eeedc221 
+[2025-10-15T09:42:00.276Z] [INFO] [GET] /api/v1/calculations/status/3b87c2a4-6c0c-4c2c-a742-dc40eeedc221 
+[2025-10-15T09:45:24.165Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-15T09:45:24.172Z] [INFO] [GET] /api/v1/calculations/status/766db26b-3eff-4434-8ec0-c027eb061da9 
+[2025-10-15T09:45:26.177Z] [INFO] [GET] /api/v1/calculations/status/766db26b-3eff-4434-8ec0-c027eb061da9 
+[2025-10-15T09:47:21.961Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:47:21.963Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:47:21.963Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:47:21.964Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:47:22.249Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:47:22.250Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:47:22.252Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:47:22.252Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:47:22.252Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:47:22.352Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:47:22.355Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:47:22.365Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:47:22.365Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:47:22.426Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:48:49.435Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:48:49.798Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:48:49.805Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:48:49.857Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:48:52.203Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:48:52.324Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:48:52.327Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:48:52.429Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:49:09.139Z] [INFO] [POST] /api/import-data/1 
+[2025-10-15T09:49:09.140Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-15T09:49:09.144Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-15T09:49:09.146Z] [INFO] === saveImportData called === 
+[2025-10-15T09:49:09.146Z] [INFO] Model ID: 1
+[2025-10-15T09:49:09.147Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        0,
+        600,
+        0,
+        0,
+        860,
+        0,
+        0,
+        146,
+        0,
+        0,
+        460,
+        600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        200,
+        0,
+        0,
+        420,
+        0,
+        0,
+        662,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品数量",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        400,
+        0,
+        240,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品単価",
+      "values": [
+        50,
+        55,
+        61,
+        67,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        0,
+        200,
+        0,
+        0,
+        260,
+        0,
+        0,
+        323,
+        0,
+        0,
+        389,
+        150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上高総利益",
+      "values": [
+        0,
+        400,
+        0,
+        0,
+        600,
+        0,
+        0,
+        823,
+        0,
+        0,
+        71,
+        450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        500,
+        0,
+        525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        0,
+        0,
+        0,
+        120,
+        0,
+        0,
+        310,
+        500,
+        0,
+        523,
+        725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引き前当期利益",
+      "values": [
+        0,
+        0,
+        0,
+        120,
+        0,
+        0,
+        310,
+        500,
+        0,
+        523,
+        725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払法人税",
+      "values": [
+        0,
+        500,
+        0,
+        0,
+        0,
+        675,
+        0,
+        304,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        0,
+        500,
+        0,
+        0,
+        0,
+        825,
+        0,
+        421,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-15T09:49:09.483Z] [INFO] Cleared existing import data for model 1 
+[2025-10-15T09:49:09.592Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-15T09:49:09.593Z] [INFO] Import data saved successfully 
+[2025-10-15T09:50:17.140Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:50:17.522Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:50:17.528Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:50:17.590Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:50:32.786Z] [INFO] [POST] /api/import-data/1 
+[2025-10-15T09:50:32.787Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-15T09:50:32.793Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-15T09:50:32.794Z] [INFO] === saveImportData called === 
+[2025-10-15T09:50:32.794Z] [INFO] Model ID: 1
+[2025-10-15T09:50:32.798Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        0,
+        600,
+        0,
+        0,
+        860,
+        0,
+        0,
+        146,
+        0,
+        0,
+        460,
+        600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        200,
+        0,
+        0,
+        420,
+        0,
+        0,
+        662,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品数量",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        400,
+        0,
+        240,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品単価",
+      "values": [
+        50,
+        55,
+        61,
+        67,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        0,
+        200,
+        0,
+        0,
+        260,
+        0,
+        0,
+        323,
+        0,
+        0,
+        389,
+        150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上高総利益",
+      "values": [
+        0,
+        400,
+        0,
+        0,
+        600,
+        0,
+        0,
+        823,
+        0,
+        0,
+        71,
+        450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        500,
+        0,
+        525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        0,
+        0,
+        0,
+        120,
+        0,
+        0,
+        310,
+        500,
+        0,
+        523,
+        725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引き前当期利益",
+      "values": [
+        0,
+        0,
+        0,
+        120,
+        0,
+        0,
+        310,
+        500,
+        0,
+        523,
+        725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払法人税",
+      "values": [
+        0,
+        500,
+        0,
+        0,
+        0,
+        675,
+        0,
+        304,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        0,
+        500,
+        0,
+        0,
+        0,
+        825,
+        0,
+        421,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-15T09:50:33.195Z] [INFO] Cleared existing import data for model 1 
+[2025-10-15T09:50:33.510Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-15T09:50:33.564Z] [INFO] Import data saved successfully 
+[2025-10-15T09:50:51.745Z] [INFO] [POST] /api/user-accounts 
+[2025-10-15T09:50:51.745Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-15T09:50:51.745Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上原価",
+      "ua_code": "imp-6",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "cogs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上高総利益",
+      "ua_code": "imp-7",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "gross_profit",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "商品売上",
+      "ua_code": "imp-2",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "その他売上",
+      "ua_code": "imp-5",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    }
+  ]
+}
+[2025-10-15T09:50:51.746Z] [INFO] === createUserAccounts called === 
+[2025-10-15T09:50:51.746Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上原価",
+    "ua_code": "imp-6",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "cogs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上高総利益",
+    "ua_code": "imp-7",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "gross_profit",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "商品売上",
+    "ua_code": "imp-2",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "その他売上",
+    "ua_code": "imp-5",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  }
+]
+[2025-10-15T09:50:52.231Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-15T09:50:52.231Z] [INFO] Accounts without parent UA (root accounts): 3 
+[2025-10-15T09:50:52.231Z] [INFO] Accounts with parent UA (child accounts): 2 
+[2025-10-15T09:50:52.232Z] [INFO]   Child account "商品売上" wants parent_ua_code: imp-1 
+[2025-10-15T09:50:52.232Z] [INFO]   Child account "その他売上" wants parent_ua_code: imp-1 
+[2025-10-15T09:50:52.232Z] [INFO] === INSERTION ORDER === 
+[2025-10-15T09:50:52.232Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-15T09:50:52.232Z] [INFO]   2. "売上原価" (parent_ua_code: null) 
+[2025-10-15T09:50:52.232Z] [INFO]   3. "売上高総利益" (parent_ua_code: null) 
+[2025-10-15T09:50:52.232Z] [INFO]   4. "商品売上" (parent_ua_code: imp-1) 
+[2025-10-15T09:50:52.232Z] [INFO]   5. "その他売上" (parent_ua_code: imp-1) 
+[2025-10-15T09:50:52.233Z] [INFO] === PROCESSING ACCOUNT 1/5 === 
+[2025-10-15T09:50:52.233Z] [INFO] Account name: 売上高 
+[2025-10-15T09:50:52.233Z] [INFO] Account code: imp-1 
+[2025-10-15T09:50:52.233Z] [INFO] Parent UA code: null 
+[2025-10-15T09:50:52.346Z] [INFO] Updated user account: 売上高 (ID: 12) 
+[2025-10-15T09:50:52.347Z] [INFO] Updated mapping: imp-1 -> 12 
+[2025-10-15T09:50:52.347Z] [INFO] === PROCESSING ACCOUNT 2/5 === 
+[2025-10-15T09:50:52.347Z] [INFO] Account name: 売上原価 
+[2025-10-15T09:50:52.348Z] [INFO] Account code: imp-6 
+[2025-10-15T09:50:52.348Z] [INFO] Parent UA code: null 
+[2025-10-15T09:50:52.483Z] [INFO] Updated user account: 売上原価 (ID: 13) 
+[2025-10-15T09:50:52.487Z] [INFO] Updated mapping: imp-6 -> 13 
+[2025-10-15T09:50:52.494Z] [INFO] === PROCESSING ACCOUNT 3/5 === 
+[2025-10-15T09:50:52.495Z] [INFO] Account name: 売上高総利益 
+[2025-10-15T09:50:52.495Z] [INFO] Account code: imp-7 
+[2025-10-15T09:50:52.497Z] [INFO] Parent UA code: null 
+[2025-10-15T09:50:52.729Z] [INFO] Updated user account: 売上高総利益 (ID: 14) 
+[2025-10-15T09:50:52.730Z] [INFO] Updated mapping: imp-7 -> 14 
+[2025-10-15T09:50:52.731Z] [INFO] === PROCESSING ACCOUNT 4/5 === 
+[2025-10-15T09:50:52.731Z] [INFO] Account name: 商品売上 
+[2025-10-15T09:50:52.731Z] [INFO] Account code: imp-2 
+[2025-10-15T09:50:52.731Z] [INFO] Parent UA code: imp-1 
+[2025-10-15T09:50:52.804Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 12 
+[2025-10-15T09:50:52.949Z] [INFO] Updated user account: 商品売上 (ID: 19) 
+[2025-10-15T09:50:52.949Z] [INFO] Updated mapping: imp-2 -> 19 
+[2025-10-15T09:50:52.950Z] [INFO] === PROCESSING ACCOUNT 5/5 === 
+[2025-10-15T09:50:52.950Z] [INFO] Account name: その他売上 
+[2025-10-15T09:50:52.950Z] [INFO] Account code: imp-5 
+[2025-10-15T09:50:52.950Z] [INFO] Parent UA code: imp-1 
+[2025-10-15T09:50:53.054Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 12 
+[2025-10-15T09:50:53.189Z] [INFO] Updated user account: その他売上 (ID: 20) 
+[2025-10-15T09:50:53.189Z] [INFO] Updated mapping: imp-5 -> 20 
+[2025-10-15T09:50:53.256Z] [INFO] === TRANSACTION COMMITTED === 
+[2025-10-15T09:50:53.257Z] [INFO] Successfully created 5 user accounts 
+[2025-10-15T09:50:53.310Z] [INFO] === FINAL STATE VERIFICATION === 
+[2025-10-15T09:50:53.311Z] [INFO] Total accounts in database: 9
+[2025-10-15T09:50:53.311Z] [INFO] User accounts created successfully 
+[2025-10-15T09:50:56.999Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:50:57.008Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:50:57.008Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:50:57.008Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:50:57.059Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:50:57.062Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:50:57.192Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:50:57.387Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:50:57.387Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:50:57.390Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:50:57.390Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:50:57.390Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:50:57.426Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:50:57.427Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:50:58.705Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-15T09:50:58.705Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-15T09:50:58.746Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-15T09:50:58.749Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-15T09:50:58.750Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-15T09:50:58.794Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-15T09:51:16.735Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:51:17.184Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:51:17.193Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:51:17.306Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:51:21.947Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:51:21.948Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:51:21.949Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:51:21.950Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:51:22.015Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:51:22.016Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:51:22.036Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T09:51:22.044Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T09:51:22.045Z] [INFO] === getUserAccounts called === 
+[2025-10-15T09:51:22.118Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T09:51:22.130Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T09:51:22.297Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:51:22.300Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T09:51:22.466Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T09:52:28.663Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-15T09:52:28.680Z] [INFO] [GET] /api/v1/calculations/status/3b8ceb37-435e-4ef1-8728-a665388ebdfe 
+[2025-10-15T09:52:30.687Z] [INFO] [GET] /api/v1/calculations/status/3b8ceb37-435e-4ef1-8728-a665388ebdfe 
+[2025-10-15T12:16:49.439Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log 
+[2025-10-15T12:16:49.441Z] [INFO] === Server starting === 
+[2025-10-15T12:16:49.441Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log
+[2025-10-15T12:16:49.445Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-15T12:16:49.445Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-15.log 
+[2025-10-15T12:16:58.762Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T12:16:58.765Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T12:16:58.765Z] [INFO] === getUserAccounts called === 
+[2025-10-15T12:16:58.781Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T12:16:59.115Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T12:16:59.116Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T12:16:59.124Z] [INFO] [GET] /api/user-accounts 
+[2025-10-15T12:16:59.124Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-15T12:16:59.124Z] [INFO] === getUserAccounts called === 
+[2025-10-15T12:16:59.130Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T12:16:59.135Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-15T12:16:59.175Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-15T12:16:59.175Z] [INFO] User accounts retrieved successfully 
+[2025-10-15T12:16:59.211Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-15T12:18:52.934Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-15T12:18:52.950Z] [INFO] [GET] /api/v1/calculations/status/32c7529f-9ae5-449a-b4aa-8b3c341c401a 
+[2025-10-15T12:18:54.956Z] [INFO] [GET] /api/v1/calculations/status/32c7529f-9ae5-449a-b4aa-8b3c341c401a 
+[2025-10-15T12:54:32.150Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-15T12:54:32.163Z] [INFO] [GET] /api/v1/calculations/status/a349469f-6d6a-4c30-8df7-4aa4e819d833 
+[2025-10-15T12:54:34.168Z] [INFO] [GET] /api/v1/calculations/status/a349469f-6d6a-4c30-8df7-4aa4e819d833 
+[2025-10-16T06:24:00.406Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-16T06:24:00.714Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-16T06:24:00.724Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-16T06:24:00.772Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-16T06:24:05.184Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-16T06:24:05.186Z] [INFO] [GET] /api/user-accounts 
+[2025-10-16T06:24:05.186Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-16T06:24:05.187Z] [INFO] === getUserAccounts called === 
+[2025-10-16T06:24:05.266Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-16T06:24:05.268Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-16T06:24:05.315Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-16T06:24:05.489Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-16T06:24:05.490Z] [INFO] User accounts retrieved successfully 
+[2025-10-16T06:24:05.493Z] [INFO] [GET] /api/user-accounts 
+[2025-10-16T06:24:05.493Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-16T06:24:05.494Z] [INFO] === getUserAccounts called === 
+[2025-10-16T06:24:05.557Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-16T06:24:05.557Z] [INFO] User accounts retrieved successfully 
+[2025-10-16T06:24:08.292Z] [INFO] [GET] /api/user-accounts 
+[2025-10-16T06:24:08.292Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-16T06:24:08.292Z] [INFO] === getUserAccounts called === 
+[2025-10-16T06:24:08.293Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-16T06:24:08.361Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-16T06:24:08.362Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-16T06:24:08.362Z] [INFO] User accounts retrieved successfully 
+[2025-10-16T06:24:08.366Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-16T06:24:08.368Z] [INFO] [GET] /api/user-accounts 
+[2025-10-16T06:24:08.369Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-16T06:24:08.369Z] [INFO] === getUserAccounts called === 
+[2025-10-16T06:24:08.418Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-16T06:24:08.424Z] [INFO] Retrieved 9 user accounts with GA information 
+[2025-10-16T06:24:08.424Z] [INFO] User accounts retrieved successfully 

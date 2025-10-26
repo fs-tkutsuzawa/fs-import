@@ -1,0 +1,3348 @@
+[2025-10-13T06:21:07.654Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 
+[2025-10-13T06:21:07.655Z] [INFO] === Server starting === 
+[2025-10-13T06:21:07.655Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log
+[2025-10-13T06:21:07.659Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-13T06:21:07.659Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 
+[2025-10-13T06:21:34.794Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 
+[2025-10-13T06:21:34.794Z] [INFO] === Server starting === 
+[2025-10-13T06:21:34.795Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log
+[2025-10-13T06:21:34.797Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-13T06:21:34.797Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 
+[2025-10-13T06:24:48.987Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:24:48.988Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:24:49.269Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:24:49.287Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:49.288Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:49.291Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:49.500Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:24:49.606Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:49.606Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:49.607Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:49.695Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:24:49.800Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:49.800Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:49.801Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:49.917Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:24:50.020Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:50.020Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:50.021Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:50.178Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:24:50.282Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:50.282Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:50.283Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:50.496Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:24:50.600Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:50.600Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:50.601Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:50.636Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:24:50.742Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:50.742Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:50.743Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:51.059Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:24:51.163Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:24:51.164Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:24:51.198Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:24:51.201Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:24:51.202Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:24:51.236Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:24:51.238Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:24:51.239Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:24:51.278Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:24:51.279Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:24:51.280Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:24:51.325Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:24:51.327Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:24:51.327Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:24:51.421Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:24:51.423Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:24:51.424Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:24:51.424Z] [INFO] Request body: {
+  "id": 22,
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T06:24:51.516Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:24:51.758Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:24:51.758Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:24:51.787Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:24:51.789Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:24:51.789Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:24:51.828Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:24:51.830Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:51.831Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:51.831Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-13T06:24:51.831Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:24:51.834Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:51.834Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:51.835Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:51.911Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T06:24:51.913Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:51.914Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:51.914Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:51.986Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:24:51.988Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:24:51.988Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:24:51.989Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:24:51.989Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:25:26.593Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:26.593Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:26.810Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:26.819Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:26.819Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:26.819Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:26.909Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:26.913Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:26.913Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:26.914Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.025Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.028Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.028Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.028Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.149Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.152Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.152Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.153Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.273Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.275Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.275Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.276Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.352Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.354Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.354Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.355Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.521Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.524Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.524Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.524Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.780Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.782Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.782Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.783Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.860Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.862Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.862Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.863Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:27.977Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:27.979Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:27.979Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:27.980Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:28.380Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:38.457Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:38.457Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:38.780Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:38.789Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:38.790Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:38.790Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:38.886Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:39.219Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:39.219Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:39.266Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:39.270Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:25:39.270Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:25:39.270Z] [INFO] Request body: {
+  "id": 23,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T06:25:39.348Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:25:39.350Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:39.350Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:39.387Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:39.430Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:39.430Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:39.430Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:39.518Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:39.558Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:39.558Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:39.740Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:39.743Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:25:39.743Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:25:39.743Z] [INFO] Request body: {
+  "id": 24,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T06:25:39.829Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:25:39.831Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:39.831Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:39.867Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:39.908Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:39.908Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:39.909Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:40.029Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:40.068Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:40.068Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:40.220Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:40.222Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:25:40.222Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:25:40.222Z] [INFO] Request body: {
+  "id": 22,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T06:25:40.349Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:25:40.351Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:40.351Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:40.395Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:40.438Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:40.438Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:40.439Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:40.617Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:40.658Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:40.658Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:40.702Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:40.705Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:25:40.705Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:25:40.705Z] [INFO] Request body: {
+  "id": 27,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T06:25:40.818Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:25:40.819Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:40.819Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:40.859Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:40.897Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:40.898Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:40.898Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:41.020Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:41.057Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:41.057Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:41.119Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:41.121Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:25:41.121Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:25:41.121Z] [INFO] Request body: {
+  "id": 28,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T06:25:41.208Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:25:41.209Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:41.210Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:41.340Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:41.378Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:41.378Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:41.379Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:41.566Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:41.608Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:41.608Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:41.660Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:41.662Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:25:41.662Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:25:41.662Z] [INFO] Request body: {
+  "id": 29,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T06:25:41.858Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:25:41.860Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:41.860Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:41.896Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:41.945Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:41.945Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:41.945Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:42.225Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:42.277Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:42.277Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:42.460Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:42.462Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:25:42.462Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:25:42.462Z] [INFO] Request body: {
+  "id": 30,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T06:25:42.625Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:25:42.627Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:42.627Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:42.668Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:42.717Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:42.717Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:42.718Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:42.806Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T06:25:42.808Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:42.808Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:42.809Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:43.027Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:43.028Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:43.029Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:43.029Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:43.029Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:25:43.031Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:43.031Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:43.031Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:43.109Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:43.110Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:43.110Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:43.111Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:43.188Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:43.190Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:25:43.190Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:25:43.190Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:25:43.267Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:25:43.268Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:25:43.268Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:25:43.420Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:25:43.422Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:43.422Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:43.460Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:43.462Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:43.462Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:43.497Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:25:43.498Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:25:43.498Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:25:43.536Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:38.151Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:38.152Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:38.352Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:38.363Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:38.363Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:38.363Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:38.451Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:38.793Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:38.793Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:38.831Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:38.834Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:51:38.834Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:51:38.835Z] [INFO] Request body: {
+  "id": 39,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T06:51:38.909Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:51:38.911Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:38.911Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:38.951Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:38.998Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:38.998Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:38.999Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:39.090Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:39.131Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:39.131Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:39.159Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:39.162Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:51:39.162Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:51:39.162Z] [INFO] Request body: {
+  "id": 40,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T06:51:39.248Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:51:39.250Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:39.250Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:39.290Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:39.332Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:39.332Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:39.333Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:39.471Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:39.511Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:39.511Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:39.634Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:39.637Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:51:39.637Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:51:39.637Z] [INFO] Request body: {
+  "id": 41,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T06:51:39.759Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:51:39.761Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:39.761Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:39.802Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:39.849Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:39.849Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:39.850Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:40.121Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:40.159Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:40.159Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:40.200Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:40.203Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:51:40.203Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:51:40.203Z] [INFO] Request body: {
+  "id": 42,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T06:51:40.333Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:51:40.334Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:40.335Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:40.370Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:40.418Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:40.418Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:40.418Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:40.502Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:40.540Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:40.541Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:40.594Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:40.596Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:51:40.596Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:51:40.596Z] [INFO] Request body: {
+  "id": 43,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T06:51:40.671Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:51:40.672Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:40.673Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:40.706Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:40.750Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:40.750Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:40.751Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:40.891Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:40.930Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:40.930Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:40.960Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:40.962Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:51:40.962Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:51:40.962Z] [INFO] Request body: {
+  "id": 44,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T06:51:41.112Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:51:41.114Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:41.114Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:41.158Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:41.199Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:41.200Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:41.200Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:41.370Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:41.410Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:41.411Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:41.458Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:41.460Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:51:41.460Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:51:41.460Z] [INFO] Request body: {
+  "id": 45,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T06:51:41.651Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:51:41.653Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:41.653Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:41.691Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:41.731Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:41.732Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:41.732Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:41.827Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T06:51:41.830Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:41.830Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:41.830Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:41.912Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:41.914Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:41.914Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:41.914Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:41.914Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:51:41.916Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:41.916Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:41.917Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:41.991Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:41.993Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:41.993Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:41.993Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:42.194Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:42.196Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:51:42.196Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:51:42.196Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:51:42.271Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:51:42.273Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:51:42.273Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:51:42.354Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:51:42.356Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:42.356Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:42.400Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:42.401Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:42.401Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:42.441Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:51:42.442Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:51:42.442Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:51:42.480Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:18.376Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:18.376Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:18.631Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:18.640Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:18.640Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:18.641Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:18.834Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:18.939Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:18.939Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:18.940Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:19.022Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:19.126Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:19.126Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:19.127Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:19.273Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:19.377Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:19.378Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:19.378Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:19.512Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:19.616Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:19.616Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:19.617Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:19.713Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:19.817Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:19.818Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:19.818Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:19.864Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:52:19.967Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:19.968Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:19.968Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:20.201Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:20.304Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:20.305Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:20.434Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:20.436Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:20.436Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:20.472Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:20.474Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:20.474Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:20.507Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:20.509Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:20.509Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:20.549Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:20.551Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:20.552Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:20.593Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:20.595Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:20.596Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:20.596Z] [INFO] Request body: {
+  "id": 31,
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T06:52:20.680Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:21.082Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:21.083Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:21.234Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:21.236Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:21.236Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:21.272Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:21.275Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:21.275Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:21.275Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-13T06:52:21.275Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:52:21.277Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:21.277Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:21.277Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:21.361Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T06:52:21.363Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:21.363Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:21.364Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:21.447Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:52:21.450Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:21.450Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:21.450Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:21.451Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:52:52.880Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:52.881Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:53.194Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:53.204Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:53.204Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:53.205Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:53.282Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:53.474Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:53.474Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:53.553Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:53.556Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:53.556Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:53.556Z] [INFO] Request body: {
+  "id": 50,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T06:52:53.633Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:53.635Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:53.635Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:53.670Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:53.712Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:53.712Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:53.712Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:53.794Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:54.038Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:54.038Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:54.193Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:54.195Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:54.196Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:54.196Z] [INFO] Request body: {
+  "id": 55,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T06:52:54.281Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:54.283Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:54.284Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:54.321Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:54.360Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:54.361Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:54.361Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:54.491Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:54.674Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:54.674Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:54.720Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:54.722Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:54.722Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:54.723Z] [INFO] Request body: {
+  "id": 52,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T06:52:54.841Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:54.843Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:54.843Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:54.933Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:54.970Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:54.970Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:54.971Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:55.090Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:55.139Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:55.139Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:55.313Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:55.315Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:55.315Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:55.316Z] [INFO] Request body: {
+  "id": 53,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T06:52:55.431Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:55.433Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:55.433Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:55.471Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:55.510Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:55.510Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:55.511Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:55.589Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:55.631Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:55.631Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:55.793Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:55.795Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:55.795Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:55.795Z] [INFO] Request body: {
+  "id": 56,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T06:52:55.870Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:55.872Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:55.872Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:55.912Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:55.952Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:55.952Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:55.952Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:56.130Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:56.172Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:56.173Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:56.273Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:56.275Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:56.275Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:56.275Z] [INFO] Request body: {
+  "id": 57,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T06:52:56.443Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:56.445Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:56.445Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:56.480Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:56.527Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:56.527Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:56.528Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:56.691Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:56.723Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:56.723Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:56.914Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:56.916Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:52:56.916Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:52:56.916Z] [INFO] Request body: {
+  "id": 58,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T06:52:57.073Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:52:57.075Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:57.075Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:57.113Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:57.151Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:57.151Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:57.151Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:57.231Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T06:52:57.234Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:57.234Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:57.234Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:57.310Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:57.312Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:57.312Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:57.312Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:57.313Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:52:57.314Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:57.314Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:57.315Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:57.401Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:57.403Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:57.403Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:57.403Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:57.553Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:57.554Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:52:57.555Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:52:57.555Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:52:57.639Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:52:57.641Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:52:57.641Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:52:57.713Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:52:57.714Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:57.715Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:57.751Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:57.752Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:57.752Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:57.791Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:52:57.792Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:52:57.792Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:52:57.830Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:53:18.931Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:53:18.932Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:53:19.292Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:53:19.301Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:19.301Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:19.302Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:19.383Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:53:19.488Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:19.488Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:19.489Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:19.571Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:53:19.675Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:19.675Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:19.676Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:19.817Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:53:19.923Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:19.923Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:19.923Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:20.060Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:53:20.164Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:20.164Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:20.164Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:20.251Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:53:20.355Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:20.356Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:20.356Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:20.401Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:53:20.504Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:20.504Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:20.505Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:20.731Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T06:53:20.835Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:53:20.835Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:53:20.913Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:53:20.916Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:53:20.916Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:53:20.957Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:53:20.959Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:53:20.959Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:53:20.990Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:53:20.991Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:53:20.991Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:53:21.029Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:53:21.031Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:53:21.031Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:53:21.071Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:53:21.073Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T06:53:21.073Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T06:53:21.074Z] [INFO] Request body: {
+  "id": 32,
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T06:53:21.176Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T06:53:21.559Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T06:53:21.560Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T06:53:21.713Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T06:53:21.714Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T06:53:21.714Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T06:53:21.751Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T06:53:21.753Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:21.753Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:21.754Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-13T06:53:21.754Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:53:21.755Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:21.755Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:21.756Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:21.832Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T06:53:21.834Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:21.834Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:21.834Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:22.010Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T06:53:22.012Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T06:53:22.013Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T06:53:22.013Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T06:53:22.013Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:39:39.820Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:39.821Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:40.026Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:40.036Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:40.037Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:40.038Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:40.127Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:40.369Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:40.369Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:40.406Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:40.409Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:40.409Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:40.410Z] [INFO] Request body: {
+  "id": 68,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T07:39:40.495Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:40.498Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:40.498Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:40.535Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:40.578Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:40.578Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:40.579Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:40.657Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:40.696Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:40.696Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:40.750Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:40.753Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:40.753Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:40.753Z] [INFO] Request body: {
+  "id": 69,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:39:40.836Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:40.838Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:40.839Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:40.875Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:40.924Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:40.925Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:40.925Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:41.108Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:41.181Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:41.181Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:41.225Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:41.227Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:41.228Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:41.228Z] [INFO] Request body: {
+  "id": 70,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T07:39:41.347Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:41.349Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:41.350Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:41.385Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:41.436Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:41.436Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:41.439Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:41.584Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:41.625Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:41.625Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:41.664Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:41.667Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:41.667Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:41.667Z] [INFO] Request body: {
+  "id": 71,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T07:39:41.797Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:41.799Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:41.799Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:41.835Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:41.884Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:41.884Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:41.885Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:41.967Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:42.003Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:42.003Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:42.045Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:42.049Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:42.050Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:42.050Z] [INFO] Request body: {
+  "id": 72,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T07:39:42.145Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:42.148Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:42.149Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:42.186Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:42.237Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:42.237Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:42.241Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:42.416Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:42.456Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:42.456Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:42.495Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:42.499Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:42.500Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:42.500Z] [INFO] Request body: {
+  "id": 73,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T07:39:42.755Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:42.757Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:42.757Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:42.828Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:42.905Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:42.905Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:42.906Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:43.168Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:43.206Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:43.207Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:43.245Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:43.247Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:43.247Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:43.248Z] [INFO] Request body: {
+  "id": 74,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+",
+        "counterAccountId": "ua-23"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-",
+        "counterAccountId": "ua-24"
+      }
+    ]
+  }
+}
+[2025-10-13T07:39:43.488Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:43.491Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:43.491Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:43.525Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:43.575Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:43.575Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:43.576Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:43.658Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:39:43.661Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:43.662Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:43.662Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:43.827Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:43.829Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:43.829Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:43.829Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:43.829Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:39:43.833Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:43.833Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:43.834Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:43.916Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:43.918Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:43.918Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:43.919Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:44.006Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:44.009Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:44.009Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:44.009Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:44.086Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:44.088Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:44.089Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:44.127Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:44.129Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:44.129Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:44.166Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:44.167Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:44.168Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:44.208Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:44.210Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:44.210Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:44.245Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:45.263Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:45.263Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:45.299Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:45.309Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:45.309Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:45.310Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:45.413Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:45.517Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:45.517Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:45.518Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:45.596Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:45.700Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:45.701Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:45.701Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:45.848Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:45.952Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:45.952Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:45.953Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:46.099Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:46.203Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:46.203Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:46.204Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:46.287Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:46.391Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:46.391Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:46.391Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:46.561Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:46.665Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:46.665Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:46.666Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:46.883Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:39:46.987Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:46.987Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:47.099Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:47.102Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:47.102Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:47.141Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:47.143Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:47.143Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:47.187Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:47.189Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:47.189Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:47.224Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:47.226Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:47.226Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:47.265Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:47.267Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:39:47.267Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:39:47.268Z] [INFO] Request body: {
+  "id": 76,
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:39:47.341Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:39:47.783Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:39:47.783Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:39:47.899Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:39:47.901Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:39:47.901Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:39:47.937Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:39:47.939Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:47.940Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:47.940Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-13T07:39:47.940Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:39:47.942Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:47.942Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:47.943Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:48.033Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:39:48.035Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:48.035Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:48.035Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:48.114Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:39:48.116Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:39:48.116Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:39:48.117Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:39:48.117Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:41:21.346Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:21.347Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:21.622Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:21.634Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:21.635Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:21.635Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:21.731Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:21.966Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:21.966Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:22.018Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:22.021Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:41:22.021Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:41:22.022Z] [INFO] Request body: {
+  "id": 80,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T07:41:22.093Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:41:22.096Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:22.096Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:22.133Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:22.174Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:22.174Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:22.174Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:22.265Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:22.302Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:22.302Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:22.342Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:22.346Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:41:22.346Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:41:22.346Z] [INFO] Request body: {
+  "id": 86,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:41:22.413Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:41:22.415Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:22.415Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:22.453Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:22.497Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:22.497Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:22.497Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:22.625Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:22.663Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:22.664Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:22.711Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:22.714Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:41:22.715Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:41:22.715Z] [INFO] Request body: {
+  "id": 82,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T07:41:22.840Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:41:22.842Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:22.842Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:22.883Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:22.921Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:22.921Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:22.922Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:23.034Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:23.072Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:23.073Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:23.112Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:23.115Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:41:23.115Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:41:23.116Z] [INFO] Request body: {
+  "id": 83,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T07:41:23.243Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:41:23.245Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:23.245Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:23.282Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:23.329Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:23.329Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:23.330Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:23.414Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:23.452Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:23.453Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:23.492Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:23.495Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:41:23.496Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:41:23.496Z] [INFO] Request body: {
+  "id": 87,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T07:41:23.575Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:41:23.577Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:23.577Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:23.612Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:23.661Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:23.662Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:23.662Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:23.944Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:23.981Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:23.981Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:24.022Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:24.024Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:41:24.025Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:41:24.025Z] [INFO] Request body: {
+  "id": 84,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T07:41:24.204Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:41:24.207Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:24.207Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:24.242Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:24.282Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:24.282Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:24.283Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:24.534Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:24.572Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:24.573Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:24.611Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:24.613Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:41:24.613Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:41:24.613Z] [INFO] Request body: {
+  "id": 88,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+",
+        "counterAccountId": "ua-23"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-",
+        "counterAccountId": "ua-24"
+      }
+    ]
+  }
+}
+[2025-10-13T07:41:24.903Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:41:24.905Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:24.906Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:24.943Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:24.987Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:24.987Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:24.988Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:25.067Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:41:25.069Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:25.069Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:25.069Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:25.164Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:25.167Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:25.167Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:25.167Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:25.168Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:41:25.170Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:25.170Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:25.171Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:25.251Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:25.254Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:25.254Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:25.255Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:25.344Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:25.347Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:41:25.348Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:41:25.348Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:41:25.425Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:41:25.427Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:41:25.427Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:41:25.463Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:41:25.465Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:25.466Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:25.505Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:25.508Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:25.508Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:25.552Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:41:25.554Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:41:25.555Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:41:25.594Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:42:57.132Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:42:57.133Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:42:57.459Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:42:57.469Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:42:57.470Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:42:57.470Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:42:57.544Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:42:57.800Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:42:57.800Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:42:57.838Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:42:57.841Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:42:57.841Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:42:57.842Z] [INFO] Request body: {
+  "id": 93,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T07:42:57.922Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:42:57.924Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:42:57.924Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:42:57.961Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:42:58.010Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:42:58.010Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:42:58.010Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:42:58.084Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:42:58.131Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:42:58.132Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:42:58.169Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:42:58.171Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:42:58.172Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:42:58.172Z] [INFO] Request body: {
+  "id": 94,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:42:58.260Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:42:58.262Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:42:58.262Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:42:58.299Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:42:58.339Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:42:58.340Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:42:58.340Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:42:58.467Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:42:58.516Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:42:58.517Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:42:58.566Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:42:58.569Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:42:58.569Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:42:58.569Z] [INFO] Request body: {
+  "id": 95,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T07:42:58.690Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:42:58.692Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:42:58.692Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:42:58.730Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:42:58.779Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:42:58.779Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:42:58.780Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:42:58.901Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:42:58.940Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:42:58.940Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:42:58.987Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:42:58.989Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:42:58.989Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:42:58.990Z] [INFO] Request body: {
+  "id": 96,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T07:42:59.102Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:42:59.103Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:42:59.104Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:42:59.140Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:42:59.180Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:42:59.181Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:42:59.181Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:42:59.277Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:42:59.321Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:42:59.321Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:42:59.373Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:42:59.375Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:42:59.375Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:42:59.375Z] [INFO] Request body: {
+  "id": 97,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T07:42:59.460Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:42:59.461Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:42:59.461Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:42:59.509Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:42:59.552Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:42:59.552Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:42:59.553Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:42:59.708Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:42:59.894Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:42:59.894Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:42:59.940Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:42:59.942Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:42:59.942Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:42:59.942Z] [INFO] Request body: {
+  "id": 98,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T07:43:00.120Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:00.121Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:00.122Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:00.158Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:00.199Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:00.199Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:00.200Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:00.458Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:00.492Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:00.492Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:00.537Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:00.539Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:00.539Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:00.539Z] [INFO] Request body: {
+  "id": 99,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+",
+        "counterAccountId": "ua-23"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-",
+        "counterAccountId": "ua-24"
+      }
+    ]
+  }
+}
+[2025-10-13T07:43:00.803Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:00.804Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:00.805Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:00.852Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:00.890Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:00.890Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:00.891Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:00.969Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:43:00.972Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:00.972Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:00.972Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:01.115Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:01.117Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:01.117Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:01.117Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:01.118Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:43:01.119Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:01.119Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:01.120Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:01.203Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:01.205Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:01.205Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:01.205Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:01.287Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:01.289Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:01.289Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:01.290Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:01.388Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:01.390Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:01.390Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:01.468Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:01.470Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:01.471Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:01.510Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:01.512Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:01.512Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:01.558Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:01.560Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:01.560Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:01.601Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:02.408Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:02.409Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:02.453Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:02.463Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:02.463Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:02.463Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:02.662Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:02.767Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:02.767Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:02.768Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:02.858Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:02.962Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:02.962Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:02.963Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:03.101Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:03.204Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:03.205Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:03.205Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:03.354Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:03.458Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:03.458Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:03.459Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:03.560Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:03.663Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:03.663Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:03.664Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:03.833Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:03.937Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:03.937Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:03.938Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:04.140Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:04.243Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:04.244Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:04.373Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:04.376Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:04.376Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:04.444Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:04.446Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:04.446Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:04.489Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:04.491Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:04.491Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:04.532Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:04.534Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:04.534Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:04.693Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:04.695Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:04.695Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:04.696Z] [INFO] Request body: {
+  "id": 76,
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:43:04.772Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:05.010Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:05.010Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:05.173Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:05.175Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:05.175Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:05.213Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:05.215Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:05.216Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:05.216Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-13T07:43:05.216Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:43:05.218Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:05.218Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:05.218Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:05.292Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:43:05.294Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:05.294Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:05.294Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:05.370Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:43:05.373Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:05.373Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:05.374Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:05.374Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:43:39.261Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:39.261Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:39.551Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:39.564Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:39.564Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:39.565Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:39.648Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:39.894Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:39.894Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:39.937Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:39.941Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:39.941Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:39.942Z] [INFO] Request body: {
+  "id": 104,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T07:43:40.053Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:40.056Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:40.056Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:40.129Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:40.170Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:40.170Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:40.171Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:40.269Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:40.309Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:40.309Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:40.350Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:40.353Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:40.353Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:40.353Z] [INFO] Request body: {
+  "id": 110,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:43:40.427Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:40.430Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:40.430Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:40.468Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:40.510Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:40.510Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:40.510Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:40.647Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:40.699Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:40.700Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:40.737Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:40.740Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:40.740Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:40.740Z] [INFO] Request body: {
+  "id": 106,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T07:43:40.871Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:40.874Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:40.874Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:40.909Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:40.950Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:40.950Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:40.950Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:41.077Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:41.119Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:41.119Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:41.158Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:41.161Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:41.161Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:41.162Z] [INFO] Request body: {
+  "id": 107,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T07:43:41.290Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:41.292Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:41.292Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:41.332Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:41.369Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:41.369Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:41.370Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:41.450Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:41.488Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:41.488Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:41.537Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:41.540Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:41.540Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:41.540Z] [INFO] Request body: {
+  "id": 111,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T07:43:41.609Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:41.611Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:41.611Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:41.648Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:41.689Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:41.690Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:41.690Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:41.840Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:41.879Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:41.879Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:41.917Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:41.920Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:41.920Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:41.921Z] [INFO] Request body: {
+  "id": 108,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T07:43:42.090Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:42.092Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:42.093Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:42.136Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:42.178Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:42.179Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:42.179Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:42.452Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:42.505Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:42.505Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:42.538Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:42.540Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:42.541Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:42.541Z] [INFO] Request body: {
+  "id": 112,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+",
+        "counterAccountId": "ua-23"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-",
+        "counterAccountId": "ua-24"
+      }
+    ]
+  }
+}
+[2025-10-13T07:43:42.786Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:42.788Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:42.788Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:42.828Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:42.868Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:42.869Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:42.869Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:42.950Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:43:42.953Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:42.953Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:42.953Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:43.261Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:43.263Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:43.264Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:43.264Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:43.264Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:43:43.267Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:43.267Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:43.268Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:43.341Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:43.343Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:43.343Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:43.344Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:43.422Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:43.424Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:43.424Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:43.425Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:43.538Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:43.540Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:43.541Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:43.578Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:43.580Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:43.580Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:43.619Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:43.621Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:43.621Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:43.658Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:43.659Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:43.660Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:43.699Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:44.494Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:44.494Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:44.533Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:44.545Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:44.545Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:44.545Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:44.647Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:44.753Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:44.754Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:44.754Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:44.900Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:45.004Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:45.004Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:45.005Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:45.136Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:45.241Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:45.242Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:45.242Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:45.380Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:45.485Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:45.485Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:45.486Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:45.572Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:45.677Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:45.677Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:45.678Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:45.842Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:45.946Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:45.946Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:45.947Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:46.246Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:43:46.349Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:46.349Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:46.452Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:46.456Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:46.456Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:46.507Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:46.510Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:46.510Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:46.548Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:46.550Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:46.550Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:46.589Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:46.592Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:46.592Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:46.637Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:46.640Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:43:46.640Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:43:46.641Z] [INFO] Request body: {
+  "id": 76,
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:43:46.719Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:43:47.117Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:43:47.117Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:43:47.252Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:43:47.255Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:43:47.255Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:43:47.295Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:43:47.298Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:47.298Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:47.299Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-13T07:43:47.299Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:43:47.301Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:47.301Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:47.301Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:47.416Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:43:47.419Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:47.419Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:47.420Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:47.508Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:43:47.510Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:43:47.510Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:43:47.510Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:43:47.510Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:47:43.215Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:43.216Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:43.482Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:43.491Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:43.491Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:43.492Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:43.565Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:43.766Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:43.766Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:43.957Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:43.960Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:47:43.960Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:47:43.960Z] [INFO] Request body: {
+  "id": 117,
+  "targetAccountId": "ua-1",
+  "scenarioId": "1",
+  "type": "input",
+  "config": {}
+}
+[2025-10-13T07:47:44.043Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:47:44.045Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:44.045Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:44.084Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:44.125Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:44.125Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:44.126Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:44.221Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:44.280Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:44.280Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:44.322Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:44.325Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:47:44.325Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:47:44.325Z] [INFO] Request body: {
+  "id": 118,
+  "targetAccountId": "ua-2",
+  "scenarioId": "1",
+  "type": "growth_rate",
+  "config": {
+    "rate": 10
+  }
+}
+[2025-10-13T07:47:44.401Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:47:44.403Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:44.403Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:44.443Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:44.548Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:44.548Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:44.549Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:44.672Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:44.722Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:44.722Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:44.788Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:44.790Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:47:44.790Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:47:44.791Z] [INFO] Request body: {
+  "id": 119,
+  "targetAccountId": "ua-3",
+  "scenarioId": "1",
+  "type": "ratio",
+  "config": {
+    "referenceId": "ua-1",
+    "ratio": 30
+  }
+}
+[2025-10-13T07:47:44.985Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:47:44.987Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:44.987Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:45.024Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:45.063Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:45.063Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:45.064Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:45.273Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:45.313Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:45.313Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:45.353Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:45.355Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:47:45.355Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:47:45.355Z] [INFO] Request body: {
+  "id": 120,
+  "targetAccountId": "ua-4",
+  "scenarioId": "1",
+  "type": "link",
+  "config": {
+    "referenceId": "ua-2"
+  }
+}
+[2025-10-13T07:47:45.473Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:47:45.475Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:45.475Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:45.513Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:45.560Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:45.561Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:45.561Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:45.713Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:45.754Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:45.754Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:45.792Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:45.794Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:47:45.794Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:47:45.795Z] [INFO] Request body: {
+  "id": 123,
+  "targetAccountId": "ua-5",
+  "scenarioId": "1",
+  "type": "sum_children",
+  "config": {}
+}
+[2025-10-13T07:47:45.875Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:47:45.877Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:45.877Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:45.914Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:45.953Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:45.954Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:45.954Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:46.125Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:46.162Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:46.162Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:46.203Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:46.206Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:47:46.206Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:47:46.206Z] [INFO] Request body: {
+  "id": 121,
+  "targetAccountId": "ua-10",
+  "scenarioId": "1",
+  "type": "custom_calc",
+  "config": {
+    "children": [
+      {
+        "accountId": "ua-11",
+        "operator": "+"
+      },
+      {
+        "accountId": "ua-12",
+        "operator": "-"
+      }
+    ]
+  }
+}
+[2025-10-13T07:47:46.357Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:47:46.359Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:46.359Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:46.393Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:46.435Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:46.436Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:46.436Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:46.654Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:46.693Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:46.693Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:46.733Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:46.735Z] [INFO] [PUT] /api/calculation-rules 
+[2025-10-13T07:47:46.735Z] [INFO] === PUT /api/calculation-rules received === 
+[2025-10-13T07:47:46.735Z] [INFO] Request body: {
+  "id": 124,
+  "targetAccountId": "ua-20",
+  "scenarioId": "1",
+  "type": "prev_end_plus_change",
+  "config": {
+    "flows": [
+      {
+        "accountId": "ua-21",
+        "operator": "+",
+        "counterAccountId": "ua-23"
+      },
+      {
+        "accountId": "ua-22",
+        "operator": "-",
+        "counterAccountId": "ua-24"
+      }
+    ]
+  }
+}
+[2025-10-13T07:47:46.956Z] [INFO] Calculation rule updated successfully 
+[2025-10-13T07:47:46.957Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:46.958Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:47.021Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:47.063Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:47.064Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:47.064Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:47.144Z] [ERROR] Error saving calculation rule: {
+  "length": 308,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-13T07:47:47.146Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:47.147Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:47.147Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:47.244Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:47.246Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:47.246Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:47.246Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:47.247Z] [ERROR] Error saving calculation rule: {}
+[2025-10-13T07:47:47.248Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:47.248Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:47.249Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:47.333Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:47.334Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:47.335Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:47.335Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:47.432Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:47.434Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:47.434Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:47.434Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:47.515Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:47.516Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:47.516Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:47.568Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:47.570Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:47.570Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:47.628Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:47.630Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:47.630Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:47.674Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:47.675Z] [INFO] [DELETE] /api/calculation-rules 
+[2025-10-13T07:47:47.675Z] [INFO] === DELETE /api/calculation-rules received === 
+[2025-10-13T07:47:47.719Z] [INFO] Calculation rule deleted successfully 
+[2025-10-13T07:47:53.322Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-13T07:47:53.322Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-13T07:47:53.367Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-13T07:47:53.377Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:53.377Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:53.377Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:53.474Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:53.478Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:53.478Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:53.478Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:53.560Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:53.563Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:53.563Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:53.563Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:53.717Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:53.720Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:53.720Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:53.720Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:53.836Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:53.839Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:53.839Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:53.839Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:53.913Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:53.915Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:53.916Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:53.916Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:54.095Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:54.097Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:54.097Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:54.097Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:54.279Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:54.281Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:54.281Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:54.282Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:54.372Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:54.374Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:54.375Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:54.375Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:54.485Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:47:54.488Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-13T07:47:54.488Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-13T07:47:54.488Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-13T07:47:54.785Z] [INFO] Calculation rule saved successfully 
+[2025-10-13T07:49:56.004Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 
+[2025-10-13T07:49:56.005Z] [INFO] === Server starting === 
+[2025-10-13T07:49:56.005Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log
+[2025-10-13T07:49:56.008Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-13T07:49:56.008Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 
+[2025-10-13T07:50:19.561Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 
+[2025-10-13T07:50:19.563Z] [INFO] === Server starting === 
+[2025-10-13T07:50:19.563Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log
+[2025-10-13T07:50:19.566Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-13T07:50:19.567Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-13.log 

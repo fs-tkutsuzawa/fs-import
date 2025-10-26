@@ -1,0 +1,89 @@
+[
+  {
+    "id": "SC-001",
+    "title": "Create integrated_accounts_view for GA/UA unification",
+    "summary": "Add a database view that joins global_accounts and user_accounts, exposing UA metadata alongside GA attributes and flagging GA records without UA coverage.",
+    "scope": [
+      "server/src/db migrations or schema scripts",
+      "docs updates describing the view"
+    ],
+    "acceptanceCriteria": [
+      "integrated_accounts_view returns UA rows joined with their GA metadata",
+      "rows lacking UA appear with source=GLOBAL_ONLY or equivalent flag",
+      "basic smoke test or query example documented in docs"
+    ],
+    "notes": [
+      "Ensure the view aligns with the latest [最新版]_DDL_1014.sql schema.",
+      "Avoid materialized tables to prevent data drift."
+    ]
+  },
+  {
+    "id": "SC-002",
+    "title": "Implement GA→UA sync CLI tool",
+    "summary": "Provide a CLI that inspects integrated_accounts_view, inserts missing user_accounts (including Super Calc GA), and reports differences.",
+    "scope": [
+      "scripts/cli/sync-user-accounts.ts (new)",
+      "CLI documentation under docs/[WIP]_SuperCalc案件実装対応"
+    ],
+    "acceptanceCriteria": [
+      "CLI supports dry-run and actual sync",
+      "After execution, view shows no GLOBAL_ONLY rows for targeted model/scenario",
+      "Logs clearly list created/updated/unchanged UA counts"
+    ],
+    "notes": [
+      "Use UPSERT semantics; repeated execution must be idempotent.",
+      "Expose options for modelId/scenarioId selection."
+    ]
+  },
+  {
+    "id": "SC-003",
+    "title": "Adapt calculationDataLoader to integrated view and strict PREVS normalization",
+    "summary": "Refactor calculationDataLoader to leverage integrated_accounts_view, normalizing PREVS keys via UA/GA name and code, and failing fast on unresolved entries.",
+    "scope": [
+      "server/src/service/calculationDataLoader.ts",
+      "related unit tests under server/src/tests"
+    ],
+    "acceptanceCriteria": [
+      "PREVS normalization resolves keys by UA name/code and GA name/code",
+      "Unresolved keys throw informative errors referencing the sync CLI",
+      "All existing tests pass; new tests cover expanded mapping"
+    ],
+    "notes": [
+      "Ensure backward compatibility with existing PREVS formats.",
+      "Document the new error messaging."
+    ]
+  },
+  {
+    "id": "SC-004",
+    "title": "Harden calculation CLI and add end-to-end test",
+    "summary": "Make calculation:dump and related CLI commands validate UA coverage before running FAM; add an E2E test that runs sync→inject→dump on dummy data.",
+    "scope": [
+      "server/src/scripts/dumpCalculation.ts",
+      "new Jest/CLI integration test in server/src/tests"
+    ],
+    "acceptanceCriteria": [
+      "CLI fails early if required UA are missing for mandatory GA (e.g., GAID.CASH)",
+      "E2E test executes sync CLI, inject-super-calc, and calculation:dump successfully",
+      "Test fixtures align with docs/[docs]_master_data/[dummy]_import_df_data.csv"
+    ],
+    "notes": [
+      "Log actionable error messages that point to SC-002 CLI.",
+      "Keep runtime reasonable for CI."
+    ]
+  },
+  {
+    "id": "SC-005",
+    "title": "Update operational documentation for Super Calc UA flow",
+    "summary": "Refresh docs to reflect the new sync/inject/dump pipeline, including view usage, CLI sequences, and troubleshooting.",
+    "scope": ["docs/[WIP]_SuperCalc案件実装対応/", "context.md if required"],
+    "acceptanceCriteria": [
+      "Operations manual describes UA sync → super-calc inject → calculation dump flow",
+      "Documentation references integrated_accounts_view and CLI options",
+      "All prior doc entries remain consistent with new workflow"
+    ],
+    "notes": [
+      "Ensure alignment with TDD constraints and existing handover documents.",
+      "Include checklist for detecting GLOBAL_ONLY rows."
+    ]
+  }
+]

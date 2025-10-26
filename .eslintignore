@@ -1,0 +1,8 @@
+node_modules
+build
+dist
+coverage
+*.config.js
+public
+docs/test-artifacts
+__tmp

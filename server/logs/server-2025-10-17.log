@@ -1,0 +1,2402 @@
+[2025-10-17T09:01:12.564Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:01:12.568Z] [INFO] === Server starting === 
+[2025-10-17T09:01:12.568Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log
+[2025-10-17T09:01:12.572Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-17T09:01:12.572Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:01:22.841Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:01:22.844Z] [INFO] === Server starting === 
+[2025-10-17T09:01:22.844Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log
+[2025-10-17T09:01:22.850Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-17T09:01:22.850Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:01:56.759Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:01:56.765Z] [INFO] === Server starting === 
+[2025-10-17T09:01:56.765Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log
+[2025-10-17T09:01:56.769Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-17T09:01:56.769Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:11:05.874Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:11:05.874Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:11:05.875Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:11:05.879Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:11:05.886Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:11:05.886Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:11:06.232Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:11:06.237Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:11:06.237Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:11:06.239Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:11:06.240Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:11:06.240Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:11:06.240Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:11:06.265Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:11:06.268Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:11:06.268Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:11:06.278Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:11:06.279Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:11:06.279Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:11:06.305Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:11:08.323Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:11:08.336Z] [INFO] [GET] /api/v1/calculations/status/efa1ba8e-c6cc-48b5-80d0-47afc7cff012 
+[2025-10-17T09:11:10.341Z] [INFO] [GET] /api/v1/calculations/status/efa1ba8e-c6cc-48b5-80d0-47afc7cff012 
+[2025-10-17T09:11:10.343Z] [INFO] [GET] /api/v1/calculations/results/efa1ba8e-c6cc-48b5-80d0-47afc7cff012 
+[2025-10-17T09:14:34.456Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:14:34.456Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:14:34.457Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:14:34.458Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:14:34.464Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:14:34.464Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:14:34.686Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:14:34.688Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:14:34.689Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:14:34.689Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:14:34.690Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:14:34.692Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:14:34.693Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:14:34.693Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:14:34.694Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:14:34.694Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:14:34.744Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:14:34.755Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:14:34.756Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:14:34.757Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:14:37.373Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:14:37.381Z] [INFO] [GET] /api/v1/calculations/status/9769e5fd-ee0c-4be0-9746-c251fe81db47 
+[2025-10-17T09:14:39.387Z] [INFO] [GET] /api/v1/calculations/status/9769e5fd-ee0c-4be0-9746-c251fe81db47 
+[2025-10-17T09:14:39.393Z] [INFO] [GET] /api/v1/calculations/results/9769e5fd-ee0c-4be0-9746-c251fe81db47 
+[2025-10-17T09:16:43.824Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:16:44.088Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:16:44.091Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:16:44.123Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:16:48.458Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:16:48.459Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:16:48.459Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:16:48.460Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:16:48.504Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:16:48.506Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:16:48.559Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:16:48.675Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:16:48.676Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:16:48.678Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:16:48.679Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:16:48.682Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:16:48.723Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:16:48.723Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:16:52.292Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:16:52.293Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:16:52.293Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:16:52.294Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:16:52.345Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:16:52.345Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:16:52.348Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:16:52.348Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:16:52.348Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:16:52.363Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:16:52.365Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:16:52.394Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:16:52.395Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:16:52.417Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:16:53.810Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:16:53.811Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:16:53.979Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:16:53.981Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:16:53.982Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:16:54.033Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:16:59.901Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:16:59.902Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:16:59.902Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:16:59.904Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:16:59.910Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:16:59.911Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:16:59.957Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:16:59.957Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:16:59.959Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:16:59.960Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:16:59.960Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:16:59.993Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:16:59.994Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:16:59.995Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:16:59.997Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:17:00.051Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:17:00.162Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:17:00.165Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:17:00.165Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:17:00.199Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:17:01.938Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:17:01.943Z] [INFO] [GET] /api/v1/calculations/status/0eb78cd2-2817-4a00-add8-afd5ad6c4c72 
+[2025-10-17T09:17:03.950Z] [INFO] [GET] /api/v1/calculations/status/0eb78cd2-2817-4a00-add8-afd5ad6c4c72 
+[2025-10-17T09:17:03.953Z] [INFO] [GET] /api/v1/calculations/results/0eb78cd2-2817-4a00-add8-afd5ad6c4c72 
+[2025-10-17T09:17:24.114Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:17:24.115Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:17:24.115Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:17:24.116Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:17:24.121Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:17:24.121Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:17:24.337Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:17:24.348Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:17:24.351Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:17:24.352Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:17:33.045Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:17:33.054Z] [INFO] [GET] /api/v1/calculations/status/fd12bf93-1fd4-461c-9f95-4e6c701e7efd 
+[2025-10-17T09:17:35.061Z] [INFO] [GET] /api/v1/calculations/status/fd12bf93-1fd4-461c-9f95-4e6c701e7efd 
+[2025-10-17T09:17:35.064Z] [INFO] [GET] /api/v1/calculations/results/fd12bf93-1fd4-461c-9f95-4e6c701e7efd 
+[2025-10-17T09:18:27.645Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:18:27.655Z] [INFO] [GET] /api/v1/calculations/status/de919be0-61b8-4d3c-b421-5a3e0833904e 
+[2025-10-17T09:18:29.660Z] [INFO] [GET] /api/v1/calculations/status/de919be0-61b8-4d3c-b421-5a3e0833904e 
+[2025-10-17T09:18:29.664Z] [INFO] [GET] /api/v1/calculations/results/de919be0-61b8-4d3c-b421-5a3e0833904e 
+[2025-10-17T09:20:39.521Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:20:39.524Z] [INFO] === Server starting === 
+[2025-10-17T09:20:39.524Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log
+[2025-10-17T09:20:39.528Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-17T09:20:39.528Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:20:48.545Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:20:48.545Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:20:48.546Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:20:48.554Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:20:48.568Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:20:48.568Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:20:48.880Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:20:48.881Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:20:48.909Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:20:48.914Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:20:48.923Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T09:20:48.924Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T09:20:48.924Z] [INFO] === getUserAccounts called === 
+[2025-10-17T09:20:48.925Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T09:20:48.926Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T09:20:48.927Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T09:20:49.030Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 58
+}
+[2025-10-17T09:20:49.032Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T09:20:49.035Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T09:20:49.035Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T09:20:58.245Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:20:58.259Z] [INFO] [GET] /api/v1/calculations/status/ad4dcb9e-1ef2-47b9-9312-043bbe45b247 
+[2025-10-17T09:21:00.265Z] [INFO] [GET] /api/v1/calculations/status/ad4dcb9e-1ef2-47b9-9312-043bbe45b247 
+[2025-10-17T09:21:00.270Z] [INFO] [GET] /api/v1/calculations/results/ad4dcb9e-1ef2-47b9-9312-043bbe45b247 
+[2025-10-17T09:25:39.779Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:25:39.789Z] [INFO] [GET] /api/v1/calculations/status/cfff74df-c706-4f99-9393-d5722ae52975 
+[2025-10-17T09:25:41.794Z] [INFO] [GET] /api/v1/calculations/status/cfff74df-c706-4f99-9393-d5722ae52975 
+[2025-10-17T09:25:41.799Z] [INFO] [GET] /api/v1/calculations/results/cfff74df-c706-4f99-9393-d5722ae52975 
+[2025-10-17T09:31:45.790Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:31:45.793Z] [INFO] === Server starting === 
+[2025-10-17T09:31:45.793Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log
+[2025-10-17T09:31:45.798Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-17T09:31:45.798Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:32:01.281Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:32:01.283Z] [INFO] === Server starting === 
+[2025-10-17T09:32:01.283Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log
+[2025-10-17T09:32:01.287Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-17T09:32:01.289Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:32:03.671Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:32:03.689Z] [INFO] [GET] /api/v1/calculations/status/5ea1b7b2-3de1-4997-9024-1fd530a56bbb 
+[2025-10-17T09:32:05.696Z] [INFO] [GET] /api/v1/calculations/status/5ea1b7b2-3de1-4997-9024-1fd530a56bbb 
+[2025-10-17T09:32:06.743Z] [WARN] FAM.compute skipped because GAID.CASH account not found {
+  "modelId": 1,
+  "scenarioId": 1
+}
+[2025-10-17T09:32:07.695Z] [INFO] [GET] /api/v1/calculations/status/5ea1b7b2-3de1-4997-9024-1fd530a56bbb 
+[2025-10-17T09:32:07.700Z] [INFO] [GET] /api/v1/calculations/results/5ea1b7b2-3de1-4997-9024-1fd530a56bbb 
+[2025-10-17T09:33:18.029Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:33:18.031Z] [INFO] === Server starting === 
+[2025-10-17T09:33:18.031Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log
+[2025-10-17T09:33:18.036Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-17T09:33:18.036Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:33:27.648Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:33:59.441Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:37:02.697Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-17T09:37:02.724Z] [INFO] [GET] /api/v1/calculations/status/5963ae2c-17cd-4628-95bd-586c1d538cf5 
+[2025-10-17T09:37:03.118Z] [WARN] FAM.compute skipped because GAID.CASH account not found {
+  "modelId": 1,
+  "scenarioId": 1
+}
+[2025-10-17T09:37:04.731Z] [INFO] [GET] /api/v1/calculations/status/5963ae2c-17cd-4628-95bd-586c1d538cf5 
+[2025-10-17T09:37:04.738Z] [INFO] [GET] /api/v1/calculations/results/5963ae2c-17cd-4628-95bd-586c1d538cf5 
+[2025-10-17T09:38:03.433Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:38:03.827Z] [WARN] FAM.compute skipped because GAID.CASH account not found {
+  "modelId": 1,
+  "scenarioId": 1
+}
+[2025-10-17T09:38:56.764Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:38:57.192Z] [WARN] FAM.compute skipped because GAID.CASH account not found {
+  "modelId": 1,
+  "scenarioId": 1
+}
+[2025-10-17T09:39:11.446Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-17.log 
+[2025-10-17T09:39:12.007Z] [WARN] FAM.compute skipped because GAID.CASH account not found {
+  "modelId": 1,
+  "scenarioId": 1
+}
+[2025-10-17T12:57:27.148Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:57:27.423Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:57:27.430Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:57:27.466Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:57:33.508Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:57:33.663Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:57:33.667Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:57:33.845Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:57:47.250Z] [INFO] [POST] /api/import-data/1 
+[2025-10-17T12:57:47.251Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-17T12:57:47.254Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-17T12:57:47.256Z] [INFO] === saveImportData called === 
+[2025-10-17T12:57:47.256Z] [INFO] Model ID: 1
+[2025-10-17T12:57:47.257Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        2600000,
+        2860000,
+        3146000,
+        3460600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        2000000,
+        2200000,
+        2420000,
+        2662000,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品数量",
+      "values": [
+        40000,
+        44000,
+        48400,
+        53240,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品単価",
+      "values": [
+        50,
+        55,
+        61,
+        67,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        600000,
+        660000,
+        726000,
+        798600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        1200000,
+        1260000,
+        1323000,
+        1389150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上高総利益",
+      "values": [
+        1400000,
+        1600000,
+        1823000,
+        2071450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        200000,
+        220000,
+        242000,
+        266200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        200000,
+        210000,
+        220500,
+        231525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引き前当期利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払法人税",
+      "values": [
+        332500,
+        392000,
+        458675,
+        533304,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        617500,
+        728000,
+        851825,
+        990421,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-17T12:57:47.539Z] [INFO] Cleared existing import data for model 1 
+[2025-10-17T12:57:47.615Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-17T12:57:47.616Z] [INFO] Import data saved successfully 
+[2025-10-17T12:57:58.142Z] [INFO] [POST] /api/user-accounts 
+[2025-10-17T12:57:58.142Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-17T12:57:58.143Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "商品売上",
+      "ua_code": "imp-2",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    }
+  ]
+}
+[2025-10-17T12:57:58.145Z] [INFO] === createUserAccounts called === 
+[2025-10-17T12:57:58.145Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "商品売上",
+    "ua_code": "imp-2",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  }
+]
+[2025-10-17T12:57:58.357Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-17T12:57:58.357Z] [INFO] Accounts without parent UA (root accounts): 1 
+[2025-10-17T12:57:58.357Z] [INFO] Accounts with parent UA (child accounts): 1 
+[2025-10-17T12:57:58.358Z] [INFO]   Child account "商品売上" wants parent_ua_code: imp-1 
+[2025-10-17T12:57:58.358Z] [INFO] === INSERTION ORDER === 
+[2025-10-17T12:57:58.358Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-17T12:57:58.358Z] [INFO]   2. "商品売上" (parent_ua_code: imp-1) 
+[2025-10-17T12:57:58.358Z] [INFO] === PROCESSING ACCOUNT 1/2 === 
+[2025-10-17T12:57:58.359Z] [INFO] Account name: 売上高 
+[2025-10-17T12:57:58.359Z] [INFO] Account code: imp-1 
+[2025-10-17T12:57:58.359Z] [INFO] Parent UA code: null 
+[2025-10-17T12:57:58.461Z] [INFO] Created new user account: 売上高 (ID: 24) 
+[2025-10-17T12:57:58.461Z] [INFO] Updated mapping: imp-1 -> 24 
+[2025-10-17T12:57:58.462Z] [INFO] === PROCESSING ACCOUNT 2/2 === 
+[2025-10-17T12:57:58.462Z] [INFO] Account name: 商品売上 
+[2025-10-17T12:57:58.462Z] [INFO] Account code: imp-2 
+[2025-10-17T12:57:58.463Z] [INFO] Parent UA code: imp-1 
+[2025-10-17T12:57:58.492Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 24 
+[2025-10-17T12:57:58.559Z] [INFO] Created new user account: 商品売上 (ID: 25) 
+[2025-10-17T12:57:58.560Z] [INFO] Updated mapping: imp-2 -> 25 
+[2025-10-17T12:57:58.592Z] [INFO] === TRANSACTION COMMITTED === 
+[2025-10-17T12:57:58.593Z] [INFO] Successfully created 2 user accounts 
+[2025-10-17T12:57:58.627Z] [INFO] === FINAL STATE VERIFICATION === 
+[2025-10-17T12:57:58.628Z] [INFO] Total accounts in database: 2
+[2025-10-17T12:57:58.628Z] [INFO] User accounts created successfully 
+[2025-10-17T12:58:00.751Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:58:00.754Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:58:00.755Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:58:00.756Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:58:00.798Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:58:00.801Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:58:00.849Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:58:00.953Z] [INFO] Retrieved 2 user accounts with GA information 
+[2025-10-17T12:58:00.954Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:58:00.956Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:58:00.956Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:58:00.956Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:58:00.989Z] [INFO] Retrieved 2 user accounts with GA information 
+[2025-10-17T12:58:00.990Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:58:02.244Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T12:58:02.246Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T12:58:02.295Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T12:58:02.297Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T12:58:02.298Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T12:58:02.339Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T12:58:08.537Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-17T12:58:08.538Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-17T12:58:08.541Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-17T12:58:08.634Z] [INFO] Calculation rule saved successfully 
+[2025-10-17T12:58:11.665Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-17T12:58:11.665Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-17T12:58:11.667Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-17T12:58:11.766Z] [INFO] Calculation rule saved successfully 
+[2025-10-17T12:58:40.291Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:58:40.492Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:58:40.495Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:58:40.537Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:58:49.116Z] [INFO] [POST] /api/import-data/1 
+[2025-10-17T12:58:49.119Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-17T12:58:49.124Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-17T12:58:49.134Z] [INFO] === saveImportData called === 
+[2025-10-17T12:58:49.135Z] [INFO] Model ID: 1
+[2025-10-17T12:58:49.137Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        2600000,
+        2860000,
+        3146000,
+        3460600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        2000000,
+        2200000,
+        2420000,
+        2662000,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品数量",
+      "values": [
+        40000,
+        44000,
+        48400,
+        53240,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品単価",
+      "values": [
+        50,
+        55,
+        61,
+        67,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        600000,
+        660000,
+        726000,
+        798600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        1200000,
+        1260000,
+        1323000,
+        1389150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上高総利益",
+      "values": [
+        1400000,
+        1600000,
+        1823000,
+        2071450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        200000,
+        220000,
+        242000,
+        266200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        200000,
+        210000,
+        220500,
+        231525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引き前当期利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払法人税",
+      "values": [
+        332500,
+        392000,
+        458675,
+        533304,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        617500,
+        728000,
+        851825,
+        990421,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-17T12:58:49.247Z] [INFO] Cleared existing import data for model 1 
+[2025-10-17T12:58:49.458Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-17T12:58:49.458Z] [INFO] Import data saved successfully 
+[2025-10-17T12:59:01.390Z] [INFO] [POST] /api/user-accounts 
+[2025-10-17T12:59:01.390Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-17T12:59:01.393Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上原価",
+      "ua_code": "imp-6",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "cogs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上高総利益",
+      "ua_code": "imp-7",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "gross_profit",
+      "parent_ua_id": null
+    }
+  ]
+}
+[2025-10-17T12:59:01.393Z] [INFO] === createUserAccounts called === 
+[2025-10-17T12:59:01.394Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上原価",
+    "ua_code": "imp-6",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "cogs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上高総利益",
+    "ua_code": "imp-7",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "gross_profit",
+    "parent_ua_id": null
+  }
+]
+[2025-10-17T12:59:01.588Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-17T12:59:01.589Z] [INFO] Accounts without parent UA (root accounts): 3 
+[2025-10-17T12:59:01.589Z] [INFO] Accounts with parent UA (child accounts): 0 
+[2025-10-17T12:59:01.589Z] [INFO] === INSERTION ORDER === 
+[2025-10-17T12:59:01.590Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-17T12:59:01.590Z] [INFO]   2. "売上原価" (parent_ua_code: null) 
+[2025-10-17T12:59:01.590Z] [INFO]   3. "売上高総利益" (parent_ua_code: null) 
+[2025-10-17T12:59:01.590Z] [INFO] === PROCESSING ACCOUNT 1/3 === 
+[2025-10-17T12:59:01.590Z] [INFO] Account name: 売上高 
+[2025-10-17T12:59:01.591Z] [INFO] Account code: imp-1 
+[2025-10-17T12:59:01.591Z] [INFO] Parent UA code: null 
+[2025-10-17T12:59:01.717Z] [INFO] Updated user account: 売上高 (ID: 24) 
+[2025-10-17T12:59:01.717Z] [INFO] Updated mapping: imp-1 -> 24 
+[2025-10-17T12:59:01.718Z] [INFO] === PROCESSING ACCOUNT 2/3 === 
+[2025-10-17T12:59:01.718Z] [INFO] Account name: 売上原価 
+[2025-10-17T12:59:01.718Z] [INFO] Account code: imp-6 
+[2025-10-17T12:59:01.718Z] [INFO] Parent UA code: null 
+[2025-10-17T12:59:01.829Z] [INFO] Created new user account: 売上原価 (ID: 26) 
+[2025-10-17T12:59:01.830Z] [INFO] Updated mapping: imp-6 -> 26 
+[2025-10-17T12:59:01.830Z] [INFO] === PROCESSING ACCOUNT 3/3 === 
+[2025-10-17T12:59:01.830Z] [INFO] Account name: 売上高総利益 
+[2025-10-17T12:59:01.830Z] [INFO] Account code: imp-7 
+[2025-10-17T12:59:01.831Z] [INFO] Parent UA code: null 
+[2025-10-17T12:59:01.939Z] [INFO] Created new user account: 売上高総利益 (ID: 27) 
+[2025-10-17T12:59:01.939Z] [INFO] Updated mapping: imp-7 -> 27 
+[2025-10-17T12:59:01.980Z] [INFO] === TRANSACTION COMMITTED === 
+[2025-10-17T12:59:01.980Z] [INFO] Successfully created 3 user accounts 
+[2025-10-17T12:59:02.070Z] [INFO] === FINAL STATE VERIFICATION === 
+[2025-10-17T12:59:02.071Z] [INFO] Total accounts in database: 4
+[2025-10-17T12:59:02.071Z] [INFO] User accounts created successfully 
+[2025-10-17T12:59:03.468Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:59:03.469Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:59:03.469Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:59:03.469Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:59:03.510Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:59:03.513Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:59:03.552Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:59:03.667Z] [INFO] Retrieved 4 user accounts with GA information 
+[2025-10-17T12:59:03.668Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:59:03.671Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:59:03.671Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:59:03.671Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:59:03.712Z] [INFO] Retrieved 4 user accounts with GA information 
+[2025-10-17T12:59:03.712Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:59:05.211Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T12:59:05.211Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T12:59:05.257Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T12:59:05.260Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T12:59:05.260Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T12:59:05.293Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T12:59:11.603Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-17T12:59:11.603Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-17T12:59:11.604Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-17T12:59:11.690Z] [INFO] Calculation rule saved successfully 
+[2025-10-17T12:59:26.275Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:59:26.276Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:59:26.276Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:59:26.276Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:59:26.464Z] [INFO] Retrieved 4 user accounts with GA information 
+[2025-10-17T12:59:26.465Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:59:26.467Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:59:26.467Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:59:26.468Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:59:26.493Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:59:26.495Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:59:26.499Z] [INFO] Retrieved 4 user accounts with GA information 
+[2025-10-17T12:59:26.500Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:59:26.534Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:59:28.113Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:59:28.114Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:59:28.114Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:59:28.114Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:59:28.200Z] [INFO] Retrieved 4 user accounts with GA information 
+[2025-10-17T12:59:28.200Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:59:28.204Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T12:59:28.205Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T12:59:28.205Z] [INFO] === getUserAccounts called === 
+[2025-10-17T12:59:28.228Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:59:28.230Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T12:59:28.243Z] [INFO] Retrieved 4 user accounts with GA information 
+[2025-10-17T12:59:28.243Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T12:59:28.272Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T12:59:29.440Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T12:59:29.440Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T12:59:29.490Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T12:59:29.492Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T12:59:29.492Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T12:59:29.525Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T13:06:24.031Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T13:06:24.219Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T13:06:24.222Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T13:06:24.258Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T13:06:40.855Z] [INFO] [POST] /api/import-data/1 
+[2025-10-17T13:06:40.856Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-17T13:06:40.865Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-17T13:06:40.865Z] [INFO] === saveImportData called === 
+[2025-10-17T13:06:40.866Z] [INFO] Model ID: 1
+[2025-10-17T13:06:40.866Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        2600000,
+        2860000,
+        3146000,
+        3460600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        2000000,
+        2200000,
+        2420000,
+        2662000,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品数量",
+      "values": [
+        40000,
+        44000,
+        48400,
+        53240,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品単価",
+      "values": [
+        50,
+        55,
+        61,
+        67,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        600000,
+        660000,
+        726000,
+        798600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        1200000,
+        1260000,
+        1323000,
+        1389150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上高総利益",
+      "values": [
+        1400000,
+        1600000,
+        1823000,
+        2071450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        200000,
+        220000,
+        242000,
+        266200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        200000,
+        210000,
+        220500,
+        231525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引き前当期利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払法人税",
+      "values": [
+        332500,
+        392000,
+        458675,
+        533304,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        617500,
+        728000,
+        851825,
+        990421,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-17T13:06:41.112Z] [INFO] Cleared existing import data for model 1 
+[2025-10-17T13:06:41.179Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-17T13:06:41.180Z] [INFO] Import data saved successfully 
+[2025-10-17T13:07:39.035Z] [INFO] [POST] /api/user-accounts 
+[2025-10-17T13:07:39.036Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-17T13:07:39.038Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上原価",
+      "ua_code": "imp-6",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "cogs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上高総利益",
+      "ua_code": "imp-7",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "gross_profit",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "販売費",
+      "ua_code": "imp-8",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "一般管理費",
+      "ua_code": "imp-9",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "減価償却費",
+      "ua_code": "imp-10",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "depreciation",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業利益",
+      "ua_code": "imp-11",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "operating_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "税引き前当期利益",
+      "ua_code": "imp-12",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "pre_tax_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "支払法人税",
+      "ua_code": "imp-13",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "income_taxes",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "当期純利益",
+      "ua_code": "imp-14",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "net_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "商品売上",
+      "ua_code": "imp-2",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "その他売上",
+      "ua_code": "imp-5",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    }
+  ]
+}
+[2025-10-17T13:07:39.038Z] [INFO] === createUserAccounts called === 
+[2025-10-17T13:07:39.038Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上原価",
+    "ua_code": "imp-6",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "cogs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上高総利益",
+    "ua_code": "imp-7",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "gross_profit",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "販売費",
+    "ua_code": "imp-8",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "一般管理費",
+    "ua_code": "imp-9",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "減価償却費",
+    "ua_code": "imp-10",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "depreciation",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業利益",
+    "ua_code": "imp-11",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "operating_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "税引き前当期利益",
+    "ua_code": "imp-12",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "pre_tax_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "支払法人税",
+    "ua_code": "imp-13",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "income_taxes",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "当期純利益",
+    "ua_code": "imp-14",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "net_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "商品売上",
+    "ua_code": "imp-2",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "その他売上",
+    "ua_code": "imp-5",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  }
+]
+[2025-10-17T13:07:39.242Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-17T13:07:39.243Z] [INFO] Accounts without parent UA (root accounts): 10 
+[2025-10-17T13:07:39.243Z] [INFO] Accounts with parent UA (child accounts): 2 
+[2025-10-17T13:07:39.243Z] [INFO]   Child account "商品売上" wants parent_ua_code: imp-1 
+[2025-10-17T13:07:39.244Z] [INFO]   Child account "その他売上" wants parent_ua_code: imp-1 
+[2025-10-17T13:07:39.244Z] [INFO] === INSERTION ORDER === 
+[2025-10-17T13:07:39.244Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-17T13:07:39.244Z] [INFO]   2. "売上原価" (parent_ua_code: null) 
+[2025-10-17T13:07:39.244Z] [INFO]   3. "売上高総利益" (parent_ua_code: null) 
+[2025-10-17T13:07:39.244Z] [INFO]   4. "販売費" (parent_ua_code: null) 
+[2025-10-17T13:07:39.245Z] [INFO]   5. "一般管理費" (parent_ua_code: null) 
+[2025-10-17T13:07:39.245Z] [INFO]   6. "減価償却費" (parent_ua_code: null) 
+[2025-10-17T13:07:39.245Z] [INFO]   7. "営業利益" (parent_ua_code: null) 
+[2025-10-17T13:07:39.245Z] [INFO]   8. "税引き前当期利益" (parent_ua_code: null) 
+[2025-10-17T13:07:39.245Z] [INFO]   9. "支払法人税" (parent_ua_code: null) 
+[2025-10-17T13:07:39.245Z] [INFO]   10. "当期純利益" (parent_ua_code: null) 
+[2025-10-17T13:07:39.245Z] [INFO]   11. "商品売上" (parent_ua_code: imp-1) 
+[2025-10-17T13:07:39.246Z] [INFO]   12. "その他売上" (parent_ua_code: imp-1) 
+[2025-10-17T13:07:39.246Z] [INFO] === PROCESSING ACCOUNT 1/12 === 
+[2025-10-17T13:07:39.246Z] [INFO] Account name: 売上高 
+[2025-10-17T13:07:39.246Z] [INFO] Account code: imp-1 
+[2025-10-17T13:07:39.246Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:39.332Z] [INFO] Updated user account: 売上高 (ID: 24) 
+[2025-10-17T13:07:39.332Z] [INFO] Updated mapping: imp-1 -> 24 
+[2025-10-17T13:07:39.333Z] [INFO] === PROCESSING ACCOUNT 2/12 === 
+[2025-10-17T13:07:39.333Z] [INFO] Account name: 売上原価 
+[2025-10-17T13:07:39.333Z] [INFO] Account code: imp-6 
+[2025-10-17T13:07:39.333Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:39.417Z] [INFO] Updated user account: 売上原価 (ID: 26) 
+[2025-10-17T13:07:39.418Z] [INFO] Updated mapping: imp-6 -> 26 
+[2025-10-17T13:07:39.418Z] [INFO] === PROCESSING ACCOUNT 3/12 === 
+[2025-10-17T13:07:39.418Z] [INFO] Account name: 売上高総利益 
+[2025-10-17T13:07:39.418Z] [INFO] Account code: imp-7 
+[2025-10-17T13:07:39.419Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:39.527Z] [INFO] Updated user account: 売上高総利益 (ID: 27) 
+[2025-10-17T13:07:39.528Z] [INFO] Updated mapping: imp-7 -> 27 
+[2025-10-17T13:07:39.528Z] [INFO] === PROCESSING ACCOUNT 4/12 === 
+[2025-10-17T13:07:39.528Z] [INFO] Account name: 販売費 
+[2025-10-17T13:07:39.528Z] [INFO] Account code: imp-8 
+[2025-10-17T13:07:39.528Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:39.670Z] [INFO] Created new user account: 販売費 (ID: 28) 
+[2025-10-17T13:07:39.671Z] [INFO] Updated mapping: imp-8 -> 28 
+[2025-10-17T13:07:39.671Z] [INFO] === PROCESSING ACCOUNT 5/12 === 
+[2025-10-17T13:07:39.671Z] [INFO] Account name: 一般管理費 
+[2025-10-17T13:07:39.671Z] [INFO] Account code: imp-9 
+[2025-10-17T13:07:39.672Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:39.774Z] [INFO] Created new user account: 一般管理費 (ID: 29) 
+[2025-10-17T13:07:39.776Z] [INFO] Updated mapping: imp-9 -> 29 
+[2025-10-17T13:07:39.776Z] [INFO] === PROCESSING ACCOUNT 6/12 === 
+[2025-10-17T13:07:39.776Z] [INFO] Account name: 減価償却費 
+[2025-10-17T13:07:39.776Z] [INFO] Account code: imp-10 
+[2025-10-17T13:07:39.777Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:39.877Z] [INFO] Created new user account: 減価償却費 (ID: 30) 
+[2025-10-17T13:07:39.878Z] [INFO] Updated mapping: imp-10 -> 30 
+[2025-10-17T13:07:39.878Z] [INFO] === PROCESSING ACCOUNT 7/12 === 
+[2025-10-17T13:07:39.878Z] [INFO] Account name: 営業利益 
+[2025-10-17T13:07:39.878Z] [INFO] Account code: imp-11 
+[2025-10-17T13:07:39.879Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:40.000Z] [INFO] Created new user account: 営業利益 (ID: 31) 
+[2025-10-17T13:07:40.001Z] [INFO] Updated mapping: imp-11 -> 31 
+[2025-10-17T13:07:40.001Z] [INFO] === PROCESSING ACCOUNT 8/12 === 
+[2025-10-17T13:07:40.001Z] [INFO] Account name: 税引き前当期利益 
+[2025-10-17T13:07:40.001Z] [INFO] Account code: imp-12 
+[2025-10-17T13:07:40.002Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:40.102Z] [INFO] Created new user account: 税引き前当期利益 (ID: 32) 
+[2025-10-17T13:07:40.102Z] [INFO] Updated mapping: imp-12 -> 32 
+[2025-10-17T13:07:40.103Z] [INFO] === PROCESSING ACCOUNT 9/12 === 
+[2025-10-17T13:07:40.103Z] [INFO] Account name: 支払法人税 
+[2025-10-17T13:07:40.103Z] [INFO] Account code: imp-13 
+[2025-10-17T13:07:40.103Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:40.193Z] [INFO] Created new user account: 支払法人税 (ID: 33) 
+[2025-10-17T13:07:40.194Z] [INFO] Updated mapping: imp-13 -> 33 
+[2025-10-17T13:07:40.194Z] [INFO] === PROCESSING ACCOUNT 10/12 === 
+[2025-10-17T13:07:40.194Z] [INFO] Account name: 当期純利益 
+[2025-10-17T13:07:40.194Z] [INFO] Account code: imp-14 
+[2025-10-17T13:07:40.194Z] [INFO] Parent UA code: null 
+[2025-10-17T13:07:40.293Z] [INFO] Created new user account: 当期純利益 (ID: 34) 
+[2025-10-17T13:07:40.294Z] [INFO] Updated mapping: imp-14 -> 34 
+[2025-10-17T13:07:40.294Z] [INFO] === PROCESSING ACCOUNT 11/12 === 
+[2025-10-17T13:07:40.294Z] [INFO] Account name: 商品売上 
+[2025-10-17T13:07:40.295Z] [INFO] Account code: imp-2 
+[2025-10-17T13:07:40.295Z] [INFO] Parent UA code: imp-1 
+[2025-10-17T13:07:40.329Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 24 
+[2025-10-17T13:07:40.398Z] [INFO] Updated user account: 商品売上 (ID: 25) 
+[2025-10-17T13:07:40.398Z] [INFO] Updated mapping: imp-2 -> 25 
+[2025-10-17T13:07:40.399Z] [INFO] === PROCESSING ACCOUNT 12/12 === 
+[2025-10-17T13:07:40.399Z] [INFO] Account name: その他売上 
+[2025-10-17T13:07:40.399Z] [INFO] Account code: imp-5 
+[2025-10-17T13:07:40.399Z] [INFO] Parent UA code: imp-1 
+[2025-10-17T13:07:40.438Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 24 
+[2025-10-17T13:07:40.507Z] [INFO] Created new user account: その他売上 (ID: 35) 
+[2025-10-17T13:07:40.508Z] [INFO] Updated mapping: imp-5 -> 35 
+[2025-10-17T13:07:40.542Z] [INFO] === TRANSACTION COMMITTED === 
+[2025-10-17T13:07:40.542Z] [INFO] Successfully created 12 user accounts 
+[2025-10-17T13:07:40.572Z] [INFO] === FINAL STATE VERIFICATION === 
+[2025-10-17T13:07:40.572Z] [INFO] Total accounts in database: 12
+[2025-10-17T13:07:40.572Z] [INFO] User accounts created successfully 
+[2025-10-17T13:07:42.659Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T13:07:42.664Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T13:07:42.666Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T13:07:42.666Z] [INFO] === getUserAccounts called === 
+[2025-10-17T13:07:42.709Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T13:07:42.713Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-17T13:07:42.753Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-17T13:07:42.867Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T13:07:42.867Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T13:07:42.871Z] [INFO] [GET] /api/user-accounts 
+[2025-10-17T13:07:42.875Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-17T13:07:42.876Z] [INFO] === getUserAccounts called === 
+[2025-10-17T13:07:42.906Z] [INFO] Retrieved 12 user accounts with GA information 
+[2025-10-17T13:07:42.906Z] [INFO] User accounts retrieved successfully 
+[2025-10-17T13:07:45.245Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T13:07:45.246Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T13:07:45.284Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T13:07:45.286Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-17T13:07:45.287Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-17T13:07:45.312Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-17T13:07:56.302Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-17T13:07:56.302Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-17T13:07:56.303Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-17T13:07:56.629Z] [INFO] Calculation rule saved successfully 
+[2025-10-17T13:08:08.301Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-17T13:08:08.301Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-17T13:08:08.302Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-17T13:08:08.521Z] [INFO] Calculation rule saved successfully 
+[2025-10-17T13:08:15.881Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-17T13:08:15.881Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-17T13:08:15.882Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-17T13:08:15.963Z] [INFO] Calculation rule saved successfully 
+[2025-10-17T13:08:24.076Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-17T13:08:24.077Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-17T13:08:24.077Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-17T13:08:24.151Z] [INFO] Calculation rule saved successfully 
+[2025-10-18T00:16:43.893Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:17:03.874Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:17:58.948Z] [ERROR] Error in /api/financial-accounts: {
+  "errno": -60,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "54.178.158.39",
+  "port": 5432
+}
+[2025-10-18T00:18:18.879Z] [ERROR] Error in /api/financial-accounts: {
+  "errno": -60,
+  "code": "ETIMEDOUT",
+  "syscall": "connect",
+  "address": "54.178.158.39",
+  "port": 5432
+}
+[2025-10-18T00:20:27.509Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:20:27.703Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:20:27.708Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:20:27.755Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:20:32.830Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:20:33.023Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:20:33.028Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:20:33.059Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:20:59.809Z] [INFO] [POST] /api/import-data/1 
+[2025-10-18T00:20:59.815Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-18T00:20:59.828Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-18T00:20:59.838Z] [INFO] === saveImportData called === 
+[2025-10-18T00:20:59.838Z] [INFO] Model ID: 1
+[2025-10-18T00:20:59.839Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        2600000,
+        2860000,
+        3146000,
+        3460600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        2000000,
+        2200000,
+        2420000,
+        2662000,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品数量",
+      "values": [
+        40000,
+        44000,
+        48400,
+        53240,
+        0
+      ]
+    },
+    {
+      "type": "KPI",
+      "label": "商品単価",
+      "values": [
+        50,
+        55,
+        61,
+        67,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        600000,
+        660000,
+        726000,
+        798600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        1200000,
+        1260000,
+        1323000,
+        1389150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上総利益",
+      "values": [
+        1400000,
+        1600000,
+        1823000,
+        2071450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        200000,
+        220000,
+        242000,
+        266200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        200000,
+        210000,
+        220500,
+        231525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費及び一般管理費",
+      "values": [
+        400000,
+        430000,
+        462500,
+        497725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業外収益",
+      "values": [
+        50000,
+        55000,
+        60500,
+        66550,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業外費用",
+      "values": [
+        30000,
+        33000,
+        36300,
+        39930,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "特別利益",
+      "values": [
+        20000,
+        21000,
+        22100,
+        23205,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "特別損失",
+      "values": [
+        10000,
+        10500,
+        11025,
+        11576,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "法人税等調整額",
+      "values": [
+        5000,
+        5200,
+        5400,
+        5600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "法人税、住民税及び事業税",
+      "values": [
+        294000,
+        345750,
+        403732,
+        468592,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "現金及び預金",
+      "values": [
+        500000,
+        520000,
+        540800,
+        562432,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "受取手形及び売掛金",
+      "values": [
+        400000,
+        440000,
+        484000,
+        532400,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "棚卸資産",
+      "values": [
+        250000,
+        260000,
+        270400,
+        281216,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "建物",
+      "values": [
+        900000,
+        870000,
+        840000,
+        810000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "土地",
+      "values": [
+        600000,
+        600000,
+        600000,
+        600000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "知的財産権",
+      "values": [
+        200000,
+        205000,
+        210000,
+        215000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "ソフトウェア",
+      "values": [
+        150000,
+        155000,
+        160000,
+        165000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "のれん",
+      "values": [
+        80000,
+        76000,
+        72000,
+        68000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "投資その他の資産",
+      "values": [
+        120000,
+        130000,
+        140000,
+        150000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払手形及び買掛金",
+      "values": [
+        220000,
+        230000,
+        240000,
+        250000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "短期借入金",
+      "values": [
+        180000,
+        185000,
+        190000,
+        195000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "長期借入金",
+      "values": [
+        400000,
+        380000,
+        360000,
+        340000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "社債",
+      "values": [
+        150000,
+        150000,
+        150000,
+        150000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "資本金",
+      "values": [
+        700000,
+        700000,
+        700000,
+        700000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "経常利益",
+      "values": [
+        970000,
+        1142000,
+        1334700,
+        1550345,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引前当期純利益",
+      "values": [
+        980000,
+        1152500,
+        1345775,
+        1561974,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        681000,
+        801550,
+        936643,
+        1087782,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "流動資産",
+      "values": [
+        1150000,
+        1220000,
+        1295200,
+        1376048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "有形固定資産",
+      "values": [
+        1500000,
+        1470000,
+        1440000,
+        1410000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "無形固定資産",
+      "values": [
+        430000,
+        436000,
+        442000,
+        448000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "固定資産",
+      "values": [
+        2050000,
+        2036000,
+        2022000,
+        2008000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "資産",
+      "values": [
+        3200000,
+        3256000,
+        3317200,
+        3384048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "流動負債",
+      "values": [
+        400000,
+        415000,
+        430000,
+        445000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "固定負債",
+      "values": [
+        550000,
+        530000,
+        510000,
+        490000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "負債",
+      "values": [
+        950000,
+        945000,
+        940000,
+        935000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "利益剰余金",
+      "values": [
+        1550000,
+        1611000,
+        1677200,
+        1749048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "株主資本",
+      "values": [
+        2250000,
+        2311000,
+        2377200,
+        2449048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "純資産",
+      "values": [
+        2250000,
+        2311000,
+        2377200,
+        2449048,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-18T00:21:00.099Z] [INFO] Cleared existing import data for model 1 
+[2025-10-18T00:21:01.214Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-18T00:21:01.214Z] [INFO] Import data saved successfully 
+[2025-10-18T00:23:21.695Z] [INFO] [POST] /api/user-accounts 
+[2025-10-18T00:23:21.696Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-18T00:23:21.696Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上原価",
+      "ua_code": "imp-6",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "cogs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上総利益",
+      "ua_code": "imp-7",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "gross_profit",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "販売費及び一般管理費",
+      "ua_code": "imp-10",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "減価償却費",
+      "ua_code": "imp-11",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "depreciation",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業外収益",
+      "ua_code": "imp-12",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "non_op_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業外費用",
+      "ua_code": "imp-13",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "non_op_expenses",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "特別利益",
+      "ua_code": "imp-14",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "extra_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "特別損失",
+      "ua_code": "imp-15",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "extra_loss",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "商品売上",
+      "ua_code": "imp-2",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "その他売上",
+      "ua_code": "imp-5",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "販売費",
+      "ua_code": "imp-8",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_code": "imp-10"
+    },
+    {
+      "ua_name": "一般管理費",
+      "ua_code": "imp-9",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_code": "imp-10"
+    }
+  ]
+}
+[2025-10-18T00:23:21.698Z] [INFO] === createUserAccounts called === 
+[2025-10-18T00:23:21.698Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上原価",
+    "ua_code": "imp-6",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "cogs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上総利益",
+    "ua_code": "imp-7",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "gross_profit",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "販売費及び一般管理費",
+    "ua_code": "imp-10",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "減価償却費",
+    "ua_code": "imp-11",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "depreciation",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業外収益",
+    "ua_code": "imp-12",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "non_op_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業外費用",
+    "ua_code": "imp-13",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "non_op_expenses",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "特別利益",
+    "ua_code": "imp-14",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "extra_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "特別損失",
+    "ua_code": "imp-15",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "extra_loss",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "商品売上",
+    "ua_code": "imp-2",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "その他売上",
+    "ua_code": "imp-5",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "販売費",
+    "ua_code": "imp-8",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_code": "imp-10"
+  },
+  {
+    "ua_name": "一般管理費",
+    "ua_code": "imp-9",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_code": "imp-10"
+  }
+]
+[2025-10-18T00:23:21.893Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-18T00:23:21.893Z] [INFO] Accounts without parent UA (root accounts): 9 
+[2025-10-18T00:23:21.894Z] [INFO] Accounts with parent UA (child accounts): 4 
+[2025-10-18T00:23:21.895Z] [INFO]   Child account "商品売上" wants parent_ua_code: imp-1 
+[2025-10-18T00:23:21.895Z] [INFO]   Child account "その他売上" wants parent_ua_code: imp-1 
+[2025-10-18T00:23:21.895Z] [INFO]   Child account "販売費" wants parent_ua_code: imp-10 
+[2025-10-18T00:23:21.895Z] [INFO]   Child account "一般管理費" wants parent_ua_code: imp-10 
+[2025-10-18T00:23:21.896Z] [INFO] === INSERTION ORDER === 
+[2025-10-18T00:23:21.896Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-18T00:23:21.896Z] [INFO]   2. "売上原価" (parent_ua_code: null) 
+[2025-10-18T00:23:21.896Z] [INFO]   3. "売上総利益" (parent_ua_code: null) 
+[2025-10-18T00:23:21.896Z] [INFO]   4. "販売費及び一般管理費" (parent_ua_code: null) 
+[2025-10-18T00:23:21.896Z] [INFO]   5. "減価償却費" (parent_ua_code: null) 
+[2025-10-18T00:23:21.896Z] [INFO]   6. "営業外収益" (parent_ua_code: null) 
+[2025-10-18T00:23:21.896Z] [INFO]   7. "営業外費用" (parent_ua_code: null) 
+[2025-10-18T00:23:21.897Z] [INFO]   8. "特別利益" (parent_ua_code: null) 
+[2025-10-18T00:23:21.897Z] [INFO]   9. "特別損失" (parent_ua_code: null) 
+[2025-10-18T00:23:21.897Z] [INFO]   10. "商品売上" (parent_ua_code: imp-1) 
+[2025-10-18T00:23:21.897Z] [INFO]   11. "その他売上" (parent_ua_code: imp-1) 
+[2025-10-18T00:23:21.897Z] [INFO]   12. "販売費" (parent_ua_code: imp-10) 
+[2025-10-18T00:23:21.897Z] [INFO]   13. "一般管理費" (parent_ua_code: imp-10) 
+[2025-10-18T00:23:21.897Z] [INFO] === PROCESSING ACCOUNT 1/13 === 
+[2025-10-18T00:23:21.897Z] [INFO] Account name: 売上高 
+[2025-10-18T00:23:21.898Z] [INFO] Account code: imp-1 
+[2025-10-18T00:23:21.898Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.012Z] [INFO] Updated user account: 売上高 (ID: 24) 
+[2025-10-18T00:23:22.013Z] [INFO] Updated mapping: imp-1 -> 24 
+[2025-10-18T00:23:22.013Z] [INFO] === PROCESSING ACCOUNT 2/13 === 
+[2025-10-18T00:23:22.013Z] [INFO] Account name: 売上原価 
+[2025-10-18T00:23:22.014Z] [INFO] Account code: imp-6 
+[2025-10-18T00:23:22.014Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.129Z] [INFO] Updated user account: 売上原価 (ID: 26) 
+[2025-10-18T00:23:22.129Z] [INFO] Updated mapping: imp-6 -> 26 
+[2025-10-18T00:23:22.130Z] [INFO] === PROCESSING ACCOUNT 3/13 === 
+[2025-10-18T00:23:22.130Z] [INFO] Account name: 売上総利益 
+[2025-10-18T00:23:22.130Z] [INFO] Account code: imp-7 
+[2025-10-18T00:23:22.130Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.231Z] [INFO] Updated user account: 売上総利益 (ID: 27) 
+[2025-10-18T00:23:22.233Z] [INFO] Updated mapping: imp-7 -> 27 
+[2025-10-18T00:23:22.233Z] [INFO] === PROCESSING ACCOUNT 4/13 === 
+[2025-10-18T00:23:22.233Z] [INFO] Account name: 販売費及び一般管理費 
+[2025-10-18T00:23:22.233Z] [INFO] Account code: imp-10 
+[2025-10-18T00:23:22.233Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.318Z] [INFO] Updated user account: 販売費及び一般管理費 (ID: 30) 
+[2025-10-18T00:23:22.318Z] [INFO] Updated mapping: imp-10 -> 30 
+[2025-10-18T00:23:22.319Z] [INFO] === PROCESSING ACCOUNT 5/13 === 
+[2025-10-18T00:23:22.319Z] [INFO] Account name: 減価償却費 
+[2025-10-18T00:23:22.319Z] [INFO] Account code: imp-11 
+[2025-10-18T00:23:22.319Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.418Z] [INFO] Updated user account: 減価償却費 (ID: 31) 
+[2025-10-18T00:23:22.418Z] [INFO] Updated mapping: imp-11 -> 31 
+[2025-10-18T00:23:22.419Z] [INFO] === PROCESSING ACCOUNT 6/13 === 
+[2025-10-18T00:23:22.419Z] [INFO] Account name: 営業外収益 
+[2025-10-18T00:23:22.419Z] [INFO] Account code: imp-12 
+[2025-10-18T00:23:22.419Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.518Z] [INFO] Updated user account: 営業外収益 (ID: 32) 
+[2025-10-18T00:23:22.518Z] [INFO] Updated mapping: imp-12 -> 32 
+[2025-10-18T00:23:22.519Z] [INFO] === PROCESSING ACCOUNT 7/13 === 
+[2025-10-18T00:23:22.519Z] [INFO] Account name: 営業外費用 
+[2025-10-18T00:23:22.519Z] [INFO] Account code: imp-13 
+[2025-10-18T00:23:22.519Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.633Z] [INFO] Updated user account: 営業外費用 (ID: 33) 
+[2025-10-18T00:23:22.633Z] [INFO] Updated mapping: imp-13 -> 33 
+[2025-10-18T00:23:22.635Z] [INFO] === PROCESSING ACCOUNT 8/13 === 
+[2025-10-18T00:23:22.636Z] [INFO] Account name: 特別利益 
+[2025-10-18T00:23:22.636Z] [INFO] Account code: imp-14 
+[2025-10-18T00:23:22.636Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.745Z] [INFO] Updated user account: 特別利益 (ID: 34) 
+[2025-10-18T00:23:22.746Z] [INFO] Updated mapping: imp-14 -> 34 
+[2025-10-18T00:23:22.746Z] [INFO] === PROCESSING ACCOUNT 9/13 === 
+[2025-10-18T00:23:22.746Z] [INFO] Account name: 特別損失 
+[2025-10-18T00:23:22.746Z] [INFO] Account code: imp-15 
+[2025-10-18T00:23:22.746Z] [INFO] Parent UA code: null 
+[2025-10-18T00:23:22.838Z] [INFO] Created new user account: 特別損失 (ID: 36) 
+[2025-10-18T00:23:22.838Z] [INFO] Updated mapping: imp-15 -> 36 
+[2025-10-18T00:23:22.839Z] [INFO] === PROCESSING ACCOUNT 10/13 === 
+[2025-10-18T00:23:22.839Z] [INFO] Account name: 商品売上 
+[2025-10-18T00:23:22.839Z] [INFO] Account code: imp-2 
+[2025-10-18T00:23:22.839Z] [INFO] Parent UA code: imp-1 
+[2025-10-18T00:23:22.868Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 24 
+[2025-10-18T00:23:22.948Z] [INFO] Updated user account: 商品売上 (ID: 25) 
+[2025-10-18T00:23:22.948Z] [INFO] Updated mapping: imp-2 -> 25 
+[2025-10-18T00:23:22.949Z] [INFO] === PROCESSING ACCOUNT 11/13 === 
+[2025-10-18T00:23:22.949Z] [INFO] Account name: その他売上 
+[2025-10-18T00:23:22.949Z] [INFO] Account code: imp-5 
+[2025-10-18T00:23:22.949Z] [INFO] Parent UA code: imp-1 
+[2025-10-18T00:23:22.978Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 24 
+[2025-10-18T00:23:23.038Z] [INFO] Updated user account: その他売上 (ID: 35) 
+[2025-10-18T00:23:23.038Z] [INFO] Updated mapping: imp-5 -> 35 
+[2025-10-18T00:23:23.039Z] [INFO] === PROCESSING ACCOUNT 12/13 === 
+[2025-10-18T00:23:23.039Z] [INFO] Account name: 販売費 
+[2025-10-18T00:23:23.039Z] [INFO] Account code: imp-8 
+[2025-10-18T00:23:23.039Z] [INFO] Parent UA code: imp-10 
+[2025-10-18T00:23:23.082Z] [INFO] Resolved parent_ua_id from code mapping: imp-10 -> 30 
+[2025-10-18T00:23:23.133Z] [INFO] Updated user account: 販売費 (ID: 28) 
+[2025-10-18T00:23:23.133Z] [INFO] Updated mapping: imp-8 -> 28 
+[2025-10-18T00:23:23.133Z] [INFO] === PROCESSING ACCOUNT 13/13 === 
+[2025-10-18T00:23:23.134Z] [INFO] Account name: 一般管理費 
+[2025-10-18T00:23:23.134Z] [INFO] Account code: imp-9 
+[2025-10-18T00:23:23.134Z] [INFO] Parent UA code: imp-10 
+[2025-10-18T00:23:23.159Z] [INFO] Resolved parent_ua_id from code mapping: imp-10 -> 30 
+[2025-10-18T00:23:23.218Z] [INFO] Updated user account: 一般管理費 (ID: 29) 
+[2025-10-18T00:23:23.218Z] [INFO] Updated mapping: imp-9 -> 29 
+[2025-10-18T00:23:23.256Z] [INFO] === TRANSACTION COMMITTED === 
+[2025-10-18T00:23:23.256Z] [INFO] Successfully created 13 user accounts 
+[2025-10-18T00:23:23.293Z] [INFO] === FINAL STATE VERIFICATION === 
+[2025-10-18T00:23:23.293Z] [INFO] Total accounts in database: 13
+[2025-10-18T00:23:23.294Z] [INFO] User accounts created successfully 
+[2025-10-18T00:23:25.582Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:23:25.584Z] [INFO] [GET] /api/user-accounts 
+[2025-10-18T00:23:25.585Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-18T00:23:25.586Z] [INFO] === getUserAccounts called === 
+[2025-10-18T00:23:25.654Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:23:25.658Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:23:25.705Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:23:25.786Z] [INFO] Retrieved 13 user accounts with GA information 
+[2025-10-18T00:23:25.787Z] [INFO] User accounts retrieved successfully 
+[2025-10-18T00:23:25.789Z] [INFO] [GET] /api/user-accounts 
+[2025-10-18T00:23:25.790Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-18T00:23:25.790Z] [INFO] === getUserAccounts called === 
+[2025-10-18T00:23:25.819Z] [INFO] Retrieved 13 user accounts with GA information 
+[2025-10-18T00:23:25.820Z] [INFO] User accounts retrieved successfully 
+[2025-10-18T00:23:27.300Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-18T00:23:27.300Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-18T00:23:27.335Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-18T00:23:27.337Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-18T00:23:27.338Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-18T00:23:27.376Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-18T00:23:35.598Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-18T00:23:35.598Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-18T00:23:35.599Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-18T00:23:35.692Z] [INFO] Calculation rule saved successfully 
+[2025-10-18T00:23:40.805Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-18T00:23:40.806Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-18T00:23:40.807Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-18T00:23:40.898Z] [INFO] Calculation rule saved successfully 
+[2025-10-18T00:23:48.023Z] [INFO] [GET] /api/user-accounts 
+[2025-10-18T00:23:48.024Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-18T00:23:48.025Z] [INFO] === getUserAccounts called === 
+[2025-10-18T00:23:48.026Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:23:48.032Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-18T00:23:48.032Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-18T00:23:48.061Z] [INFO] Retrieved 13 user accounts with GA information 
+[2025-10-18T00:23:48.061Z] [INFO] User accounts retrieved successfully 
+[2025-10-18T00:23:48.065Z] [INFO] [GET] /api/user-accounts 
+[2025-10-18T00:23:48.065Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-18T00:23:48.065Z] [INFO] === getUserAccounts called === 
+[2025-10-18T00:23:48.094Z] [INFO] Retrieved 13 user accounts with GA information 
+[2025-10-18T00:23:48.095Z] [INFO] User accounts retrieved successfully 
+[2025-10-18T00:23:48.211Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:23:48.212Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-18T00:23:48.213Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-18T00:23:48.215Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-18T00:23:48.215Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-18T00:23:48.263Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-18T00:23:48.279Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-18T00:23:58.493Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-18T00:23:58.503Z] [INFO] [GET] /api/v1/calculations/status/f6f76116-c0be-4950-a7b7-1a472a736872 
+[2025-10-18T00:23:58.982Z] [WARN] FAM.compute skipped because GAID.CASH account not found {
+  "modelId": 1,
+  "scenarioId": 1
+}
+[2025-10-18T00:24:00.510Z] [INFO] [GET] /api/v1/calculations/status/f6f76116-c0be-4950-a7b7-1a472a736872 
+[2025-10-18T00:24:00.515Z] [INFO] [GET] /api/v1/calculations/results/f6f76116-c0be-4950-a7b7-1a472a736872 

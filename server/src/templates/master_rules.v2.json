@@ -1,0 +1,236 @@
+[
+  {
+    "targetAccountCode": "gross_profit",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "sales",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "cost_of_goods_sold",
+        "operator": "-"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "operating_income",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "gross_profit",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "sga",
+        "operator": "-"
+      },
+      {
+        "refAccountCode": "depreciation",
+        "operator": "-"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "ordinary_income",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "operating_income",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "non_operating_income",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "non_operating_expenses",
+        "operator": "-"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "pre_tax_income",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "ordinary_income",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "extraordinary_income",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "extraordinary_loss",
+        "operator": "-"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "net_income",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "pre_tax_income",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "income_taxes",
+        "operator": "-"
+      },
+      {
+        "refAccountCode": "income_tax_adjustment",
+        "operator": "-"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "current_assets",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "cash",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "trade_receivables",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "inventories",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "tangible_fixed_assets",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "buildings",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "ppe",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "intangible_fixed_assets",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "intellectual_propertyrights",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "software",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "goodwills",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "non_current_assets",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "tangible_fixed_assets",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "intangible_fixed_assets",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "investments",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "assets",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "current_assets",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "non_current_assets",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "current_liabilities",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "trade_payables",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "short_term_debt",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "non_current_liabilities",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "long_term_debt",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "bonds",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "liabilities",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "current_liabilities",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "non_current_liabilities",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "shareholders_equity",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "capital_stock",
+        "operator": "+"
+      },
+      {
+        "refAccountCode": "retained_earnings",
+        "operator": "+"
+      }
+    ]
+  },
+  {
+    "targetAccountCode": "equity",
+    "rule_type": "PARAMETER",
+    "calculation": [
+      {
+        "refAccountCode": "shareholders_equity",
+        "operator": "+"
+      }
+    ]
+  }
+]

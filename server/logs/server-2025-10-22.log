@@ -1,0 +1,639 @@
+[2025-10-22T07:17:03.334Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:17:03.336Z] [INFO] === Server starting === 
+[2025-10-22T07:17:03.338Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log
+[2025-10-22T07:17:03.341Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-22T07:17:03.341Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:17:08.643Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:17:08.645Z] [INFO] === Server starting === 
+[2025-10-22T07:17:08.645Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log
+[2025-10-22T07:17:08.651Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-22T07:17:08.651Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:17:32.934Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:17:32.936Z] [INFO] === Server starting === 
+[2025-10-22T07:17:32.936Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log
+[2025-10-22T07:17:32.940Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-22T07:17:32.940Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:17:43.676Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:17:43.712Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:17:43.734Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:17:43.754Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:17:43.760Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:17:43.763Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:17:43.767Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202"
+  ]
+}
+[2025-10-22T07:17:43.768Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202",
+    "401"
+  ]
+}
+[2025-10-22T07:21:11.118Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:21:11.147Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:11.166Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:11.184Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:11.189Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:11.191Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:11.194Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202"
+  ]
+}
+[2025-10-22T07:21:11.195Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202",
+    "401"
+  ]
+}
+[2025-10-22T07:21:58.591Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:21:58.619Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:58.637Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:58.655Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:58.660Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:58.662Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:21:58.665Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202"
+  ]
+}
+[2025-10-22T07:21:58.670Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202",
+    "401"
+  ]
+}
+[2025-10-22T07:22:36.534Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:22:36.595Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:22:36.640Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:22:36.678Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:22:36.688Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:22:36.692Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:22:36.696Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202"
+  ]
+}
+[2025-10-22T07:22:36.699Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202",
+    "401"
+  ]
+}
+[2025-10-22T07:23:37.754Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:23:37.757Z] [INFO] === Server starting === 
+[2025-10-22T07:23:37.758Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log
+[2025-10-22T07:23:37.762Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-22T07:23:37.763Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:23:51.778Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:23:51.806Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:23:51.833Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:23:51.841Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:23:51.844Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:23:51.846Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:23:51.849Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202"
+  ]
+}
+[2025-10-22T07:23:51.851Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202",
+    "401"
+  ]
+}
+[2025-10-22T07:24:06.960Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:24:06.989Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:24:07.008Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:24:07.014Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:24:07.017Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:24:07.019Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "101",
+    "201"
+  ]
+}
+[2025-10-22T07:24:07.023Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202"
+  ]
+}
+[2025-10-22T07:24:07.025Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "201",
+    "202",
+    "401"
+  ]
+}
+[2025-10-22T07:25:53.184Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:25:54.183Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "105",
+    "106",
+    "107",
+    "109",
+    "110",
+    "112",
+    "113",
+    "114",
+    "116",
+    "118",
+    "119",
+    "121",
+    "122",
+    "125",
+    "126",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ]
+}
+[2025-10-22T07:27:23.593Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:27:24.381Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "105",
+    "106",
+    "107",
+    "109",
+    "110",
+    "112",
+    "113",
+    "114",
+    "116",
+    "118",
+    "119",
+    "121",
+    "122",
+    "125",
+    "126",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ]
+}
+[2025-10-22T07:27:48.083Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-22T07:27:48.108Z] [INFO] [GET] /api/v1/calculations/status/a2b549ef-d8b6-48cb-8f0b-ce26956b9fb4 
+[2025-10-22T07:27:48.789Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "105",
+    "106",
+    "107",
+    "109",
+    "110",
+    "112",
+    "113",
+    "114",
+    "116",
+    "118",
+    "119",
+    "121",
+    "122",
+    "125",
+    "126",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ]
+}
+[2025-10-22T07:27:50.114Z] [INFO] [GET] /api/v1/calculations/status/a2b549ef-d8b6-48cb-8f0b-ce26956b9fb4 
+[2025-10-22T07:27:50.119Z] [INFO] [GET] /api/v1/calculations/results/a2b549ef-d8b6-48cb-8f0b-ce26956b9fb4 
+[2025-10-22T07:31:30.471Z] [INFO] [GET] /api/user-accounts 
+[2025-10-22T07:31:30.473Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-22T07:31:30.474Z] [INFO] === getUserAccounts called === 
+[2025-10-22T07:31:30.478Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-22T07:31:30.486Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-22T07:31:30.487Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-22T07:31:30.656Z] [INFO] Retrieved 65 user accounts with GA information 
+[2025-10-22T07:31:30.657Z] [INFO] User accounts retrieved successfully 
+[2025-10-22T07:31:30.664Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-22T07:31:30.667Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-22T07:31:30.669Z] [INFO] [GET] /api/user-accounts 
+[2025-10-22T07:31:30.670Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-22T07:31:30.670Z] [INFO] === getUserAccounts called === 
+[2025-10-22T07:31:30.671Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-22T07:31:30.673Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-22T07:31:30.673Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-22T07:31:30.724Z] [INFO] Retrieved 65 user accounts with GA information 
+[2025-10-22T07:31:30.724Z] [INFO] User accounts retrieved successfully 
+[2025-10-22T07:31:30.726Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-22T07:31:30.730Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-22T07:31:34.589Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-22T07:31:34.596Z] [INFO] [GET] /api/v1/calculations/status/36dcccea-cb8c-47d5-9a14-61fe5998eb6b 
+[2025-10-22T07:31:35.173Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "105",
+    "106",
+    "107",
+    "109",
+    "110",
+    "112",
+    "113",
+    "114",
+    "116",
+    "118",
+    "119",
+    "121",
+    "122",
+    "125",
+    "126",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ]
+}
+[2025-10-22T07:31:37.006Z] [INFO] [GET] /api/v1/calculations/status/36dcccea-cb8c-47d5-9a14-61fe5998eb6b 
+[2025-10-22T07:31:37.107Z] [INFO] [GET] /api/v1/calculations/results/36dcccea-cb8c-47d5-9a14-61fe5998eb6b 
+[2025-10-22T07:38:36.373Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-22T07:38:36.453Z] [INFO] [GET] /api/v1/calculations/status/741d6850-120b-4e71-9bec-3340589a6747 
+[2025-10-22T07:38:36.938Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "105",
+    "106",
+    "107",
+    "109",
+    "110",
+    "112",
+    "113",
+    "114",
+    "116",
+    "118",
+    "119",
+    "121",
+    "122",
+    "125",
+    "126",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ]
+}
+[2025-10-22T07:38:38.467Z] [INFO] [GET] /api/v1/calculations/status/741d6850-120b-4e71-9bec-3340589a6747 
+[2025-10-22T07:38:38.471Z] [INFO] [GET] /api/v1/calculations/results/741d6850-120b-4e71-9bec-3340589a6747 
+[2025-10-22T07:38:41.829Z] [INFO] [GET] /api/user-accounts 
+[2025-10-22T07:38:41.829Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-22T07:38:41.830Z] [INFO] === getUserAccounts called === 
+[2025-10-22T07:38:41.831Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-22T07:38:41.853Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-22T07:38:41.853Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-22T07:38:42.008Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-22T07:38:42.010Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-22T07:38:42.016Z] [INFO] Retrieved 65 user accounts with GA information 
+[2025-10-22T07:38:42.017Z] [INFO] User accounts retrieved successfully 
+[2025-10-22T07:38:42.018Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-22T07:38:42.019Z] [INFO] [GET] /api/user-accounts 
+[2025-10-22T07:38:42.020Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-22T07:38:42.020Z] [INFO] === getUserAccounts called === 
+[2025-10-22T07:38:42.021Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-22T07:38:42.021Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-22T07:38:42.053Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-22T07:38:42.068Z] [INFO] Retrieved 65 user accounts with GA information 
+[2025-10-22T07:38:42.069Z] [INFO] User accounts retrieved successfully 
+[2025-10-22T07:38:42.071Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-22T07:38:44.538Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-22T07:38:44.545Z] [INFO] [GET] /api/v1/calculations/status/c2b7cf0b-3c32-431b-a62c-cfb0b7767401 
+[2025-10-22T07:38:44.902Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "105",
+    "106",
+    "107",
+    "109",
+    "110",
+    "112",
+    "113",
+    "114",
+    "116",
+    "118",
+    "119",
+    "121",
+    "122",
+    "125",
+    "126",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ]
+}
+[2025-10-22T07:38:46.550Z] [INFO] [GET] /api/v1/calculations/status/c2b7cf0b-3c32-431b-a62c-cfb0b7767401 
+[2025-10-22T07:38:46.554Z] [INFO] [GET] /api/v1/calculations/results/c2b7cf0b-3c32-431b-a62c-cfb0b7767401 
+[2025-10-22T07:50:44.481Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T07:50:44.487Z] [INFO] === Server starting === 
+[2025-10-22T07:50:44.487Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log
+[2025-10-22T07:50:44.494Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-22T07:50:44.495Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-22.log 
+[2025-10-22T11:32:16.264Z] [INFO] [POST] /api/v1/calculations 
+[2025-10-22T11:32:16.289Z] [INFO] [GET] /api/v1/calculations/status/4f8b30bb-10d8-44bb-a952-acf01ac161ac 
+[2025-10-22T11:32:17.092Z] [DEBUG] Applied fallback INPUT rules for accounts {
+  "accounts": [
+    "105",
+    "106",
+    "107",
+    "109",
+    "110",
+    "112",
+    "113",
+    "114",
+    "116",
+    "118",
+    "119",
+    "121",
+    "122",
+    "125",
+    "126",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154"
+  ]
+}
+[2025-10-22T11:32:18.297Z] [INFO] [GET] /api/v1/calculations/status/4f8b30bb-10d8-44bb-a952-acf01ac161ac 
+[2025-10-22T11:32:18.301Z] [INFO] [GET] /api/v1/calculations/results/4f8b30bb-10d8-44bb-a952-acf01ac161ac 

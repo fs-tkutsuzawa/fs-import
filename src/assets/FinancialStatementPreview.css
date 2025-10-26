@@ -1,0 +1,38 @@
+body {
+  font-family: 'Inter', sans-serif;
+  overscroll-behavior: none;
+}
+.fs-main-container {
+  width: 100%;
+  max-width: 100%;
+  height: calc(100vh - 200px);
+  padding: 0;
+}
+.scrollable-area {
+  overflow-y: auto;
+  height: 100%;
+  padding: 0 1rem;
+  max-width: 100%;
+  margin: 0;
+}
+/* Custom scrollbar for better aesthetics */
+.scrollable-area::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollable-area::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.scrollable-area::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+  border-radius: 10px;
+}
+.scrollable-area::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 30;
+}

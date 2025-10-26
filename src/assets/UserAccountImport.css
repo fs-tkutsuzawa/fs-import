@@ -1,0 +1,42 @@
+body {
+  font-family: 'Inter', sans-serif;
+  overscroll-behavior: none;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.imported-list-container {
+  position: sticky;
+  top: 1.5rem;
+  align-self: start;
+  max-height: calc(100vh - 3rem);
+  display: flex;
+  flex-direction: column;
+}
+.imported-list-container .scrollable-area {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+.scrollable-area {
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+/* Custom scrollbar for better aesthetics */
+.scrollable-area::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollable-area::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.scrollable-area::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+  border-radius: 10px;
+}
+.scrollable-area::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

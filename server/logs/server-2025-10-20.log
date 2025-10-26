@@ -1,0 +1,3199 @@
+[2025-10-20T05:31:23.197Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log 
+[2025-10-20T05:31:23.202Z] [INFO] === Server starting === 
+[2025-10-20T05:31:23.202Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log
+[2025-10-20T05:31:23.207Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-20T05:31:23.207Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log 
+[2025-10-20T05:31:34.748Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log 
+[2025-10-20T05:31:34.752Z] [INFO] === Server starting === 
+[2025-10-20T05:31:34.753Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log
+[2025-10-20T05:31:34.757Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-20T05:31:34.758Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log 
+[2025-10-20T05:32:09.316Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log 
+[2025-10-20T05:32:09.318Z] [INFO] === Server starting === 
+[2025-10-20T05:32:09.319Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log
+[2025-10-20T05:32:09.324Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-20T05:32:09.324Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-20.log 
+[2025-10-20T08:02:48.801Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:02:49.846Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:02:49.859Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:02:49.940Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:03:01.410Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:03:01.948Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:03:01.951Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:03:02.020Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:03:04.677Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:03:04.827Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:03:04.830Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:03:04.914Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:03:07.340Z] [INFO] [PUT] /api/financial-accounts 
+[2025-10-20T08:03:07.341Z] [INFO] === PUT /api/financial-accounts received === 
+[2025-10-20T08:03:07.349Z] [INFO] Request body: {
+  "id": "sales",
+  "newName": "売上高"
+}
+[2025-10-20T08:03:07.350Z] [INFO] Extracted id: sales
+[2025-10-20T08:03:07.350Z] [INFO] Extracted newName: 売上高
+[2025-10-20T08:03:07.350Z] [INFO] Calling updateFinancialAccountName with id: sales, newName: 売上高 
+[2025-10-20T08:03:07.431Z] [INFO] Update successful. Result: {
+  "id": "sales",
+  "ga_name": "売上高",
+  "ga_code": "sales",
+  "sort_num": 1,
+  "indent_num": 0,
+  "fs_type": "PL",
+  "ga_type": "aggregate",
+  "is_credit": null,
+  "parent_ga_id": "gross_profit"
+}
+[2025-10-20T08:03:10.176Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:03:10.269Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:03:10.272Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:03:10.328Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:04:05.132Z] [INFO] [POST] /api/import-data/1 
+[2025-10-20T08:04:05.133Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-20T08:04:05.135Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-20T08:04:05.136Z] [INFO] === saveImportData called === 
+[2025-10-20T08:04:05.136Z] [INFO] Model ID: 1
+[2025-10-20T08:04:05.136Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        2600000,
+        2860000,
+        3146000,
+        3460600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        2000000,
+        2200000,
+        2420000,
+        2662000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        600000,
+        660000,
+        726000,
+        798600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        1200000,
+        1260000,
+        1323000,
+        1389150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上総利益",
+      "values": [
+        1400000,
+        1600000,
+        1823000,
+        2071450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        200000,
+        220000,
+        242000,
+        266200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        200000,
+        210000,
+        220500,
+        231525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費及び一般管理費",
+      "values": [
+        400000,
+        430000,
+        462500,
+        497725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業外収益",
+      "values": [
+        50000,
+        55000,
+        60500,
+        66550,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業外費用",
+      "values": [
+        30000,
+        33000,
+        36300,
+        39930,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "経常利益",
+      "values": [
+        970000,
+        1142000,
+        1334700,
+        1550345,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "特別利益",
+      "values": [
+        20000,
+        21000,
+        22100,
+        23205,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "特別損失",
+      "values": [
+        10000,
+        10500,
+        11025,
+        11576,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引前当期純利益",
+      "values": [
+        980000,
+        1152500,
+        1345775,
+        1561974,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "法人税、住民税及び事業税",
+      "values": [
+        294000,
+        345750,
+        403732,
+        468592,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "法人税等調整額",
+      "values": [
+        5000,
+        5200,
+        5400,
+        5600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        681000,
+        801550,
+        936643,
+        1087782,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "現金及び預金",
+      "values": [
+        500000,
+        520000,
+        540800,
+        562432,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "受取手形及び売掛金",
+      "values": [
+        400000,
+        440000,
+        484000,
+        532400,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "棚卸資産",
+      "values": [
+        250000,
+        260000,
+        270400,
+        281216,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "流動資産",
+      "values": [
+        1150000,
+        1220000,
+        1295200,
+        1376048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "建物",
+      "values": [
+        900000,
+        870000,
+        840000,
+        810000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "土地",
+      "values": [
+        600000,
+        600000,
+        600000,
+        600000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "有形固定資産",
+      "values": [
+        1500000,
+        1470000,
+        1440000,
+        1410000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "知的財産権",
+      "values": [
+        200000,
+        205000,
+        210000,
+        215000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "ソフトウェア",
+      "values": [
+        150000,
+        155000,
+        160000,
+        165000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "のれん",
+      "values": [
+        80000,
+        76000,
+        72000,
+        68000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "無形固定資産",
+      "values": [
+        430000,
+        436000,
+        442000,
+        448000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "投資その他の資産",
+      "values": [
+        120000,
+        130000,
+        140000,
+        150000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "固定資産",
+      "values": [
+        2050000,
+        2036000,
+        2022000,
+        2008000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払手形及び買掛金",
+      "values": [
+        220000,
+        230000,
+        240000,
+        250000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "短期借入金",
+      "values": [
+        180000,
+        185000,
+        190000,
+        195000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "流動負債",
+      "values": [
+        400000,
+        415000,
+        430000,
+        445000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "長期借入金",
+      "values": [
+        400000,
+        380000,
+        360000,
+        340000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "社債",
+      "values": [
+        150000,
+        150000,
+        150000,
+        150000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "固定負債",
+      "values": [
+        550000,
+        530000,
+        510000,
+        490000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "負債",
+      "values": [
+        950000,
+        945000,
+        940000,
+        935000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "資本金",
+      "values": [
+        700000,
+        700000,
+        700000,
+        700000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "利益剰余金",
+      "values": [
+        1550000,
+        1611000,
+        1677200,
+        1749048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "株主資本",
+      "values": [
+        2250000,
+        2311000,
+        2377200,
+        2449048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "純資産",
+      "values": [
+        2250000,
+        2311000,
+        2377200,
+        2449048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "CF減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税金等調整前当期純利益",
+      "values": [
+        980000,
+        1152500,
+        1345775,
+        1561974,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業活動によるキャッシュ・フロー",
+      "values": [
+        681000,
+        801550,
+        936643,
+        1087782,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-20T08:04:05.648Z] [INFO] Cleared existing import data for model 1 
+[2025-10-20T08:04:05.850Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-20T08:04:05.850Z] [INFO] Import data saved successfully 
+[2025-10-20T08:08:01.736Z] [INFO] [POST] /api/user-accounts 
+[2025-10-20T08:08:01.736Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-20T08:08:01.737Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上原価",
+      "ua_code": "imp-4",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "cogs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上総利益",
+      "ua_code": "imp-5",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "gross_profit",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "販売費及び一般管理費",
+      "ua_code": "imp-8",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "減価償却費",
+      "ua_code": "imp-9",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "depreciation",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業利益",
+      "ua_code": "imp-10",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "operating_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業外収益",
+      "ua_code": "imp-11",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "non_op_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業外費用",
+      "ua_code": "imp-12",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "non_op_expenses",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "経常利益",
+      "ua_code": "imp-13",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "ordinary_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "特別利益",
+      "ua_code": "imp-14",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "extra_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "特別損失",
+      "ua_code": "imp-15",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "extra_loss",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "税引前当期純利益",
+      "ua_code": "imp-16",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "pre_tax_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "法人税、住民税及び事業税",
+      "ua_code": "imp-17",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "income_taxes",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "法人税等調整額",
+      "ua_code": "imp-18",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "income_tax_adj",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "当期純利益",
+      "ua_code": "imp-19",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "net_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "現金及び預金",
+      "ua_code": "imp-20",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "cash",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "受取手形及び売掛金",
+      "ua_code": "imp-21",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "trade_receivables",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "棚卸資産",
+      "ua_code": "imp-22",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "inventories",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "流動資産",
+      "ua_code": "imp-23",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "current_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "建物",
+      "ua_code": "imp-24",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "buildings",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "土地",
+      "ua_code": "imp-25",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "ppe",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "有形固定資産",
+      "ua_code": "imp-26",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "tangible_fixed_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "知的財産権",
+      "ua_code": "imp-27",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "ip_rights",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "ソフトウェア",
+      "ua_code": "imp-28",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "software",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "のれん",
+      "ua_code": "imp-29",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "goodwills",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "無形固定資産",
+      "ua_code": "imp-30",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "intangible_fixed_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "投資その他の資産",
+      "ua_code": "imp-31",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "investments",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "固定資産",
+      "ua_code": "imp-32",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "non_current_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "支払手形及び買掛金",
+      "ua_code": "imp-33",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "trade_payables",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "短期借入金",
+      "ua_code": "imp-34",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "short_term_debt",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "流動負債",
+      "ua_code": "imp-35",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "current_liabilities",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "長期借入金",
+      "ua_code": "imp-36",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "long_term_debt",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "社債",
+      "ua_code": "imp-37",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "bonds",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "固定負債",
+      "ua_code": "imp-38",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "non_current_liabilities",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "負債",
+      "ua_code": "imp-39",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "liabilities",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "資本金",
+      "ua_code": "imp-40",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "capital_stock",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "利益剰余金",
+      "ua_code": "imp-41",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "retained_earnings",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "株主資本",
+      "ua_code": "imp-42",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "shareholders_equity",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "純資産",
+      "ua_code": "imp-43",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "equity",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "商品売上",
+      "ua_code": "imp-2",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "その他売上",
+      "ua_code": "imp-3",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "販売費",
+      "ua_code": "imp-6",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_code": "imp-8"
+    },
+    {
+      "ua_name": "一般管理費",
+      "ua_code": "imp-7",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_code": "imp-8"
+    }
+  ]
+}
+[2025-10-20T08:08:01.739Z] [INFO] === createUserAccounts called === 
+[2025-10-20T08:08:01.739Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上原価",
+    "ua_code": "imp-4",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "cogs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上総利益",
+    "ua_code": "imp-5",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "gross_profit",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "販売費及び一般管理費",
+    "ua_code": "imp-8",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "減価償却費",
+    "ua_code": "imp-9",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "depreciation",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業利益",
+    "ua_code": "imp-10",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "operating_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業外収益",
+    "ua_code": "imp-11",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "non_op_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業外費用",
+    "ua_code": "imp-12",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "non_op_expenses",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "経常利益",
+    "ua_code": "imp-13",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "ordinary_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "特別利益",
+    "ua_code": "imp-14",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "extra_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "特別損失",
+    "ua_code": "imp-15",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "extra_loss",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "税引前当期純利益",
+    "ua_code": "imp-16",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "pre_tax_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "法人税、住民税及び事業税",
+    "ua_code": "imp-17",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "income_taxes",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "法人税等調整額",
+    "ua_code": "imp-18",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "income_tax_adj",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "当期純利益",
+    "ua_code": "imp-19",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "net_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "現金及び預金",
+    "ua_code": "imp-20",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "cash",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "受取手形及び売掛金",
+    "ua_code": "imp-21",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "trade_receivables",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "棚卸資産",
+    "ua_code": "imp-22",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "inventories",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "流動資産",
+    "ua_code": "imp-23",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "current_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "建物",
+    "ua_code": "imp-24",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "buildings",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "土地",
+    "ua_code": "imp-25",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "ppe",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "有形固定資産",
+    "ua_code": "imp-26",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "tangible_fixed_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "知的財産権",
+    "ua_code": "imp-27",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "ip_rights",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "ソフトウェア",
+    "ua_code": "imp-28",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "software",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "のれん",
+    "ua_code": "imp-29",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "goodwills",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "無形固定資産",
+    "ua_code": "imp-30",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "intangible_fixed_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "投資その他の資産",
+    "ua_code": "imp-31",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "investments",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "固定資産",
+    "ua_code": "imp-32",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "non_current_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "支払手形及び買掛金",
+    "ua_code": "imp-33",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "trade_payables",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "短期借入金",
+    "ua_code": "imp-34",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "short_term_debt",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "流動負債",
+    "ua_code": "imp-35",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "current_liabilities",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "長期借入金",
+    "ua_code": "imp-36",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "long_term_debt",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "社債",
+    "ua_code": "imp-37",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "bonds",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "固定負債",
+    "ua_code": "imp-38",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "non_current_liabilities",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "負債",
+    "ua_code": "imp-39",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "liabilities",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "資本金",
+    "ua_code": "imp-40",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "capital_stock",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "利益剰余金",
+    "ua_code": "imp-41",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "retained_earnings",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "株主資本",
+    "ua_code": "imp-42",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "shareholders_equity",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "純資産",
+    "ua_code": "imp-43",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "equity",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "商品売上",
+    "ua_code": "imp-2",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "その他売上",
+    "ua_code": "imp-3",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "販売費",
+    "ua_code": "imp-6",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_code": "imp-8"
+  },
+  {
+    "ua_name": "一般管理費",
+    "ua_code": "imp-7",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_code": "imp-8"
+  }
+]
+[2025-10-20T08:08:02.028Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-20T08:08:02.029Z] [INFO] Accounts without parent UA (root accounts): 39 
+[2025-10-20T08:08:02.029Z] [INFO] Accounts with parent UA (child accounts): 4 
+[2025-10-20T08:08:02.029Z] [INFO]   Child account "商品売上" wants parent_ua_code: imp-1 
+[2025-10-20T08:08:02.029Z] [INFO]   Child account "その他売上" wants parent_ua_code: imp-1 
+[2025-10-20T08:08:02.030Z] [INFO]   Child account "販売費" wants parent_ua_code: imp-8 
+[2025-10-20T08:08:02.030Z] [INFO]   Child account "一般管理費" wants parent_ua_code: imp-8 
+[2025-10-20T08:08:02.030Z] [INFO] === INSERTION ORDER === 
+[2025-10-20T08:08:02.030Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-20T08:08:02.030Z] [INFO]   2. "売上原価" (parent_ua_code: null) 
+[2025-10-20T08:08:02.030Z] [INFO]   3. "売上総利益" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   4. "販売費及び一般管理費" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   5. "減価償却費" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   6. "営業利益" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   7. "営業外収益" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   8. "営業外費用" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   9. "経常利益" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   10. "特別利益" (parent_ua_code: null) 
+[2025-10-20T08:08:02.031Z] [INFO]   11. "特別損失" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   12. "税引前当期純利益" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   13. "法人税、住民税及び事業税" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   14. "法人税等調整額" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   15. "当期純利益" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   16. "現金及び預金" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   17. "受取手形及び売掛金" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   18. "棚卸資産" (parent_ua_code: null) 
+[2025-10-20T08:08:02.032Z] [INFO]   19. "流動資産" (parent_ua_code: null) 
+[2025-10-20T08:08:02.033Z] [INFO]   20. "建物" (parent_ua_code: null) 
+[2025-10-20T08:08:02.033Z] [INFO]   21. "土地" (parent_ua_code: null) 
+[2025-10-20T08:08:02.033Z] [INFO]   22. "有形固定資産" (parent_ua_code: null) 
+[2025-10-20T08:08:02.033Z] [INFO]   23. "知的財産権" (parent_ua_code: null) 
+[2025-10-20T08:08:02.033Z] [INFO]   24. "ソフトウェア" (parent_ua_code: null) 
+[2025-10-20T08:08:02.033Z] [INFO]   25. "のれん" (parent_ua_code: null) 
+[2025-10-20T08:08:02.033Z] [INFO]   26. "無形固定資産" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   27. "投資その他の資産" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   28. "固定資産" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   29. "支払手形及び買掛金" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   30. "短期借入金" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   31. "流動負債" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   32. "長期借入金" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   33. "社債" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   34. "固定負債" (parent_ua_code: null) 
+[2025-10-20T08:08:02.034Z] [INFO]   35. "負債" (parent_ua_code: null) 
+[2025-10-20T08:08:02.035Z] [INFO]   36. "資本金" (parent_ua_code: null) 
+[2025-10-20T08:08:02.035Z] [INFO]   37. "利益剰余金" (parent_ua_code: null) 
+[2025-10-20T08:08:02.035Z] [INFO]   38. "株主資本" (parent_ua_code: null) 
+[2025-10-20T08:08:02.035Z] [INFO]   39. "純資産" (parent_ua_code: null) 
+[2025-10-20T08:08:02.035Z] [INFO]   40. "商品売上" (parent_ua_code: imp-1) 
+[2025-10-20T08:08:02.035Z] [INFO]   41. "その他売上" (parent_ua_code: imp-1) 
+[2025-10-20T08:08:02.035Z] [INFO]   42. "販売費" (parent_ua_code: imp-8) 
+[2025-10-20T08:08:02.035Z] [INFO]   43. "一般管理費" (parent_ua_code: imp-8) 
+[2025-10-20T08:08:02.035Z] [INFO] === PROCESSING ACCOUNT 1/43 === 
+[2025-10-20T08:08:02.035Z] [INFO] Account name: 売上高 
+[2025-10-20T08:08:02.036Z] [INFO] Account code: imp-1 
+[2025-10-20T08:08:02.036Z] [INFO] Parent UA code: null 
+[2025-10-20T08:08:02.440Z] [INFO] Updated user account: 売上高 (ID: 24) 
+[2025-10-20T08:08:02.440Z] [INFO] Updated mapping: imp-1 -> 24 
+[2025-10-20T08:08:02.441Z] [INFO] === PROCESSING ACCOUNT 2/43 === 
+[2025-10-20T08:08:02.441Z] [INFO] Account name: 売上原価 
+[2025-10-20T08:08:02.441Z] [INFO] Account code: imp-4 
+[2025-10-20T08:08:02.441Z] [INFO] Parent UA code: null 
+[2025-10-20T08:08:02.607Z] [ERROR] ❌ Failed to upsert account "売上原価": {
+  "length": 234,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Key (ua_name)=(売上原価) already exists.",
+  "schema": "public",
+  "table": "user_accounts",
+  "constraint": "user_accounts_ua_name_key",
+  "file": "nbtinsert.c",
+  "line": "664",
+  "routine": "_bt_check_unique"
+}
+[2025-10-20T08:08:02.671Z] [ERROR] === TRANSACTION ROLLED BACK === 
+[2025-10-20T08:08:02.671Z] [ERROR] Error creating user accounts: {
+  "length": 234,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Key (ua_name)=(売上原価) already exists.",
+  "schema": "public",
+  "table": "user_accounts",
+  "constraint": "user_accounts_ua_name_key",
+  "file": "nbtinsert.c",
+  "line": "664",
+  "routine": "_bt_check_unique"
+}
+[2025-10-20T08:08:02.671Z] [ERROR] Error details: {
+  "message": "duplicate key value violates unique constraint \"user_accounts_ua_name_key\"",
+  "code": "23505",
+  "detail": "Key (ua_name)=(売上原価) already exists.",
+  "constraint": "user_accounts_ua_name_key"
+}
+[2025-10-20T08:08:02.672Z] [ERROR] Error creating user accounts: {
+  "length": 234,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Key (ua_name)=(売上原価) already exists.",
+  "schema": "public",
+  "table": "user_accounts",
+  "constraint": "user_accounts_ua_name_key",
+  "file": "nbtinsert.c",
+  "line": "664",
+  "routine": "_bt_check_unique"
+}
+[2025-10-20T08:20:37.303Z] [INFO] [POST] /api/user-accounts 
+[2025-10-20T08:20:37.304Z] [INFO] === POST /api/user-accounts received === 
+[2025-10-20T08:20:37.307Z] [INFO] Request body: {
+  "accounts": [
+    {
+      "ua_name": "売上高",
+      "ua_code": "imp-1",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上原価",
+      "ua_code": "imp-4",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "cogs",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "売上総利益",
+      "ua_code": "imp-5",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "gross_profit",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "販売費及び一般管理費",
+      "ua_code": "imp-8",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "減価償却費",
+      "ua_code": "imp-9",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "depreciation",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業利益",
+      "ua_code": "imp-10",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "operating_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業外収益",
+      "ua_code": "imp-11",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "non_op_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "営業外費用",
+      "ua_code": "imp-12",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "non_op_expenses",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "経常利益",
+      "ua_code": "imp-13",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "ordinary_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "特別利益",
+      "ua_code": "imp-14",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "extra_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "特別損失",
+      "ua_code": "imp-15",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "extra_loss",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "税引前当期純利益",
+      "ua_code": "imp-16",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "pre_tax_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "法人税、住民税及び事業税",
+      "ua_code": "imp-17",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "income_taxes",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "法人税等調整額",
+      "ua_code": "imp-18",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "income_tax_adj",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "当期純利益",
+      "ua_code": "imp-19",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "net_income",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "現金及び預金",
+      "ua_code": "imp-20",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "cash",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "受取手形及び売掛金",
+      "ua_code": "imp-21",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "trade_receivables",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "棚卸資産",
+      "ua_code": "imp-22",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "inventories",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "流動資産",
+      "ua_code": "imp-23",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "current_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "建物",
+      "ua_code": "imp-24",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "buildings",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "土地",
+      "ua_code": "imp-25",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "ppe",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "有形固定資産",
+      "ua_code": "imp-26",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "tangible_fixed_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "知的財産権",
+      "ua_code": "imp-27",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "ip_rights",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "ソフトウェア",
+      "ua_code": "imp-28",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "software",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "のれん",
+      "ua_code": "imp-29",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "goodwills",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "無形固定資産",
+      "ua_code": "imp-30",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "intangible_fixed_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "投資その他の資産",
+      "ua_code": "imp-31",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "investments",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "固定資産",
+      "ua_code": "imp-32",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "non_current_assets",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "支払手形及び買掛金",
+      "ua_code": "imp-33",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "trade_payables",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "短期借入金",
+      "ua_code": "imp-34",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "short_term_debt",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "流動負債",
+      "ua_code": "imp-35",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "current_liabilities",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "長期借入金",
+      "ua_code": "imp-36",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "long_term_debt",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "社債",
+      "ua_code": "imp-37",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "bonds",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "固定負債",
+      "ua_code": "imp-38",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "non_current_liabilities",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "負債",
+      "ua_code": "imp-39",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "liabilities",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "資本金",
+      "ua_code": "imp-40",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "capital_stock",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "利益剰余金",
+      "ua_code": "imp-41",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "retained_earnings",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "株主資本",
+      "ua_code": "imp-42",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "shareholders_equity",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "純資産",
+      "ua_code": "imp-43",
+      "fs_type": "BS",
+      "is_kpi": false,
+      "parent_ga_id": "equity",
+      "parent_ua_id": null
+    },
+    {
+      "ua_name": "商品売上",
+      "ua_code": "imp-2",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "その他売上",
+      "ua_code": "imp-3",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sales",
+      "parent_ua_code": "imp-1"
+    },
+    {
+      "ua_name": "販売費",
+      "ua_code": "imp-6",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_code": "imp-8"
+    },
+    {
+      "ua_name": "一般管理費",
+      "ua_code": "imp-7",
+      "fs_type": "PL",
+      "is_kpi": false,
+      "parent_ga_id": "sga",
+      "parent_ua_code": "imp-8"
+    }
+  ]
+}
+[2025-10-20T08:20:37.310Z] [INFO] === createUserAccounts called === 
+[2025-10-20T08:20:37.310Z] [INFO] Accounts to create: [
+  {
+    "ua_name": "売上高",
+    "ua_code": "imp-1",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上原価",
+    "ua_code": "imp-4",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "cogs",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "売上総利益",
+    "ua_code": "imp-5",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "gross_profit",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "販売費及び一般管理費",
+    "ua_code": "imp-8",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "減価償却費",
+    "ua_code": "imp-9",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "depreciation",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業利益",
+    "ua_code": "imp-10",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "operating_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業外収益",
+    "ua_code": "imp-11",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "non_op_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "営業外費用",
+    "ua_code": "imp-12",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "non_op_expenses",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "経常利益",
+    "ua_code": "imp-13",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "ordinary_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "特別利益",
+    "ua_code": "imp-14",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "extra_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "特別損失",
+    "ua_code": "imp-15",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "extra_loss",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "税引前当期純利益",
+    "ua_code": "imp-16",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "pre_tax_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "法人税、住民税及び事業税",
+    "ua_code": "imp-17",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "income_taxes",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "法人税等調整額",
+    "ua_code": "imp-18",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "income_tax_adj",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "当期純利益",
+    "ua_code": "imp-19",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "net_income",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "現金及び預金",
+    "ua_code": "imp-20",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "cash",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "受取手形及び売掛金",
+    "ua_code": "imp-21",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "trade_receivables",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "棚卸資産",
+    "ua_code": "imp-22",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "inventories",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "流動資産",
+    "ua_code": "imp-23",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "current_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "建物",
+    "ua_code": "imp-24",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "buildings",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "土地",
+    "ua_code": "imp-25",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "ppe",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "有形固定資産",
+    "ua_code": "imp-26",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "tangible_fixed_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "知的財産権",
+    "ua_code": "imp-27",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "ip_rights",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "ソフトウェア",
+    "ua_code": "imp-28",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "software",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "のれん",
+    "ua_code": "imp-29",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "goodwills",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "無形固定資産",
+    "ua_code": "imp-30",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "intangible_fixed_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "投資その他の資産",
+    "ua_code": "imp-31",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "investments",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "固定資産",
+    "ua_code": "imp-32",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "non_current_assets",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "支払手形及び買掛金",
+    "ua_code": "imp-33",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "trade_payables",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "短期借入金",
+    "ua_code": "imp-34",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "short_term_debt",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "流動負債",
+    "ua_code": "imp-35",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "current_liabilities",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "長期借入金",
+    "ua_code": "imp-36",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "long_term_debt",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "社債",
+    "ua_code": "imp-37",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "bonds",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "固定負債",
+    "ua_code": "imp-38",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "non_current_liabilities",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "負債",
+    "ua_code": "imp-39",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "liabilities",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "資本金",
+    "ua_code": "imp-40",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "capital_stock",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "利益剰余金",
+    "ua_code": "imp-41",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "retained_earnings",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "株主資本",
+    "ua_code": "imp-42",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "shareholders_equity",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "純資産",
+    "ua_code": "imp-43",
+    "fs_type": "BS",
+    "is_kpi": false,
+    "parent_ga_id": "equity",
+    "parent_ua_id": null
+  },
+  {
+    "ua_name": "商品売上",
+    "ua_code": "imp-2",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "その他売上",
+    "ua_code": "imp-3",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sales",
+    "parent_ua_code": "imp-1"
+  },
+  {
+    "ua_name": "販売費",
+    "ua_code": "imp-6",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_code": "imp-8"
+  },
+  {
+    "ua_name": "一般管理費",
+    "ua_code": "imp-7",
+    "fs_type": "PL",
+    "is_kpi": false,
+    "parent_ga_id": "sga",
+    "parent_ua_code": "imp-8"
+  }
+]
+[2025-10-20T08:20:39.079Z] [INFO] === ANALYZING PARENT-CHILD RELATIONSHIPS === 
+[2025-10-20T08:20:39.079Z] [INFO] Accounts without parent UA (root accounts): 39 
+[2025-10-20T08:20:39.080Z] [INFO] Accounts with parent UA (child accounts): 4 
+[2025-10-20T08:20:39.080Z] [INFO]   Child account "商品売上" wants parent_ua_code: imp-1 
+[2025-10-20T08:20:39.080Z] [INFO]   Child account "その他売上" wants parent_ua_code: imp-1 
+[2025-10-20T08:20:39.081Z] [INFO]   Child account "販売費" wants parent_ua_code: imp-8 
+[2025-10-20T08:20:39.081Z] [INFO]   Child account "一般管理費" wants parent_ua_code: imp-8 
+[2025-10-20T08:20:39.081Z] [INFO] === INSERTION ORDER === 
+[2025-10-20T08:20:39.081Z] [INFO]   1. "売上高" (parent_ua_code: null) 
+[2025-10-20T08:20:39.081Z] [INFO]   2. "売上原価" (parent_ua_code: null) 
+[2025-10-20T08:20:39.082Z] [INFO]   3. "売上総利益" (parent_ua_code: null) 
+[2025-10-20T08:20:39.082Z] [INFO]   4. "販売費及び一般管理費" (parent_ua_code: null) 
+[2025-10-20T08:20:39.082Z] [INFO]   5. "減価償却費" (parent_ua_code: null) 
+[2025-10-20T08:20:39.082Z] [INFO]   6. "営業利益" (parent_ua_code: null) 
+[2025-10-20T08:20:39.082Z] [INFO]   7. "営業外収益" (parent_ua_code: null) 
+[2025-10-20T08:20:39.082Z] [INFO]   8. "営業外費用" (parent_ua_code: null) 
+[2025-10-20T08:20:39.083Z] [INFO]   9. "経常利益" (parent_ua_code: null) 
+[2025-10-20T08:20:39.083Z] [INFO]   10. "特別利益" (parent_ua_code: null) 
+[2025-10-20T08:20:39.083Z] [INFO]   11. "特別損失" (parent_ua_code: null) 
+[2025-10-20T08:20:39.083Z] [INFO]   12. "税引前当期純利益" (parent_ua_code: null) 
+[2025-10-20T08:20:39.083Z] [INFO]   13. "法人税、住民税及び事業税" (parent_ua_code: null) 
+[2025-10-20T08:20:39.083Z] [INFO]   14. "法人税等調整額" (parent_ua_code: null) 
+[2025-10-20T08:20:39.083Z] [INFO]   15. "当期純利益" (parent_ua_code: null) 
+[2025-10-20T08:20:39.084Z] [INFO]   16. "現金及び預金" (parent_ua_code: null) 
+[2025-10-20T08:20:39.084Z] [INFO]   17. "受取手形及び売掛金" (parent_ua_code: null) 
+[2025-10-20T08:20:39.084Z] [INFO]   18. "棚卸資産" (parent_ua_code: null) 
+[2025-10-20T08:20:39.084Z] [INFO]   19. "流動資産" (parent_ua_code: null) 
+[2025-10-20T08:20:39.084Z] [INFO]   20. "建物" (parent_ua_code: null) 
+[2025-10-20T08:20:39.084Z] [INFO]   21. "土地" (parent_ua_code: null) 
+[2025-10-20T08:20:39.084Z] [INFO]   22. "有形固定資産" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   23. "知的財産権" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   24. "ソフトウェア" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   25. "のれん" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   26. "無形固定資産" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   27. "投資その他の資産" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   28. "固定資産" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   29. "支払手形及び買掛金" (parent_ua_code: null) 
+[2025-10-20T08:20:39.085Z] [INFO]   30. "短期借入金" (parent_ua_code: null) 
+[2025-10-20T08:20:39.086Z] [INFO]   31. "流動負債" (parent_ua_code: null) 
+[2025-10-20T08:20:39.086Z] [INFO]   32. "長期借入金" (parent_ua_code: null) 
+[2025-10-20T08:20:39.087Z] [INFO]   33. "社債" (parent_ua_code: null) 
+[2025-10-20T08:20:39.087Z] [INFO]   34. "固定負債" (parent_ua_code: null) 
+[2025-10-20T08:20:39.087Z] [INFO]   35. "負債" (parent_ua_code: null) 
+[2025-10-20T08:20:39.087Z] [INFO]   36. "資本金" (parent_ua_code: null) 
+[2025-10-20T08:20:39.087Z] [INFO]   37. "利益剰余金" (parent_ua_code: null) 
+[2025-10-20T08:20:39.087Z] [INFO]   38. "株主資本" (parent_ua_code: null) 
+[2025-10-20T08:20:39.087Z] [INFO]   39. "純資産" (parent_ua_code: null) 
+[2025-10-20T08:20:39.088Z] [INFO]   40. "商品売上" (parent_ua_code: imp-1) 
+[2025-10-20T08:20:39.088Z] [INFO]   41. "その他売上" (parent_ua_code: imp-1) 
+[2025-10-20T08:20:39.088Z] [INFO]   42. "販売費" (parent_ua_code: imp-8) 
+[2025-10-20T08:20:39.088Z] [INFO]   43. "一般管理費" (parent_ua_code: imp-8) 
+[2025-10-20T08:20:39.088Z] [INFO] === PROCESSING ACCOUNT 1/43 === 
+[2025-10-20T08:20:39.088Z] [INFO] Account name: 売上高 
+[2025-10-20T08:20:39.088Z] [INFO] Account code: imp-1 
+[2025-10-20T08:20:39.088Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:39.277Z] [INFO] Created new user account: 売上高 (ID: 90) 
+[2025-10-20T08:20:39.278Z] [INFO] Updated mapping: imp-1 -> 90 
+[2025-10-20T08:20:39.278Z] [INFO] === PROCESSING ACCOUNT 2/43 === 
+[2025-10-20T08:20:39.278Z] [INFO] Account name: 売上原価 
+[2025-10-20T08:20:39.279Z] [INFO] Account code: imp-4 
+[2025-10-20T08:20:39.279Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:39.440Z] [INFO] Created new user account: 売上原価 (ID: 91) 
+[2025-10-20T08:20:39.441Z] [INFO] Updated mapping: imp-4 -> 91 
+[2025-10-20T08:20:39.441Z] [INFO] === PROCESSING ACCOUNT 3/43 === 
+[2025-10-20T08:20:39.441Z] [INFO] Account name: 売上総利益 
+[2025-10-20T08:20:39.442Z] [INFO] Account code: imp-5 
+[2025-10-20T08:20:39.442Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:39.623Z] [INFO] Created new user account: 売上総利益 (ID: 92) 
+[2025-10-20T08:20:39.624Z] [INFO] Updated mapping: imp-5 -> 92 
+[2025-10-20T08:20:39.624Z] [INFO] === PROCESSING ACCOUNT 4/43 === 
+[2025-10-20T08:20:39.624Z] [INFO] Account name: 販売費及び一般管理費 
+[2025-10-20T08:20:39.624Z] [INFO] Account code: imp-8 
+[2025-10-20T08:20:39.625Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:39.781Z] [INFO] Created new user account: 販売費及び一般管理費 (ID: 93) 
+[2025-10-20T08:20:39.782Z] [INFO] Updated mapping: imp-8 -> 93 
+[2025-10-20T08:20:39.782Z] [INFO] === PROCESSING ACCOUNT 5/43 === 
+[2025-10-20T08:20:39.782Z] [INFO] Account name: 減価償却費 
+[2025-10-20T08:20:39.782Z] [INFO] Account code: imp-9 
+[2025-10-20T08:20:39.782Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:40.073Z] [INFO] Created new user account: 減価償却費 (ID: 94) 
+[2025-10-20T08:20:40.074Z] [INFO] Updated mapping: imp-9 -> 94 
+[2025-10-20T08:20:40.074Z] [INFO] === PROCESSING ACCOUNT 6/43 === 
+[2025-10-20T08:20:40.074Z] [INFO] Account name: 営業利益 
+[2025-10-20T08:20:40.074Z] [INFO] Account code: imp-10 
+[2025-10-20T08:20:40.074Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:40.280Z] [INFO] Created new user account: 営業利益 (ID: 95) 
+[2025-10-20T08:20:40.280Z] [INFO] Updated mapping: imp-10 -> 95 
+[2025-10-20T08:20:40.281Z] [INFO] === PROCESSING ACCOUNT 7/43 === 
+[2025-10-20T08:20:40.281Z] [INFO] Account name: 営業外収益 
+[2025-10-20T08:20:40.281Z] [INFO] Account code: imp-11 
+[2025-10-20T08:20:40.281Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:40.443Z] [INFO] Created new user account: 営業外収益 (ID: 96) 
+[2025-10-20T08:20:40.444Z] [INFO] Updated mapping: imp-11 -> 96 
+[2025-10-20T08:20:40.444Z] [INFO] === PROCESSING ACCOUNT 8/43 === 
+[2025-10-20T08:20:40.444Z] [INFO] Account name: 営業外費用 
+[2025-10-20T08:20:40.444Z] [INFO] Account code: imp-12 
+[2025-10-20T08:20:40.445Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:40.622Z] [INFO] Created new user account: 営業外費用 (ID: 97) 
+[2025-10-20T08:20:40.623Z] [INFO] Updated mapping: imp-12 -> 97 
+[2025-10-20T08:20:40.623Z] [INFO] === PROCESSING ACCOUNT 9/43 === 
+[2025-10-20T08:20:40.623Z] [INFO] Account name: 経常利益 
+[2025-10-20T08:20:40.624Z] [INFO] Account code: imp-13 
+[2025-10-20T08:20:40.624Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:40.800Z] [INFO] Created new user account: 経常利益 (ID: 98) 
+[2025-10-20T08:20:40.801Z] [INFO] Updated mapping: imp-13 -> 98 
+[2025-10-20T08:20:40.801Z] [INFO] === PROCESSING ACCOUNT 10/43 === 
+[2025-10-20T08:20:40.801Z] [INFO] Account name: 特別利益 
+[2025-10-20T08:20:40.801Z] [INFO] Account code: imp-14 
+[2025-10-20T08:20:40.801Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:40.992Z] [INFO] Created new user account: 特別利益 (ID: 99) 
+[2025-10-20T08:20:40.992Z] [INFO] Updated mapping: imp-14 -> 99 
+[2025-10-20T08:20:40.993Z] [INFO] === PROCESSING ACCOUNT 11/43 === 
+[2025-10-20T08:20:40.993Z] [INFO] Account name: 特別損失 
+[2025-10-20T08:20:40.993Z] [INFO] Account code: imp-15 
+[2025-10-20T08:20:40.993Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:41.172Z] [INFO] Created new user account: 特別損失 (ID: 100) 
+[2025-10-20T08:20:41.173Z] [INFO] Updated mapping: imp-15 -> 100 
+[2025-10-20T08:20:41.173Z] [INFO] === PROCESSING ACCOUNT 12/43 === 
+[2025-10-20T08:20:41.173Z] [INFO] Account name: 税引前当期純利益 
+[2025-10-20T08:20:41.174Z] [INFO] Account code: imp-16 
+[2025-10-20T08:20:41.174Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:41.341Z] [INFO] Created new user account: 税引前当期純利益 (ID: 101) 
+[2025-10-20T08:20:41.341Z] [INFO] Updated mapping: imp-16 -> 101 
+[2025-10-20T08:20:41.341Z] [INFO] === PROCESSING ACCOUNT 13/43 === 
+[2025-10-20T08:20:41.341Z] [INFO] Account name: 法人税、住民税及び事業税 
+[2025-10-20T08:20:41.341Z] [INFO] Account code: imp-17 
+[2025-10-20T08:20:41.342Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:41.521Z] [INFO] Created new user account: 法人税、住民税及び事業税 (ID: 102) 
+[2025-10-20T08:20:41.521Z] [INFO] Updated mapping: imp-17 -> 102 
+[2025-10-20T08:20:41.522Z] [INFO] === PROCESSING ACCOUNT 14/43 === 
+[2025-10-20T08:20:41.522Z] [INFO] Account name: 法人税等調整額 
+[2025-10-20T08:20:41.522Z] [INFO] Account code: imp-18 
+[2025-10-20T08:20:41.522Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:41.759Z] [INFO] Created new user account: 法人税等調整額 (ID: 103) 
+[2025-10-20T08:20:41.759Z] [INFO] Updated mapping: imp-18 -> 103 
+[2025-10-20T08:20:41.759Z] [INFO] === PROCESSING ACCOUNT 15/43 === 
+[2025-10-20T08:20:41.760Z] [INFO] Account name: 当期純利益 
+[2025-10-20T08:20:41.760Z] [INFO] Account code: imp-19 
+[2025-10-20T08:20:41.760Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:41.920Z] [INFO] Created new user account: 当期純利益 (ID: 104) 
+[2025-10-20T08:20:41.920Z] [INFO] Updated mapping: imp-19 -> 104 
+[2025-10-20T08:20:41.921Z] [INFO] === PROCESSING ACCOUNT 16/43 === 
+[2025-10-20T08:20:41.921Z] [INFO] Account name: 現金及び預金 
+[2025-10-20T08:20:41.921Z] [INFO] Account code: imp-20 
+[2025-10-20T08:20:41.921Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:42.154Z] [INFO] Created new user account: 現金及び預金 (ID: 105) 
+[2025-10-20T08:20:42.154Z] [INFO] Updated mapping: imp-20 -> 105 
+[2025-10-20T08:20:42.154Z] [INFO] === PROCESSING ACCOUNT 17/43 === 
+[2025-10-20T08:20:42.154Z] [INFO] Account name: 受取手形及び売掛金 
+[2025-10-20T08:20:42.154Z] [INFO] Account code: imp-21 
+[2025-10-20T08:20:42.155Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:42.301Z] [INFO] Created new user account: 受取手形及び売掛金 (ID: 106) 
+[2025-10-20T08:20:42.301Z] [INFO] Updated mapping: imp-21 -> 106 
+[2025-10-20T08:20:42.302Z] [INFO] === PROCESSING ACCOUNT 18/43 === 
+[2025-10-20T08:20:42.302Z] [INFO] Account name: 棚卸資産 
+[2025-10-20T08:20:42.302Z] [INFO] Account code: imp-22 
+[2025-10-20T08:20:42.302Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:42.489Z] [INFO] Created new user account: 棚卸資産 (ID: 107) 
+[2025-10-20T08:20:42.489Z] [INFO] Updated mapping: imp-22 -> 107 
+[2025-10-20T08:20:42.490Z] [INFO] === PROCESSING ACCOUNT 19/43 === 
+[2025-10-20T08:20:42.490Z] [INFO] Account name: 流動資産 
+[2025-10-20T08:20:42.490Z] [INFO] Account code: imp-23 
+[2025-10-20T08:20:42.490Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:42.789Z] [INFO] Created new user account: 流動資産 (ID: 108) 
+[2025-10-20T08:20:42.790Z] [INFO] Updated mapping: imp-23 -> 108 
+[2025-10-20T08:20:42.790Z] [INFO] === PROCESSING ACCOUNT 20/43 === 
+[2025-10-20T08:20:42.790Z] [INFO] Account name: 建物 
+[2025-10-20T08:20:42.790Z] [INFO] Account code: imp-24 
+[2025-10-20T08:20:42.790Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:42.945Z] [INFO] Created new user account: 建物 (ID: 109) 
+[2025-10-20T08:20:42.945Z] [INFO] Updated mapping: imp-24 -> 109 
+[2025-10-20T08:20:42.945Z] [INFO] === PROCESSING ACCOUNT 21/43 === 
+[2025-10-20T08:20:42.945Z] [INFO] Account name: 土地 
+[2025-10-20T08:20:42.945Z] [INFO] Account code: imp-25 
+[2025-10-20T08:20:42.945Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:43.188Z] [INFO] Created new user account: 土地 (ID: 110) 
+[2025-10-20T08:20:43.188Z] [INFO] Updated mapping: imp-25 -> 110 
+[2025-10-20T08:20:43.189Z] [INFO] === PROCESSING ACCOUNT 22/43 === 
+[2025-10-20T08:20:43.189Z] [INFO] Account name: 有形固定資産 
+[2025-10-20T08:20:43.189Z] [INFO] Account code: imp-26 
+[2025-10-20T08:20:43.189Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:43.430Z] [INFO] Created new user account: 有形固定資産 (ID: 111) 
+[2025-10-20T08:20:43.430Z] [INFO] Updated mapping: imp-26 -> 111 
+[2025-10-20T08:20:43.430Z] [INFO] === PROCESSING ACCOUNT 23/43 === 
+[2025-10-20T08:20:43.430Z] [INFO] Account name: 知的財産権 
+[2025-10-20T08:20:43.430Z] [INFO] Account code: imp-27 
+[2025-10-20T08:20:43.431Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:43.582Z] [INFO] Created new user account: 知的財産権 (ID: 112) 
+[2025-10-20T08:20:43.582Z] [INFO] Updated mapping: imp-27 -> 112 
+[2025-10-20T08:20:43.582Z] [INFO] === PROCESSING ACCOUNT 24/43 === 
+[2025-10-20T08:20:43.583Z] [INFO] Account name: ソフトウェア 
+[2025-10-20T08:20:43.583Z] [INFO] Account code: imp-28 
+[2025-10-20T08:20:43.583Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:43.739Z] [INFO] Created new user account: ソフトウェア (ID: 113) 
+[2025-10-20T08:20:43.740Z] [INFO] Updated mapping: imp-28 -> 113 
+[2025-10-20T08:20:43.740Z] [INFO] === PROCESSING ACCOUNT 25/43 === 
+[2025-10-20T08:20:43.740Z] [INFO] Account name: のれん 
+[2025-10-20T08:20:43.740Z] [INFO] Account code: imp-29 
+[2025-10-20T08:20:43.740Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:43.904Z] [INFO] Created new user account: のれん (ID: 114) 
+[2025-10-20T08:20:43.904Z] [INFO] Updated mapping: imp-29 -> 114 
+[2025-10-20T08:20:43.905Z] [INFO] === PROCESSING ACCOUNT 26/43 === 
+[2025-10-20T08:20:43.905Z] [INFO] Account name: 無形固定資産 
+[2025-10-20T08:20:43.905Z] [INFO] Account code: imp-30 
+[2025-10-20T08:20:43.905Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:44.072Z] [INFO] Created new user account: 無形固定資産 (ID: 115) 
+[2025-10-20T08:20:44.073Z] [INFO] Updated mapping: imp-30 -> 115 
+[2025-10-20T08:20:44.073Z] [INFO] === PROCESSING ACCOUNT 27/43 === 
+[2025-10-20T08:20:44.073Z] [INFO] Account name: 投資その他の資産 
+[2025-10-20T08:20:44.073Z] [INFO] Account code: imp-31 
+[2025-10-20T08:20:44.073Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:44.219Z] [INFO] Created new user account: 投資その他の資産 (ID: 116) 
+[2025-10-20T08:20:44.220Z] [INFO] Updated mapping: imp-31 -> 116 
+[2025-10-20T08:20:44.220Z] [INFO] === PROCESSING ACCOUNT 28/43 === 
+[2025-10-20T08:20:44.220Z] [INFO] Account name: 固定資産 
+[2025-10-20T08:20:44.220Z] [INFO] Account code: imp-32 
+[2025-10-20T08:20:44.221Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:44.401Z] [INFO] Created new user account: 固定資産 (ID: 117) 
+[2025-10-20T08:20:44.402Z] [INFO] Updated mapping: imp-32 -> 117 
+[2025-10-20T08:20:44.402Z] [INFO] === PROCESSING ACCOUNT 29/43 === 
+[2025-10-20T08:20:44.402Z] [INFO] Account name: 支払手形及び買掛金 
+[2025-10-20T08:20:44.402Z] [INFO] Account code: imp-33 
+[2025-10-20T08:20:44.402Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:44.571Z] [INFO] Created new user account: 支払手形及び買掛金 (ID: 118) 
+[2025-10-20T08:20:44.571Z] [INFO] Updated mapping: imp-33 -> 118 
+[2025-10-20T08:20:44.572Z] [INFO] === PROCESSING ACCOUNT 30/43 === 
+[2025-10-20T08:20:44.572Z] [INFO] Account name: 短期借入金 
+[2025-10-20T08:20:44.572Z] [INFO] Account code: imp-34 
+[2025-10-20T08:20:44.572Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:44.725Z] [INFO] Created new user account: 短期借入金 (ID: 119) 
+[2025-10-20T08:20:44.725Z] [INFO] Updated mapping: imp-34 -> 119 
+[2025-10-20T08:20:44.726Z] [INFO] === PROCESSING ACCOUNT 31/43 === 
+[2025-10-20T08:20:44.726Z] [INFO] Account name: 流動負債 
+[2025-10-20T08:20:44.726Z] [INFO] Account code: imp-35 
+[2025-10-20T08:20:44.726Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:44.900Z] [INFO] Created new user account: 流動負債 (ID: 120) 
+[2025-10-20T08:20:44.900Z] [INFO] Updated mapping: imp-35 -> 120 
+[2025-10-20T08:20:44.901Z] [INFO] === PROCESSING ACCOUNT 32/43 === 
+[2025-10-20T08:20:44.901Z] [INFO] Account name: 長期借入金 
+[2025-10-20T08:20:44.901Z] [INFO] Account code: imp-36 
+[2025-10-20T08:20:44.901Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:45.054Z] [INFO] Created new user account: 長期借入金 (ID: 121) 
+[2025-10-20T08:20:45.055Z] [INFO] Updated mapping: imp-36 -> 121 
+[2025-10-20T08:20:45.055Z] [INFO] === PROCESSING ACCOUNT 33/43 === 
+[2025-10-20T08:20:45.055Z] [INFO] Account name: 社債 
+[2025-10-20T08:20:45.055Z] [INFO] Account code: imp-37 
+[2025-10-20T08:20:45.055Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:45.221Z] [INFO] Created new user account: 社債 (ID: 122) 
+[2025-10-20T08:20:45.221Z] [INFO] Updated mapping: imp-37 -> 122 
+[2025-10-20T08:20:45.222Z] [INFO] === PROCESSING ACCOUNT 34/43 === 
+[2025-10-20T08:20:45.222Z] [INFO] Account name: 固定負債 
+[2025-10-20T08:20:45.222Z] [INFO] Account code: imp-38 
+[2025-10-20T08:20:45.222Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:45.511Z] [INFO] Created new user account: 固定負債 (ID: 123) 
+[2025-10-20T08:20:45.512Z] [INFO] Updated mapping: imp-38 -> 123 
+[2025-10-20T08:20:45.512Z] [INFO] === PROCESSING ACCOUNT 35/43 === 
+[2025-10-20T08:20:45.512Z] [INFO] Account name: 負債 
+[2025-10-20T08:20:45.512Z] [INFO] Account code: imp-39 
+[2025-10-20T08:20:45.512Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:45.682Z] [INFO] Created new user account: 負債 (ID: 124) 
+[2025-10-20T08:20:45.682Z] [INFO] Updated mapping: imp-39 -> 124 
+[2025-10-20T08:20:45.683Z] [INFO] === PROCESSING ACCOUNT 36/43 === 
+[2025-10-20T08:20:45.683Z] [INFO] Account name: 資本金 
+[2025-10-20T08:20:45.683Z] [INFO] Account code: imp-40 
+[2025-10-20T08:20:45.683Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:45.841Z] [INFO] Created new user account: 資本金 (ID: 125) 
+[2025-10-20T08:20:45.841Z] [INFO] Updated mapping: imp-40 -> 125 
+[2025-10-20T08:20:45.841Z] [INFO] === PROCESSING ACCOUNT 37/43 === 
+[2025-10-20T08:20:45.842Z] [INFO] Account name: 利益剰余金 
+[2025-10-20T08:20:45.842Z] [INFO] Account code: imp-41 
+[2025-10-20T08:20:45.842Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:46.029Z] [INFO] Created new user account: 利益剰余金 (ID: 126) 
+[2025-10-20T08:20:46.030Z] [INFO] Updated mapping: imp-41 -> 126 
+[2025-10-20T08:20:46.030Z] [INFO] === PROCESSING ACCOUNT 38/43 === 
+[2025-10-20T08:20:46.030Z] [INFO] Account name: 株主資本 
+[2025-10-20T08:20:46.031Z] [INFO] Account code: imp-42 
+[2025-10-20T08:20:46.031Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:46.209Z] [INFO] Created new user account: 株主資本 (ID: 127) 
+[2025-10-20T08:20:46.209Z] [INFO] Updated mapping: imp-42 -> 127 
+[2025-10-20T08:20:46.210Z] [INFO] === PROCESSING ACCOUNT 39/43 === 
+[2025-10-20T08:20:46.210Z] [INFO] Account name: 純資産 
+[2025-10-20T08:20:46.210Z] [INFO] Account code: imp-43 
+[2025-10-20T08:20:46.210Z] [INFO] Parent UA code: null 
+[2025-10-20T08:20:46.371Z] [INFO] Created new user account: 純資産 (ID: 128) 
+[2025-10-20T08:20:46.372Z] [INFO] Updated mapping: imp-43 -> 128 
+[2025-10-20T08:20:46.372Z] [INFO] === PROCESSING ACCOUNT 40/43 === 
+[2025-10-20T08:20:46.372Z] [INFO] Account name: 商品売上 
+[2025-10-20T08:20:46.372Z] [INFO] Account code: imp-2 
+[2025-10-20T08:20:46.373Z] [INFO] Parent UA code: imp-1 
+[2025-10-20T08:20:46.434Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 90 
+[2025-10-20T08:20:46.540Z] [INFO] Created new user account: 商品売上 (ID: 129) 
+[2025-10-20T08:20:46.541Z] [INFO] Updated mapping: imp-2 -> 129 
+[2025-10-20T08:20:46.541Z] [INFO] === PROCESSING ACCOUNT 41/43 === 
+[2025-10-20T08:20:46.541Z] [INFO] Account name: その他売上 
+[2025-10-20T08:20:46.541Z] [INFO] Account code: imp-3 
+[2025-10-20T08:20:46.541Z] [INFO] Parent UA code: imp-1 
+[2025-10-20T08:20:46.599Z] [INFO] Resolved parent_ua_id from code mapping: imp-1 -> 90 
+[2025-10-20T08:20:46.726Z] [INFO] Created new user account: その他売上 (ID: 130) 
+[2025-10-20T08:20:46.726Z] [INFO] Updated mapping: imp-3 -> 130 
+[2025-10-20T08:20:46.726Z] [INFO] === PROCESSING ACCOUNT 42/43 === 
+[2025-10-20T08:20:46.726Z] [INFO] Account name: 販売費 
+[2025-10-20T08:20:46.727Z] [INFO] Account code: imp-6 
+[2025-10-20T08:20:46.727Z] [INFO] Parent UA code: imp-8 
+[2025-10-20T08:20:46.781Z] [INFO] Resolved parent_ua_id from code mapping: imp-8 -> 93 
+[2025-10-20T08:20:46.902Z] [INFO] Created new user account: 販売費 (ID: 131) 
+[2025-10-20T08:20:46.902Z] [INFO] Updated mapping: imp-6 -> 131 
+[2025-10-20T08:20:46.903Z] [INFO] === PROCESSING ACCOUNT 43/43 === 
+[2025-10-20T08:20:46.903Z] [INFO] Account name: 一般管理費 
+[2025-10-20T08:20:46.903Z] [INFO] Account code: imp-7 
+[2025-10-20T08:20:46.903Z] [INFO] Parent UA code: imp-8 
+[2025-10-20T08:20:46.960Z] [INFO] Resolved parent_ua_id from code mapping: imp-8 -> 93 
+[2025-10-20T08:20:47.082Z] [INFO] Created new user account: 一般管理費 (ID: 132) 
+[2025-10-20T08:20:47.082Z] [INFO] Updated mapping: imp-7 -> 132 
+[2025-10-20T08:20:47.153Z] [INFO] === TRANSACTION COMMITTED === 
+[2025-10-20T08:20:47.153Z] [INFO] Successfully created 43 user accounts 
+[2025-10-20T08:20:47.200Z] [INFO] === FINAL STATE VERIFICATION === 
+[2025-10-20T08:20:47.201Z] [INFO] Total accounts in database: 43
+[2025-10-20T08:20:47.201Z] [INFO] User accounts created successfully 
+[2025-10-20T08:20:51.478Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:20:51.479Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:20:51.480Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:20:51.480Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:20:51.524Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:20:51.529Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:20:51.588Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:20:51.916Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:20:51.917Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:20:51.920Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:20:51.920Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:20:51.921Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:20:51.989Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:20:51.990Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:20:55.452Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-20T08:20:55.453Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-20T08:20:55.542Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-20T08:20:55.545Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-20T08:20:55.546Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-20T08:20:55.601Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-20T08:20:59.460Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:20:59.461Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:20:59.462Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:20:59.611Z] [ERROR] Error saving calculation rule: {
+  "length": 306,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(1) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-20T08:28:43.985Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:28:43.986Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:28:43.987Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:28:44.420Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:28:56.863Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:28:56.863Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:28:56.864Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:28:57.412Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:29:05.760Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:29:05.760Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:29:05.761Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:29:05.892Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:30:01.230Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:30:01.230Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:30:01.231Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:30:01.687Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:30:12.126Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:30:12.127Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:30:12.127Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:30:12.536Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:30:39.459Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:30:39.459Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:30:39.460Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:30:39.975Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:30:43.214Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:30:43.214Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:30:43.215Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:30:43.262Z] [ERROR] Error saving calculation rule: {}
+[2025-10-20T08:41:27.305Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:41:27.306Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:41:27.307Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:41:27.716Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:41:38.447Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:41:38.447Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:41:38.448Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:41:38.688Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:41:59.412Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:41:59.412Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:41:59.413Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:41:59.640Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:44:16.588Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:44:16.588Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:44:16.589Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:44:17.005Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:44:52.680Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:44:52.680Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:44:52.681Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:44:53.190Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:45:11.687Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:45:11.687Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:45:11.688Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:45:12.140Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:45:25.061Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:45:25.061Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:45:25.062Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:45:25.528Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:45:36.377Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:45:36.378Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:45:36.378Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:45:36.962Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:45:44.897Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-20T08:45:44.898Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-20T08:45:44.898Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-20T08:45:45.037Z] [INFO] Calculation rule saved successfully 
+[2025-10-20T08:45:54.183Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:45:54.185Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:45:54.185Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:45:54.185Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:45:54.290Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:45:54.292Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:45:54.350Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:45:54.529Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:45:54.529Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:45:54.532Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:45:54.533Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:45:54.533Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:45:54.600Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:45:54.600Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:46:03.337Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:46:03.338Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:46:03.338Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:46:03.338Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:46:03.567Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:46:03.568Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:46:03.570Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:46:03.571Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:46:03.572Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:46:03.572Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:46:03.572Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:46:03.708Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:46:03.709Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:46:03.709Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:46:07.937Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:46:07.938Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:46:07.938Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:46:07.939Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:46:07.960Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-20T08:46:07.960Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-20T08:46:07.985Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:46:07.985Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:46:07.987Z] [INFO] [GET] /api/user-accounts 
+[2025-10-20T08:46:07.988Z] [INFO] === GET /api/user-accounts received === 
+[2025-10-20T08:46:07.988Z] [INFO] === getUserAccounts called === 
+[2025-10-20T08:46:07.992Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:46:07.996Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-20T08:46:08.040Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-20T08:46:08.045Z] [INFO] Retrieved 43 user accounts with GA information 
+[2025-10-20T08:46:08.045Z] [INFO] User accounts retrieved successfully 
+[2025-10-20T08:46:08.212Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-20T08:46:08.214Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-20T08:46:08.214Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-20T08:46:08.283Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-21T02:21:47.929Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-21T02:21:48.283Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-21T02:21:48.291Z] [INFO] [GET] /api/financial-accounts 
+[2025-10-21T02:21:48.368Z] [INFO] GET /api/financial-accounts - Success {
+  "count": 61
+}
+[2025-10-21T06:09:51.950Z] [INFO] [POST] /api/import-data/1 
+[2025-10-21T06:09:51.954Z] [INFO] === POST /api/import-data/1 received === 
+[2025-10-21T06:09:51.980Z] [INFO] Request body keys: [
+  "rows",
+  "periods"
+]
+[2025-10-21T06:09:51.982Z] [INFO] === saveImportData called === 
+[2025-10-21T06:09:51.983Z] [INFO] Model ID: 1
+[2025-10-21T06:09:51.985Z] [INFO] JSON Data: {
+  "rows": [
+    {
+      "type": "Account",
+      "label": "売上高",
+      "values": [
+        2600000,
+        2860000,
+        3146000,
+        3460600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "商品売上",
+      "values": [
+        2000000,
+        2200000,
+        2420000,
+        2662000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "その他売上",
+      "values": [
+        600000,
+        660000,
+        726000,
+        798600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上原価",
+      "values": [
+        1200000,
+        1260000,
+        1323000,
+        1389150,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "売上総利益",
+      "values": [
+        1400000,
+        1600000,
+        1823000,
+        2071450,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費",
+      "values": [
+        200000,
+        220000,
+        242000,
+        266200,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "一般管理費",
+      "values": [
+        200000,
+        210000,
+        220500,
+        231525,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "販売費及び一般管理費",
+      "values": [
+        400000,
+        430000,
+        462500,
+        497725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業利益",
+      "values": [
+        950000,
+        1120000,
+        1310500,
+        1523725,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業外収益",
+      "values": [
+        50000,
+        55000,
+        60500,
+        66550,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業外費用",
+      "values": [
+        30000,
+        33000,
+        36300,
+        39930,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "経常利益",
+      "values": [
+        970000,
+        1142000,
+        1334700,
+        1550345,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "特別利益",
+      "values": [
+        20000,
+        21000,
+        22100,
+        23205,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "特別損失",
+      "values": [
+        10000,
+        10500,
+        11025,
+        11576,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税引前当期純利益",
+      "values": [
+        980000,
+        1152500,
+        1345775,
+        1561974,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "法人税、住民税及び事業税",
+      "values": [
+        294000,
+        345750,
+        403732,
+        468592,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "法人税等調整額",
+      "values": [
+        5000,
+        5200,
+        5400,
+        5600,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "当期純利益",
+      "values": [
+        681000,
+        801550,
+        936643,
+        1087782,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "現金及び預金",
+      "values": [
+        500000,
+        520000,
+        540800,
+        562432,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "受取手形及び売掛金",
+      "values": [
+        400000,
+        440000,
+        484000,
+        532400,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "棚卸資産",
+      "values": [
+        250000,
+        260000,
+        270400,
+        281216,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "流動資産",
+      "values": [
+        1150000,
+        1220000,
+        1295200,
+        1376048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "建物",
+      "values": [
+        900000,
+        870000,
+        840000,
+        810000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "土地",
+      "values": [
+        600000,
+        600000,
+        600000,
+        600000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "有形固定資産",
+      "values": [
+        1500000,
+        1470000,
+        1440000,
+        1410000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "知的財産権",
+      "values": [
+        200000,
+        205000,
+        210000,
+        215000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "ソフトウェア",
+      "values": [
+        150000,
+        155000,
+        160000,
+        165000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "のれん",
+      "values": [
+        80000,
+        76000,
+        72000,
+        68000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "無形固定資産",
+      "values": [
+        430000,
+        436000,
+        442000,
+        448000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "投資その他の資産",
+      "values": [
+        120000,
+        130000,
+        140000,
+        150000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "固定資産",
+      "values": [
+        2050000,
+        2036000,
+        2022000,
+        2008000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "支払手形及び買掛金",
+      "values": [
+        220000,
+        230000,
+        240000,
+        250000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "短期借入金",
+      "values": [
+        180000,
+        185000,
+        190000,
+        195000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "流動負債",
+      "values": [
+        400000,
+        415000,
+        430000,
+        445000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "長期借入金",
+      "values": [
+        400000,
+        380000,
+        360000,
+        340000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "社債",
+      "values": [
+        150000,
+        150000,
+        150000,
+        150000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "固定負債",
+      "values": [
+        550000,
+        530000,
+        510000,
+        490000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "負債",
+      "values": [
+        950000,
+        945000,
+        940000,
+        935000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "資本金",
+      "values": [
+        700000,
+        700000,
+        700000,
+        700000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "利益剰余金",
+      "values": [
+        1550000,
+        1611000,
+        1677200,
+        1749048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "株主資本",
+      "values": [
+        2250000,
+        2311000,
+        2377200,
+        2449048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "純資産",
+      "values": [
+        2250000,
+        2311000,
+        2377200,
+        2449048,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "CF減価償却費",
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "税金等調整前当期純利益",
+      "values": [
+        980000,
+        1152500,
+        1345775,
+        1561974,
+        0
+      ]
+    },
+    {
+      "type": "Account",
+      "label": "営業活動によるキャッシュ・フロー",
+      "values": [
+        681000,
+        801550,
+        936643,
+        1087782,
+        0
+      ]
+    }
+  ],
+  "periods": [
+    "2020-03",
+    "2021-03",
+    "2022-03",
+    "2023-03",
+    "EOL"
+  ]
+}
+[2025-10-21T06:09:53.326Z] [INFO] Cleared existing import data for model 1 
+[2025-10-21T06:09:53.732Z] [INFO] Successfully saved import data with ID: undefined 
+[2025-10-21T06:09:53.732Z] [INFO] Import data saved successfully 

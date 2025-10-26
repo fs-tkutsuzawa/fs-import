@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Model</title>
+    <!-- React and Babel for JSX transpilation -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // --- React hooks setup ---
+        const { useState, useMemo, useCallback } = React;
+
+        // --- Custom DataGrid Component ---
+        const DataGrid = ({ columns, rows, onCellChange }) => {
+            const [editingCell, setEditingCell] = useState(null);
+            const [tempValue, setTempValue] = useState('');
+
+            const handleCellClick = (rowId, colKey, value) => {
+                if(row.isCalculated) return; // Calculated rows are not editable
+                setEditingCell(`${rowId}-${colKey}`);
+                setTempValue(value || '');
+            };
+
+            const handleCellBlur = (rowId, colKey) => {
+                if (onCellChange) {
+                    onCellChange(rowId, colKey, tempValue);
+                }
+                setEditingCell(null);
+            };
+
+            const handleKeyDown = (e, rowId, colKey) => {
+                if (e.key === 'Enter') {
+                    handleCellBlur(rowId, colKey);
+                }
+            };
+
+            const getCellStyle = (col, row, rowIndex) => {
+                const style = {
+                    padding: '6px 8px',
+                    borderRight: '1px solid #e5e7eb',
+                    backgroundColor: col.frozen ? 'white' :
+                                     col.parentYear ? '#fef3c733' :
+                                     rowIndex % 2 === 0 ? 'white' : '#fafafa',
+                    position: col.frozen ? 'sticky' : 'relative',
+                    left: col.frozen ? 0 : 'auto',
+                    zIndex: col.frozen ? 5 : 1,
+                    textAlign: col.frozen ? 'left' : 'right',
+                    cursor: !col.frozen && !row.isCalculated ? 'pointer' : 'default',
+                    color: '#111827',
+                };
+                
+                if (row.accountName === 'バランスチェック' && row[col.key] !== 0) {
+                    style.color = '#ef4444';
+                    style.fontWeight = 'bold';
+                }
+                if (row.isRatio) {
+                    style.color = '#6b7280';
+                }
+                 if (row.accountName.startsWith('【') || row.accountName.includes('合計') || row.accountName.includes('利益')) {
+                    style.fontWeight = 'bold';
+                }
+
+                return style;
+            };
+
+            const getHeaderStyle = (col) => ({
+                padding: '8px',
+                borderRight: '1px solid #e5e7eb',
+                borderBottom: '2px solid #d1d5db',
+                backgroundColor: col.isIrregular ? '#fef2f2' :
+                                 col.parentYear ? '#fef3c7' :
+                                 col.isAnnual && col.year <= 2026 ? '#eff6ff' :
+                                 col.isAnnual ? '#f0fdf4' : '#f9fafb',
+                minWidth: col.width || 100,
+                position: col.frozen ? 'sticky' : 'relative',
+                left: col.frozen ? 0 : 'auto',
+                zIndex: col.frozen ? 10 : 1,
+                textAlign: col.frozen ? 'left' : 'center'
+            });
+
+            return (
+                <div style={{ overflowX: 'auto', backgroundColor: 'white', border: '1px solid #e5e7eb' }}>
+                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px' }}>
+                        <thead>
+                            <tr>
+                                {columns.map((col) => (
+                                    <th key={col.key} style={getHeaderStyle(col)}>
+                                        {col.headerRenderer ? (
+                                            col.headerRenderer({ column: col })
+                                        ) : (
+                                            <div>
+                                                <div>{col.name}</div>
+                                                {col.info && (
+                                                    <div style={{ fontSize: '10px', color: '#6b7280', fontWeight: 'normal' }}>
+                                                        {col.info}
+                                                    </div>
+                                                )}
+                                            </div>
+                                        )}
+                                    </th>
+                                ))}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {rows.map((row, rowIndex) => (
+                                <tr key={row.id} style={{ borderBottom: '1px solid #e5e7eb', backgroundColor: row.isRatio ? '#f9fafb' : 'transparent' }}>
+                                    {columns.map((col) => {
+                                        const cellKey = `${row.id}-${col.key}`;
+                                        const isEditing = editingCell === cellKey;
+                                        const value = row[col.key];
+                                        
+                                        return (
+                                            <td
+                                                key={col.key}
+                                                style={getCellStyle(col, row, rowIndex)}
+                                                onClick={() => !col.frozen && handleCellClick(row, col.key, value)}
+                                            >
+                                                {isEditing ? (
+                                                    <input
+                                                        type="text"
+                                                        value={tempValue}
+                                                        onChange={(e) => setTempValue(e.target.value)}
+                                                        onBlur={() => handleCellBlur(row.id, col.key)}
+                                                        onKeyDown={(e) => handleKeyDown(e, row.id, col.key)}
+                                                        style={{
+                                                            width: '100%', padding: '2px', border: '1px solid #3b82f6',
+                                                            outline: 'none', backgroundColor: 'white'
+                                                        }}
+                                                        autoFocus
+                                                    />
+                                                ) : (
+                                                   <span>
+                                                        {row.isRatio && typeof value === 'number' 
+                                                            ? `${(value * 100).toFixed(1)}%` 
+                                                            : (typeof value === 'number' ? value.toLocaleString() : value || '')}
+                                                    </span>
+                                                )}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            );
+        };
+        
+        // --- Data Generation and Logic ---
+        const createRow = (accountName) => {
+            const row = { id: `row-${Math.random().toString(36).substr(2, 9)}`, accountName };
+            for (let year = 2024; year <= 2028; year++) {
+                row[`${year}/3`] = Math.floor(Math.random() * 100000 + 50000);
+                row[`${year}/6`] = Math.floor(Math.random() * 100000 + 50000);
+            }
+            for (let year = 2023; year <= 2026; year++) {
+                for (let month = 1; month <= 12; month++) {
+                    row[`${year}-${month}`] = Math.floor(Math.random() * 10000 + 1000);
+                }
+                row[`${year}-adj`] = Math.floor(Math.random() * 5000 - 2500);
+            }
+            row['2026/6-irregular'] = Math.floor(Math.random() * 30000 + 10000);
+            return row;
+        };
+
+        const generateColumns = (fiscalYearConfig, expandedYears, toggleMonthView) => {
+            const { startYear, initialEndMonth, changes } = fiscalYearConfig;
+            const columns = [];
+            let currentEndMonth = initialEndMonth;
+
+            for (let year = startYear; year <= startYear + 5; year++) {
+                const change = changes.find(c => c.year === year);
+                if (change && change.newEndMonth !== currentEndMonth) {
+                    const irregularStartMonth = (currentEndMonth % 12) + 1;
+                    const irregularEndMonth = change.newEndMonth;
+                    let monthCount = (irregularEndMonth >= irregularStartMonth) 
+                        ? (irregularEndMonth - irregularStartMonth + 1)
+                        : ((12 - irregularStartMonth + 1) + irregularEndMonth);
+
+                    columns.push({
+                        key: `${year}/${change.newEndMonth}-irregular`, name: `${year}/${change.newEndMonth}`,
+                        info: `変則 (${monthCount}ヶ月)`, year, isIrregular: true, width: 120,
+                    });
+                    currentEndMonth = change.newEndMonth;
+                } else {
+                    const yearLabel = currentEndMonth <= 3 ? year + 1 : year;
+                    const isExpandable = yearLabel <= 2026;
+                    
+                    columns.push({
+                        key: `${yearLabel}/${currentEndMonth}`, name: `${yearLabel}/${currentEndMonth}`,
+                        info: yearLabel <= 2026 ? '実績' : '計画', year: yearLabel,
+                        isAnnual: true, isExpandable, width: 150,
+                        headerRenderer: isExpandable ? (props) => (
+                            <div>
+                                <div>{props.column.name}</div>
+                                <div style={{ fontSize: '10px', color: '#6b7280' }}>{props.column.info}</div>
+                                <button
+                                    style={{ fontSize: '11px', padding: '2px 8px', marginTop: '4px', backgroundColor: '#3b82f6', color: 'white', border: 'none', borderRadius: '3px', cursor: 'pointer' }}
+                                    onClick={(e) => { e.stopPropagation(); toggleMonthView(props.column.year); }}
+                                >
+                                    {expandedYears.has(props.column.year) ? '月次を閉じる' : '月次を開く'}
+                                </button>
+                            </div>
+                        ) : undefined,
+                    });
+
+                    if (isExpandable && expandedYears.has(yearLabel)) {
+                        const monthNames = ['4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月', '1月', '2月', '3月'];
+                        const monthColumns = monthNames.map((monthName, idx) => {
+                            const monthNum = ((idx + 3) % 12) + 1;
+                            return { key: `${year}-${monthNum}`, name: monthName, info: '月次', parentYear: yearLabel, width: 80 };
+                        });
+                        monthColumns.push({ key: `${year}-adj`, name: '決算調整', info: '調整', parentYear: yearLabel, width: 90 });
+                        columns.push(...monthColumns);
+                    }
+                }
+            }
+            return [{ key: 'accountName', name: '勘定科目', width: 200, frozen: true }, ...columns];
+        };
+
+        const ChangeFiscalYearModal = ({ config, setConfig, closeModal }) => {
+            const [year, setYear] = useState(2026);
+            const [month, setMonth] = useState(6);
+
+            const handleSubmit = () => {
+                const newChange = { year, newEndMonth: month };
+                const otherChanges = config.changes.filter(c => c.year !== year);
+                setConfig({ ...config, changes: [...otherChanges, newChange].sort((a, b) => a.year - b.year) });
+                closeModal();
+            };
+            
+            return (
+                <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 1000 }}>
+                    <div style={{ backgroundColor: 'white', padding: '30px', borderRadius: '8px', width: '400px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}>
+                        <h3 style={{ marginTop: 0 }}>期中で決算期を変更</h3>
+                        <div style={{ marginBottom: '20px' }}>
+                            <label style={{ display: 'block', marginBottom: '5px' }}>変更する年:</label>
+                            <select value={year} onChange={e => setYear(parseInt(e.target.value))} style={{ width: '100%', padding: '8px', border: '1px solid #d1d5db', borderRadius: '4px' }}>
+                                {[2023, 2024, 2025, 2026, 2027, 2028].map(y => (<option key={y} value={y}>{y}年</option>))}
+                            </select>
+                        </div>
+                        <div style={{ marginBottom: '20px' }}>
+                            <label style={{ display: 'block', marginBottom: '5px' }}>変更後の決算月:</label>
+                            <select value={month} onChange={e => setMonth(parseInt(e.target.value))} style={{ width: '100%', padding: '8px', border: '1px solid #d1d5db', borderRadius: '4px' }}>
+                                {Array.from({ length: 12 }, (_, i) => i + 1).map(m => (<option key={m} value={m}>{m}月</option>))}
+                            </select>
+                        </div>
+                        <p style={{ fontSize: '13px', color: '#6b7280', marginBottom: '20px' }}>例: 2026年に6月へ変更すると、26/4-26/6が変則決算期として設定されます</p>
+                        <div style={{ display: 'flex', gap: '10px' }}>
+                            <button onClick={handleSubmit} style={{ flex: 1, padding: '10px', backgroundColor: '#3b82f6', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>設定</button>
+                            <button onClick={closeModal} style={{ flex: 1, padding: '10px', backgroundColor: '#6b7280', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>キャンセル</button>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+        
+        // --- Main App Component ---
+        const FinancialModel = () => {
+            const [companyName] = useState('株式会社サンプル企業');
+            const [modelName] = useState('財務予測モデル');
+            const [modelVersion] = useState('v3.0');
+            const [fiscalYearConfig, setFiscalYearConfig] = useState({ startYear: 2023, initialEndMonth: 3, changes: [{ year: 2026, newEndMonth: 6 }] });
+            const [isModalOpen, setIsModalOpen] = useState(false);
+            const [expandedYears, setExpandedYears] = useState(new Set());
+            
+            const [tabStructure, setTabStructure] = useState({
+                settings: [{ id: 'settings', title: '基本設定' }, { id: 'params', title: 'パラメータ設定' }],
+                deal: [{ id: 'tx', title: 'トランザクション' }, { id: 'valuation', title: 'バリュエーション' }, { id: 'lbo', title: 'LBO' }],
+                sheet: [{ id: 'pl', title: 'PL' }, { id: 'bs', title: 'BS' }, { id: 'cf', title: 'CF' }, { id: 'ppe', title: 'PP&E' }, { id: 'financing', title: 'Financing' }, { id: 'wc', title: 'Working Capital' }]
+            });
+            const [activeTabId, setActiveTabId] = useState('pl');
+            const [draggedTab, setDraggedTab] = useState(null);
+
+            const accountsByTab = {
+                pl: ['売上高', '売上原価', '売上総利益', '販売費及び一般管理費', '営業利益', '営業外収益', '営業外費用', '経常利益', '特別利益', '特別損失', '税引前利益', '法人税等', '当期純利益'],
+                bs: ['【流動資産】', '　現金及び預金', '　受取手形及び売掛金', '　棚卸資産', '【固定資産】', '　有形固定資産', '　　建物及び構築物', '　　機械装置', '　無形固定資産', '資産合計', '【流動負債】', '　買掛金', '【固定負債】', '　長期借入金', '負債合計', '【純資産】', '　資本金', '　利益剰余金', '純資産合計', '負債・純資産合計', 'バランスチェック'],
+                cf: ['営業活動によるCF', '　税引前利益', '　減価償却費', '　売上債権の増減', '投資活動によるCF', '　設備投資', '財務活動によるCF', '　借入金の増減', '期首現預金残高', '現金及び現金同等物の増減', '期末現金残高'],
+                ppe: ['建物・構築物', '機械装置', '車両運搬具', '工具器具備品', '土地', '建設仮勘定', '合計'],
+                financing: ['短期借入金', '長期借入金', '社債', '資本金', '合計'],
+                wc: ['売掛金', '在庫', '買掛金', '運転資本', '合計']
+            };
+
+            const [rowsByTab, setRowsByTab] = useState(() => {
+                const initial = {};
+                Object.keys(accountsByTab).forEach(tabId => {
+                    initial[tabId] = accountsByTab[tabId].map(name => createRow(name));
+                });
+                return initial;
+            });
+
+            const toggleMonthView = useCallback((year) => {
+                setExpandedYears(prev => {
+                    const newSet = new Set(prev);
+                    newSet.has(year) ? newSet.delete(year) : newSet.add(year);
+                    return newSet;
+                });
+            }, []);
+
+            const columns = useMemo(() => generateColumns(fiscalYearConfig, expandedYears, toggleMonthView), [fiscalYearConfig, expandedYears, toggleMonthView]);
+
+            const handleCellChange = useCallback((rowId, colKey, value) => {
+                setRowsByTab(prev => {
+                    const newRows = { ...prev };
+                    newRows[activeTabId] = newRows[activeTabId].map(row => {
+                        if (row.id === rowId) {
+                            return { ...row, [colKey]: isNaN(parseFloat(value)) ? value : Number(value) };
+                        }
+                        return row;
+                    });
+                    return newRows;
+                });
+            }, [activeTabId]);
+
+            const handleDragStart = (e, tab, group) => {
+                setDraggedTab({ ...tab, group });
+                e.dataTransfer.effectAllowed = 'move';
+            };
+
+            const handleDragOver = (e) => e.preventDefault();
+
+            const handleDrop = (e, targetTab, group) => {
+                e.preventDefault();
+                if (!draggedTab || draggedTab.group !== group || draggedTab.id === targetTab.id) return;
+
+                setTabStructure(prev => {
+                    const newStructure = { ...prev };
+                    const newTabs = [...newStructure[group]];
+                    const draggedIndex = newTabs.findIndex(t => t.id === draggedTab.id);
+                    const targetIndex = newTabs.findIndex(t => t.id === targetTab.id);
+                    newTabs.splice(draggedIndex, 1);
+                    newTabs.splice(targetIndex, 0, draggedTab);
+                    newStructure[group] = newTabs;
+                    return newStructure;
+                });
+                setDraggedTab(null);
+            };
+
+            const displayRows = useMemo(() => {
+                const currentRows = rowsByTab[activeTabId] || [];
+                if (!currentRows.length) return [];
+                
+                if (activeTabId === 'pl') {
+                    const processedRows = [];
+                    const salesRow = currentRows.find(r => r.accountName === '売上高');
+                    if (!salesRow) return currentRows;
+
+                    currentRows.forEach(row => {
+                        processedRows.push(row);
+                        if (['売上総利益', '営業利益', '経常利益', '当期純利益'].includes(row.accountName)) {
+                            const ratioRow = { id: `${row.id}-ratio`, accountName: '対売上高', isRatio: true, isCalculated: true };
+                            Object.keys(row).forEach(key => {
+                                if (key !== 'id' && key !== 'accountName') {
+                                    const salesValue = salesRow[key] || 0;
+                                    const profitValue = row[key] || 0;
+                                    ratioRow[key] = (salesValue !== 0) ? (profitValue / salesValue) : 0;
+                                }
+                            });
+                            processedRows.push(ratioRow);
+                        }
+                    });
+                    return processedRows;
+                }
+
+                if (activeTabId === 'bs') {
+                    const newRows = [...currentRows];
+                    const assets = newRows.find(r => r.accountName === '資産合計');
+                    const liab = newRows.find(r => r.accountName === '負債合計');
+                    const netAssets = newRows.find(r => r.accountName === '純資産合計');
+                    const totalLiabNetAssets = newRows.find(r => r.accountName === '負債・純資産合計');
+                    const balanceCheck = newRows.find(r => r.accountName === 'バランスチェック');
+
+                    if (assets && liab && netAssets && totalLiabNetAssets && balanceCheck) {
+                        Object.keys(assets).forEach(key => {
+                            if (key !== 'id' && key !== 'accountName') {
+                                const totalLNA = (liab[key] || 0) + (netAssets[key] || 0);
+                                totalLiabNetAssets[key] = totalLNA;
+                                balanceCheck[key] = (assets[key] || 0) - totalLNA;
+                            }
+                        });
+                        totalLiabNetAssets.isCalculated = true;
+                        balanceCheck.isCalculated = true;
+                    }
+                    return newRows;
+                }
+
+                return currentRows;
+            }, [rowsByTab, activeTabId]);
+
+            const TabBar = ({ tabs, group, title }) => (
+                <div style={{ padding: '5px 20px', backgroundColor: '#f3f4f6', borderBottom: '1px solid #e5e7eb' }}>
+                    <span style={{ fontSize: '12px', fontWeight: '600', color: '#4b5563', marginRight: '15px' }}>{title}:</span>
+                    {tabs.map(tab => (
+                        <div key={tab.id} draggable onDragStart={(e) => handleDragStart(e, tab, group)}
+                            onDragOver={handleDragOver} onDrop={(e) => handleDrop(e, tab, group)}
+                            onClick={() => setActiveTabId(tab.id)}
+                            style={{
+                                display: 'inline-block', padding: '6px 16px', cursor: 'pointer',
+                                borderBottom: activeTabId === tab.id ? '2px solid #3b82f6' : '2px solid transparent',
+                                color: activeTabId === tab.id ? '#3b82f6' : '#6b7280',
+                                fontWeight: activeTabId === tab.id ? '600' : 'normal',
+                                transition: 'all 0.2s', userSelect: 'none',
+                            }}
+                        >{tab.title}</div>
+                    ))}
+                </div>
+            );
+
+            const activeTabContent = useMemo(() => {
+                const hasContent = ['pl', 'bs', 'cf', 'ppe', 'financing', 'wc'].includes(activeTabId);
+                if (hasContent) {
+                    return <DataGrid columns={columns} rows={displayRows} onCellChange={handleCellChange} />;
+                }
+                const activeTab = Object.values(tabStructure).flat().find(t => t.id === activeTabId);
+                return (
+                    <div style={{ padding: '40px', backgroundColor: 'white', border: '1px solid #e5e7eb', borderRadius: '4px', textAlign: 'center', color: '#6b7280' }}>
+                        <h3>{activeTab?.title}</h3><p>このセクションは準備中です</p>
+                    </div>
+                );
+            }, [activeTabId, columns, displayRows, handleCellChange, tabStructure]);
+
+            return (
+                <div style={{ padding: '20px', backgroundColor: '#f9fafb', minHeight: '100vh', fontFamily: 'sans-serif' }}>
+                    {/* Header */}
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)' }}>
+                        <div>
+                            <h2 style={{ margin: 0, fontSize: '24px', color: '#111827' }}>{companyName}</h2>
+                            <p style={{ margin: '5px 0 0', color: '#6b7280' }}>{modelName} ({modelVersion})</p>
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+                            <span>決算月: {fiscalYearConfig.initialEndMonth}月
+                                {fiscalYearConfig.changes.length > 0 && ` → ${fiscalYearConfig.changes[fiscalYearConfig.changes.length - 1].newEndMonth}月`}
+                            </span>
+                            <button onClick={() => setIsModalOpen(true)} style={{ padding: '10px 20px', backgroundColor: '#3b82f6', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '14px' }}>期中で決算期を変更</button>
+                        </div>
+                    </div>
+
+                    {isModalOpen && <ChangeFiscalYearModal config={fiscalYearConfig} setConfig={setFiscalYearConfig} closeModal={() => setIsModalOpen(false)} />}
+
+                    {/* Tab Container */}
+                    <div style={{ backgroundColor: 'white', borderRadius: '8px 8px 0 0', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)', marginBottom: '1px' }}>
+                        <TabBar tabs={tabStructure.settings} group="settings" title="設定" />
+                        <TabBar tabs={tabStructure.deal} group="deal" title="ディール" />
+                        <TabBar tabs={tabStructure.sheet} group="sheet" title="シート" />
+                    </div>
+
+                    {/* Content */}
+                    <div style={{ backgroundColor: 'white', borderRadius: '0 0 8px 8px', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)', overflow: 'hidden' }}>
+                        {activeTabContent}
+                    </div>
+                </div>
+            );
+        };
+
+        // --- Render the app to the DOM ---
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<FinancialModel />);
+
+    </script>
+</body>
+</html>
+

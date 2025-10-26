@@ -1,0 +1,625 @@
+[2025-10-10T08:05:44.377Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T08:05:44.377Z] [INFO] === Server starting === 
+[2025-10-10T08:05:44.378Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log
+[2025-10-10T08:05:44.380Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-10T08:05:44.380Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T08:08:46.206Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T08:08:46.207Z] [INFO] === Server starting === 
+[2025-10-10T08:08:46.207Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log
+[2025-10-10T08:08:46.209Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-10T08:08:46.210Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T08:09:32.865Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T08:09:32.865Z] [INFO] === Server starting === 
+[2025-10-10T08:09:32.865Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log
+[2025-10-10T08:09:32.868Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-10T08:09:32.868Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T08:09:39.502Z] [INFO] [GET] / 
+[2025-10-10T08:09:39.876Z] [INFO] [GET] /favicon.ico 
+[2025-10-10T08:12:34.884Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T08:12:34.884Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T08:12:35.061Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T08:12:35.075Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:35.075Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:35.078Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:35.170Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(1) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T08:12:35.280Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:35.281Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:35.281Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:35.343Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(2) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T08:12:35.449Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:35.449Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:35.450Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:35.554Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(3) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T08:12:35.661Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:35.662Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:35.663Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:35.771Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(4) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T08:12:35.878Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:35.878Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:35.879Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:35.957Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(1) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T08:12:36.061Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:36.062Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:36.063Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:36.103Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T08:12:36.209Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:36.209Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:36.210Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:36.309Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(2) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T08:12:36.414Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T08:12:36.414Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T08:12:36.450Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T08:12:36.455Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T08:12:36.455Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T08:12:36.484Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T08:12:36.486Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T08:12:36.487Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T08:12:36.522Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T08:12:36.525Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T08:12:36.525Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T08:12:36.559Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T08:12:36.563Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T08:12:36.563Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T08:12:36.603Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T08:12:36.885Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T08:12:36.885Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T08:12:36.914Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T08:12:36.917Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:36.917Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:36.918Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-10T08:12:36.918Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T08:12:36.920Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:36.921Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:36.921Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:36.983Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T08:12:36.987Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:36.987Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:36.988Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:37.053Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T08:12:37.056Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T08:12:37.056Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T08:12:37.056Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T08:12:37.057Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T08:56:50.628Z] [INFO] Logger initialized. Log file: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T08:56:50.629Z] [INFO] === Server starting === 
+[2025-10-10T08:56:50.629Z] [INFO] Log file location: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log
+[2025-10-10T08:56:50.631Z] [INFO] Server is running on http://localhost:3001 
+[2025-10-10T08:56:50.632Z] [INFO] Check logs at: /Users/apple/git/fs-model/server/logs/server-2025-10-10.log 
+[2025-10-10T09:00:01.487Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:00:01.488Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:00:01.810Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:00:01.828Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:01.828Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:01.831Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:01.949Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(1) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:00:02.063Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:02.063Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:02.064Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:02.158Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(2) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:00:02.265Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:02.265Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:02.266Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:02.460Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(3) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:00:02.566Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:02.567Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:02.568Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:02.733Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(4) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:00:02.839Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:02.840Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:02.841Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:02.966Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(1) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:00:03.070Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:03.070Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:03.070Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:03.148Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T09:00:03.251Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:03.252Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:03.253Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:03.601Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(2) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:00:03.705Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:00:03.706Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:00:03.749Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:00:03.752Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:00:03.753Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:00:03.794Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:00:03.797Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:00:03.797Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:00:03.855Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:00:03.858Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:00:03.858Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:00:03.892Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:00:03.895Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:00:03.895Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:00:03.945Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:00:04.305Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:00:04.305Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:00:04.362Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:00:04.366Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:04.366Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:04.367Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-10T09:00:04.367Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T09:00:04.370Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:04.370Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:04.370Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:04.470Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:00:04.474Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:04.474Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:04.474Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:04.610Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T09:00:04.613Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:00:04.613Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:00:04.614Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:00:04.614Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T09:01:28.585Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:01:28.585Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:01:28.879Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:01:28.892Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:28.892Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:28.892Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:28.988Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(1) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:01:29.096Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:29.096Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:29.097Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:29.172Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(2) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:01:29.279Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:29.279Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:29.280Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:29.408Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(3) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:01:29.515Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:29.515Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:29.516Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:29.631Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(4) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:01:29.737Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:29.738Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:29.739Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:29.828Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(1) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:01:29.935Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:29.936Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:29.936Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:29.974Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T09:01:30.080Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:30.080Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:30.081Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:30.221Z] [ERROR] Error saving calculation rule: {
+  "length": 343,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (target_user_account_id)=(2) is not present in table \"user_accounts\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_target_user_account_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:01:30.326Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:01:30.329Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:01:30.371Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:01:30.375Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:01:30.375Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:01:30.412Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:01:30.414Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:01:30.415Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:01:30.463Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:01:30.465Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:01:30.465Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:01:30.507Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:01:30.510Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:01:30.511Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:01:30.593Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:01:30.917Z] [INFO] [GET] /api/calculation-rules 
+[2025-10-10T09:01:30.918Z] [INFO] === GET /api/calculation-rules received === 
+[2025-10-10T09:01:30.967Z] [INFO] Calculation rules retrieved successfully 
+[2025-10-10T09:01:30.971Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:30.971Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:30.972Z] [INFO] Request body keys: [
+  "type"
+]
+[2025-10-10T09:01:30.972Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T09:01:30.975Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:30.975Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:30.975Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:31.057Z] [ERROR] Error saving calculation rule: {
+  "length": 311,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23503",
+  "detail": "Key (scenario_id)=(999999) is not present in table \"scenarios\".",
+  "schema": "public",
+  "table": "calculation_rules",
+  "constraint": "calculation_rules_scenario_id_fkey",
+  "file": "ri_triggers.c",
+  "line": "2596",
+  "routine": "ri_ReportViolation"
+}
+[2025-10-10T09:01:31.060Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:31.061Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:31.061Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:31.154Z] [ERROR] Error saving calculation rule: {}
+[2025-10-10T09:01:31.157Z] [INFO] [POST] /api/calculation-rules 
+[2025-10-10T09:01:31.158Z] [INFO] === POST /api/calculation-rules received === 
+[2025-10-10T09:01:31.158Z] [INFO] Request body keys: [
+  "targetAccountId",
+  "scenarioId",
+  "type",
+  "config"
+]
+[2025-10-10T09:01:31.158Z] [ERROR] Error saving calculation rule: {}
